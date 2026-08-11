@@ -1,3 +1,55 @@
-baseURL = 'https://example.org/'
-locale = 'en-us'
-title = 'My New Hugo Project'
+baseURL = 'https://zhangdapeng.dev/'
+languageCode = 'en-us'
+defaultContentLanguage = 'en'
+title = 'Dapeng Zhang'
+theme = 'hugo-theme-stack'
+
+hasCJKLanguage = true
+summaryLength = 140
+paginate = 10
+
+[permalinks]
+    posts = '/:year/:month/:day/:slug'
+    page = '/:slug/'
+
+[outputs]
+  home = ["HTML", "RSS", "JSON"]
+  page = ["HTML"]
+  section = ["HTML", "RSS", "JSON"]
+
+[params]
+  mainSections = ["posts"]
+
+  # 1. 侧边栏个人名片设置 (Sidebar Profile)
+  [params.sidebar]
+    emoji = "👨‍💻"
+    subtitle = "Full-Stack Engineer | System Architect"
+    avatar = "img/avatar.jpg" # 读取 /assets/avatar.png 本地头像，避免 CDN 访问问题
+
+  # 2. 面向海外雇主的 SEO 与 TDK 优化
+  description = "Personal technical portfolio & blog of Dapeng Zhang. Specializing in Go, Python, Cloud-Native Systems, and Microservices Architecture."
+  keywords = ["Dapeng Zhang", "Software Engineer", "Full Stack", "Golang", "Python", "Cloud Native", "System Architecture", "Remote Engineer"]
+  author = "Dapeng Zhang"
+
+  # 3. Stack 标准日期格式配置 (避免 template 报错)
+  [params.dateFormat]
+    published = "Jan 02, 2006"
+    lastUpdated = "Jan 02, 2006 15:04 MST"
+
+  # 4. 文章组件配置
+  [params.article]
+    math = false
+    toc = true
+    readingTime = true
+    [params.article.license]
+      enabled = true
+      default = "CC BY-NC-ND 4.0"
+
+  [params.widgets]
+    homepage = [
+        { type = "search" },
+        { type = "archives", params = { limit = 5 } },
+        { type = "categories", params = { limit = 10 } },
+        { type = "tag-cloud", params = { limit = 10 } },
+    ]
+
