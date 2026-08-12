@@ -20,6 +20,8 @@ paginate = 10
 [params]
   mainSections = ["posts"]
 
+  favicon = "/favicon.ico"
+
   # 1. 侧边栏个人名片设置 (Sidebar Profile)
   [params.sidebar]
     emoji = "👨‍💻"

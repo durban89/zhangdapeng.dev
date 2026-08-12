@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+  <!-- 暗黑灰圆角背景 -->
+  <rect width="512" height="512" rx="112" fill="#1A1A1A"/>
+  <!-- 电光绿终端符号 Z_ -->
+  <text x="50%" y="53%" font-family="ui-monospace, 'Cascadia Code', 'Fira Code', monospace" font-size="260" font-weight="bold" fill="#00FF66" text-anchor="middle" dominant-baseline="middle">Z_</text>
+</svg>
