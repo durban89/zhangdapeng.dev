@@ -53,3 +53,11 @@ paginate = 10
         { type = "tag-cloud", params = { limit = 10 } },
     ]
 
+[menu]
+  [[menu.main]]
+    identifier = "home"
+    name = "Home"
+    url = "/"
+    weight = 1
+    [menu.main.params]
+      icon = "home"
