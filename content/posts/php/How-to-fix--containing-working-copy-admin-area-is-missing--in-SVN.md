@@ -5,15 +5,7 @@ slug: "how-to-fix-containing-working-copy-admin-area-is-missing-in-svn"
 categories: ["技术"]
 tags: ["SVN"]
 aliases:
-  - "/2025/06/17/How-to-fix-“containing-working-copy-admin-area-is-missing”-in-SVN?/"
-  - "/2025/06/17/How-to-fix-“containing-working-copy-admin-area-is-missing”-in-SVN?.html"
-  - "/How-to-fix-“containing-working-copy-admin-area-is-missing”-in-SVN?/"
-  - "/How-to-fix-“containing-working-copy-admin-area-is-missing”-in-SVN?.html"
-  - "/2025/06/17/How-to-fix-containing-working-copy-admin-area-is-missing-in-SVN/"
-  - "/2025/06/17/How-to-fix-containing-working-copy-admin-area-is-missing-in-SVN.html"
-  - "/2025/06/17/how-to-fix-containing-working-copy-admin-area-is-missing-in-svn/"
-  - "/2025/06/17/how-to-fix-containing-working-copy-admin-area-is-missing-in-svn.html"
-  - "/how-to-fix-containing-working-copy-admin-area-is-missing-in-svn.html"
+  - "/2025/06/17/How-to-fix--containing-working-copy-admin-area-is-missing--in-SVN.html"
 ---
 How to fix “containing working copy admin area is missing” in SVN?
 
