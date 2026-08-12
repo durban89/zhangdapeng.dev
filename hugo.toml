@@ -9,7 +9,7 @@ summaryLength = 140
 paginate = 10
 
 [permalinks]
-    posts = '/:year/:month/:day/:slug'
+    posts = '/p/:slug'
     page = '/:slug/'
 
 [outputs]
