@@ -5,12 +5,7 @@ slug: "homebrew-error-cask-java-is-unreadable-undefined-method-undent-for"
 categories: ["技术"]
 tags: ["Homebrew"]
 aliases:
-  - "/2025/07/14/Homebrew-Error:-Cask-'java'-is-unreadable:-undefined-method-`undent'-for-#/"
-  - "/2025/07/14/Homebrew-Error:-Cask-'java'-is-unreadable:-undefined-method-`undent'-for-#.html"
-  - "/Homebrew-Error:-Cask-'java'-is-unreadable:-undefined-method-`undent'-for-#/"
-  - "/Homebrew-Error:-Cask-'java'-is-unreadable:-undefined-method-`undent'-for-#.html"
-  - "/2025/07/14/Homebrew-Error-Cask-java-is-unreadable-undefined-method-undent-for/"
-  - "/2025/07/14/Homebrew-Error-Cask-java-is-unreadable-undefined-method-undent-for.html"
+  - "/2025/07/14/Homebrew-Error--Cask-java-is-unreadable--undefined-method-undent-for.html"
   - "/2025/07/14/homebrew-error-cask-java-is-unreadable-undefined-method-undent-for/"
   - "/2025/07/14/homebrew-error-cask-java-is-unreadable-undefined-method-undent-for.html"
   - "/homebrew-error-cask-java-is-unreadable-undefined-method-undent-for.html"
