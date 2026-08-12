@@ -5,15 +5,7 @@ slug: "how-can-a-build-engineer-distribute-an-app-on-behalf-of-the-team-ban-ben-
 categories: ["技术"]
 tags: ["iOS"]
 aliases:
-  - "/2025/06/13/How-can-a-build-engineer-distribute-an-app-on-behalf-of-the-team?-(版本生成工程师如何代表一个团队分发一个a/"
-  - "/2025/06/13/How-can-a-build-engineer-distribute-an-app-on-behalf-of-the-team?-(版本生成工程师如何代表一个团队分.html"
-  - "/How-can-a-build-engineer-distribute-an-app-on-behalf-of-the-team?-(版本生成工程师如何代表一个团队分发一个app)/"
-  - "/How-can-a-build-engineer-distribute-an-app-on-behalf-of-the-team?-(版本生成工程师如何代表一个团队分发一个app).html"
-  - "/2025/06/13/How-can-a-build-engineer-distribute-an-app-on-behalf-of-the-team-版本生成工程师如何代表一个团队分发一个app/"
-  - "/2025/06/13/How-can-a-build-engineer-distribute-an-app-on-behalf-of-the-team-版本生成工程师如何代表一个团队分发一.html"
-  - "/2025/06/13/how-can-a-build-engineer-distribute-an-app-on-behalf-of-the-team-ban-ben-sheng-cheng-go/"
-  - "/2025/06/13/how-can-a-build-engineer-distribute-an-app-on-behalf-of-the-team-ban-ben-sheng-chen.html"
-  - "/how-can-a-build-engineer-distribute-an-app-on-behalf-of-the-team-ban-ben-sheng-cheng-gong-chen.html"
+  - "/2025/06/13/How-can-a-build-engineer-distribute-an-app-on-behalf-of-the-team-版本生成工程师如何代表一个团队分发一个app.html"
 ---
 由于自己也在学习ios开发，也经常的会关注developer.app.com，因此今天有幸看到这篇文章，自己英语也不是很好，综合google和海词，大概了解了一下标题的意思，（`https://developer.apple.com/library/ios/#qa/qa1763/_index.html#//apple_ref/doc/uid/DTS40012165`）这个是文章的地址，这里算是做个笔记，方便自己下次看看。这篇文章整体就是说代表一个团队分发一个app，应该是用于这个团队的测试使用吧。（也许有错，还希望大牛看到后 指点一下）。
 
