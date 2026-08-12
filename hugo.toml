@@ -1,5 +1,5 @@
 baseURL = 'https://zhangdapeng.dev/'
-languageCode = 'en-us'
+locale = 'en-us'
 defaultContentLanguage = 'en'
 title = 'Dapeng Zhang'
 theme = 'hugo-theme-stack'

@@ -5,10 +5,6 @@ slug: "swift-ji-chu-zhi-shi-7-try-try-try-de-shi-yong-fang-shi"
 categories: ["技术"]
 tags: ["Swift"]
 aliases:
-  - "/2025/07/15/Swift基础知识（7）-try、try?、try!的使用方式/"
-  - "/2025/07/15/Swift基础知识（7）-try、try?、try!的使用方式.html"
-  - "/Swift基础知识（7）-try、try?、try!的使用方式/"
-  - "/Swift基础知识（7）-try、try?、try!的使用方式.html"
   - "/2025/07/15/Swift基础知识-7-try-try-try的使用方式/"
   - "/2025/07/15/Swift基础知识-7-try-try-try的使用方式.html"
   - "/2025/07/15/swift-ji-chu-zhi-shi-7-try-try-try-de-shi-yong-fang-shi/"
