@@ -3,7 +3,6 @@ title: "About Me"
 description: "Full-Stack Engineer, Independent Developer, and Digital Builder."
 date: 2026-08-12
 slug: "about"
-draft: true
 menu:
     main:
         weight: 8
