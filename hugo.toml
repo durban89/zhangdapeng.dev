@@ -22,11 +22,15 @@ paginate = 10
 
   favicon = "/favicon.ico"
 
+  [params.colorScheme]
+    toggle  = true
+    default = "dark"
+
   # 1. 侧边栏个人名片设置 (Sidebar Profile)
   [params.sidebar]
     emoji = "👨‍💻"
     subtitle = "Full-Stack Engineer | System Architect"
-    avatar = "img/avatar.jpg" # 读取 /assets/avatar.png 本地头像，避免 CDN 访问问题
+    avatar = "img/avatar.png" # 读取 /assets/avatar.png 本地头像，避免 CDN 访问问题
 
   # 2. 面向海外雇主的 SEO 与 TDK 优化
   description = "Personal technical portfolio & blog of Dapeng Zhang. Specializing in Go, Python, Cloud-Native Systems, and Microservices Architecture."
