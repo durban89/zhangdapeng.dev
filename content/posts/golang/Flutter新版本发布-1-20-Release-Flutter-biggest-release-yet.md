@@ -5,10 +5,6 @@ slug: "flutter-xin-ban-ben-fa-bu-120-release-flutter039s-biggest-release-yet"
 categories: ["技术"]
 tags: ["Flutter"]
 aliases:
-  - "/2025/08/05/Flutter新版本发布-1.20-Release:-Flutter&#039;s-biggest-release-yet!/"
-  - "/2025/08/05/Flutter新版本发布-1.20-Release:-Flutter&#039;s-biggest-release-yet!.html"
-  - "/Flutter新版本发布-1.20-Release:-Flutter&#039;s-biggest-release-yet!/"
-  - "/Flutter新版本发布-1.20-Release:-Flutter&#039;s-biggest-release-yet!.html"
   - "/2025/08/05/Flutter新版本发布-1-20-Release-Flutter-biggest-release-yet/"
   - "/2025/08/05/Flutter新版本发布-1-20-Release-Flutter-biggest-release-yet.html"
   - "/2025/08/05/flutter-xin-ban-ben-fa-bu-120-release-flutter039s-biggest-release-yet/"
