@@ -5,10 +5,6 @@ slug: "cc-yu-chu-li-qi-de-nian-he-ji-yun-suan-fu"
 categories: ["技术"]
 tags: ["C/C++"]
 aliases:
-  - "/2025/06/11/C/C++-预处理器的粘合剂：##运算符/"
-  - "/2025/06/11/C/C++-预处理器的粘合剂：##运算符.html"
-  - "/C/C++-预处理器的粘合剂：##运算符/"
-  - "/C/C++-预处理器的粘合剂：##运算符.html"
   - "/2025/06/11/C-C++-预处理器的粘合剂-井井运算符/"
   - "/2025/06/11/C-C++-预处理器的粘合剂-井井运算符.html"
   - "/2025/06/11/cc-yu-chu-li-qi-de-nian-he-ji-yun-suan-fu/"
