@@ -1,6 +1,6 @@
 ---
 title: "Projects"
-description: "A showcase of published Chrome extensions, SaaS tools, and digital products built by Dapeng."
+description: "A showcase of published Chrome extensions, SaaS tools, and digital products built by Daniel."
 date: 2026-08-12
 slug: "projects"
 menu:

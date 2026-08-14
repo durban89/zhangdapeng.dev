@@ -10,7 +10,7 @@ menu:
             icon: user
 ---
 
-Hi, I'm Dapeng 👋
+Hi, I'm Daniel 👋
 
 I'm a **Full-Stack Software Engineer** and **Independent Developer**. I design, build, and ship thoughtful web applications, developer tools, and digital products for the global market.
 
@@ -57,5 +57,5 @@ I'm always open to discussing new ideas, collaborating on interesting projects, 
 
 * **Twitter/X**: [@durban_zhang](https://x.com/durban_zhang) *(I'm most active here)*
 * **GitHub**: [@durban](https://github.com/durban89)
-* **LinkedIn**: [Dapeng Zhang](https://linkedin.com/in/大鹏-张-2aab186a)
+* **LinkedIn**: [Daniel Zhang](https://linkedin.com/in/大鹏-张-2aab186a)
 * **Email**: [zhangdapeng89@gmail.com](mailto:zhangdapeng89@gmail.com)

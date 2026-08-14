@@ -1,7 +1,7 @@
 baseURL = 'https://zhangdapeng.dev/'
 locale = 'en-us'
 defaultContentLanguage = 'en'
-title = 'Dapeng Zhang'
+title = 'Daniel Zhang'
 theme = 'hugo-theme-stack'
 
 hasCJKLanguage = true
@@ -33,9 +33,9 @@ paginate = 10
     avatar = "img/avatar.png" # 读取 /assets/avatar.png 本地头像，避免 CDN 访问问题
 
   # 2. 面向海外雇主的 SEO 与 TDK 优化
-  description = "Personal technical portfolio & blog of Dapeng Zhang. Specializing in Go, Python, Cloud-Native Systems, and Microservices Architecture."
-  keywords = ["Dapeng Zhang", "Software Engineer", "Full Stack", "Golang", "Python", "Cloud Native", "System Architecture", "Remote Engineer"]
-  author = "Dapeng Zhang"
+  description = "Personal technical portfolio & blog of Daniel Zhang. Specializing in Go, Python, Cloud-Native Systems, and Microservices Architecture."
+  keywords = ["Daniel Zhang", "Software Engineer", "Full Stack", "Golang", "Python", "Cloud Native", "System Architecture", "Remote Engineer"]
+  author = "Daniel Zhang"
 
   # 3. Stack 标准日期格式配置 (避免 template 报错)
   [params.dateFormat]
