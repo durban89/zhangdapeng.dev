@@ -84,3 +84,8 @@ paginate = 10
 
     [menu.social.params]
         icon = "brand-twitter"
+
+
+[services]
+  [services.googleAnalytics]
+    id = 'G-3X47GTJY01'
