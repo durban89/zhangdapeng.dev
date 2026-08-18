@@ -9,6 +9,7 @@ tags: ["Python"]
 aliases:
   - "/2025/07/30/python-http-web-server-探索-六"
   - "/2025/07/30/python-http-web-server-探索-六/"
+  - "/2025/07/30/python-http-web-server-探索六/"
 ---
 
 前面很多做了一部分铺垫
