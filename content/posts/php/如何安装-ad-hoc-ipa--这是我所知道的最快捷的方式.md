@@ -14,6 +14,7 @@ aliases:
   - "/2025/06/13/ru-he-an-zhuang-ad-hoc-ipa-zhe-shi-wo-suo-zhi-dao-de-zui-kuai-jie-de-fang-shi/"
   - "/2025/06/13/ru-he-an-zhuang-ad-hoc-ipa-zhe-shi-wo-suo-zhi-dao-de-zui-kuai-jie-de-fang-shi.html"
   - "/ru-he-an-zhuang-ad-hoc-ipa-zhe-shi-wo-suo-zhi-dao-de-zui-kuai-jie-de-fang-shi.html"
+  - "/2025/06/13/如何安装-ad-hoc-ipa--这是我所知道的最快捷的方式.html"
 ---
 “如何安装 ad-hoc ipa ”，说到这个话题，也是我最近很关注的，因为方便老板们或者其他人的测试，需要这个文件，具体怎么回事，我记到下面了，这篇文章也是转载一个高手的，专注移动端的
 

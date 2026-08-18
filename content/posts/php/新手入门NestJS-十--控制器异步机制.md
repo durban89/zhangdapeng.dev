@@ -14,6 +14,7 @@ aliases:
   - "/2025/07/14/xin-shou-ru-men-nestjs-shi-kong-zhi-qi-yi-bu-ji-zhi/"
   - "/2025/07/14/xin-shou-ru-men-nestjs-shi-kong-zhi-qi-yi-bu-ji-zhi.html"
   - "/xin-shou-ru-men-nestjs-shi-kong-zhi-qi-yi-bu-ji-zhi.html"
+  - "/2025/07/14/新手入门NestJS-十--控制器异步机制.html"
 ---
 #### 异步机制
 
