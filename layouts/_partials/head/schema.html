@@ -1,0 +1,110 @@
+{{- if .IsPage -}}
+
+    {{- $title := .Title -}}
+    {{- $description := .Description | default .Summary | plainify -}}
+    {{- $author := .Params.author | default .Site.Params.author -}}
+
+    {{/*
+        ========================================================
+        Determine Article Image
+        ========================================================
+
+        Priority:
+
+        1. Page Bundle cover.webp / Front Matter image
+        2. Site-wide default OG image
+    */}}
+
+    {{- $imageURL := "" -}}
+
+    {{- $image := partial "helper/image" (dict
+        "Image" .Params.image
+        "Resources" .Resources
+        "Context" .
+    ) -}}
+
+    {{- if $image -}}
+
+        {{- $imageURL = absURL $image.Permalink -}}
+
+    {{- else if .Site.Params.defaultImage -}}
+
+        {{- $imageURL = absURL .Site.Params.defaultImage -}}
+
+    {{- end -}}
+
+
+    {{/*
+        ========================================================
+        Determine Language
+        ========================================================
+    */}}
+
+    {{- $language := .Language.Lang -}}
+
+    {{- if not $language -}}
+        {{- $language = .Site.Language.Lang -}}
+    {{- end -}}
+
+
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "TechArticle",
+
+      "headline": {{ $title | jsonify }},
+
+      "description": {{ $description | jsonify }},
+
+      "url": {{ .Permalink | jsonify }},
+
+      {{- if $imageURL }}
+      "image": [
+        {{ $imageURL | jsonify }}
+      ],
+      {{- end }}
+
+      "datePublished": {{ .Date.Format "2006-01-02T15:04:05Z07:00" | jsonify }},
+
+      "dateModified": {{ (.Lastmod | default .Date).Format "2006-01-02T15:04:05Z07:00" | jsonify }},
+
+      "inLanguage": {{ $language | jsonify }},
+
+      {{- with .Params.keywords }}
+      "keywords": {{ delimit . ", " | jsonify }},
+      {{- else }}
+      {{- with .Params.tags }}
+      "keywords": {{ delimit . ", " | jsonify }},
+      {{- end }}
+      {{- end }}
+
+      "author": {
+        "@type": "Person",
+        "name": {{ $author | jsonify }},
+        "url": {{ .Site.BaseURL | jsonify }}
+        {{- with .Site.Params.authorURL }},
+        "sameAs": [
+          {{ . | jsonify }}
+        ]
+        {{- end }}
+      },
+
+      "publisher": {
+        "@type": "Person",
+        "name": {{ .Site.Params.author | jsonify }},
+        "url": {{ .Site.BaseURL | jsonify }}
+        {{- with .Site.Params.authorURL }},
+        "sameAs": [
+          {{ . | jsonify }}
+        ]
+        {{- end }}
+      },
+
+      "mainEntityOfPage": {
+        "@type": "WebPage",
+        "@id": {{ .Permalink | jsonify }}
+      }
+    }
+    </script>
+
+{{- end -}}
