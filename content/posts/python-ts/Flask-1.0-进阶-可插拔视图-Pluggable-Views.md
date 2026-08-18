@@ -9,6 +9,7 @@ tags: ["Python", "Flask"]
 aliases:
   - "/2025/07/29/flask-1.0-进阶-可插拔视图-pluggable-views"
   - "/2025/07/29/flask-1.0-进阶-可插拔视图-pluggable-views/"
+  - "/2025/07/29/flask-1.0-进阶-可插拔视图pluggable-views/"
 ---
 
 Flask 0.7引入了可插拔视图，其灵感来自Django的通用视图，它们基于类而不是函数。主要目的是您可以替换部分实现，这种方式具有可自定义的可插拔视图。
