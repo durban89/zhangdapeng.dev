@@ -14,6 +14,7 @@ aliases:
   - "/2025/07/03/intellij-idea-java-constant-string-too-long/"
   - "/2025/07/03/intellij-idea-java-constant-string-too-long.html"
   - "/intellij-idea-java-constant-string-too-long.html"
+  - "/2025/07/03/Intellij-IDEA-java--constant-string-too-long.html"
 ---
 Intellij IDEA,这个编辑器今天在做Base64转pdf的过程中遇到了奇怪的问题：“常量字符串太长”
 

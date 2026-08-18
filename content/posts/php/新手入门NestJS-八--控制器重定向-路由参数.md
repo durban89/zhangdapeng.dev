@@ -14,6 +14,7 @@ aliases:
   - "/2025/07/14/xin-shou-ru-men-nestjs-ba-kong-zhi-qi-zhong-ding-xiang-lu-you-can-shu/"
   - "/2025/07/14/xin-shou-ru-men-nestjs-ba-kong-zhi-qi-zhong-ding-xiang-lu-you-can-shu.html"
   - "/xin-shou-ru-men-nestjs-ba-kong-zhi-qi-zhong-ding-xiang-lu-you-can-shu.html"
+  - "/2025/07/14/新手入门NestJS-八--控制器重定向-路由参数.html"
 ---
 #### 重定向
 

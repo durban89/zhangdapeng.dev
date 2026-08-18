@@ -14,6 +14,7 @@ aliases:
   - "/2025/06/11/cc-lian-he-union-ji-lian-he-union-yu-jie-gou-ti-struct-de-qu-bie/"
   - "/2025/06/11/cc-lian-he-union-ji-lian-he-union-yu-jie-gou-ti-struct-de-qu-bie.html"
   - "/cc-lian-he-union-ji-lian-he-union-yu-jie-gou-ti-struct-de-qu-bie.html"
+  - "/2025/06/11/C-C++-联合（union）及联合（union）与结构体（struct）的区别.html"
 ---
 ### [联合(union)](#1)
 

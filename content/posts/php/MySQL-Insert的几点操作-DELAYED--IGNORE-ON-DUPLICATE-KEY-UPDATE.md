@@ -14,6 +14,7 @@ aliases:
   - "/2025/06/24/mysql-insert-de-ji-dian-cao-zuo-delayed-ignore-on-duplicate-key-update/"
   - "/2025/06/24/mysql-insert-de-ji-dian-cao-zuo-delayed-ignore-on-duplicate-key-update.html"
   - "/mysql-insert-de-ji-dian-cao-zuo-delayed-ignore-on-duplicate-key-update.html"
+  - "/2025/06/24/MySQL-Insert的几点操作-DELAYED--IGNORE-ON-DUPLICATE-KEY-UPDATE.html"
 ---
 INSERT语法
 

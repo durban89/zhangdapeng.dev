@@ -14,6 +14,7 @@ aliases:
   - "/2025/07/10/shi-yong-typescript-kai-fa-react-ying-yong-si-jest-dan-yuan-ce-shi/"
   - "/2025/07/10/shi-yong-typescript-kai-fa-react-ying-yong-si-jest-dan-yuan-ce-shi.html"
   - "/shi-yong-typescript-kai-fa-react-ying-yong-si-jest-dan-yuan-ce-shi.html"
+  - "/2025/07/10/使用TypeScript开发React应用-四--Jest单元测试.html"
 ---
 继续前面的文章[使用TypeScript开发React应用(三)](https://www.gowhich.com/blog/977)介绍了React+TypeScript应用的搭建中如何创建状态组件
 

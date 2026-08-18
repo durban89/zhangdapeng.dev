@@ -14,6 +14,7 @@ aliases:
   - "/2025/07/14/xin-shou-ru-men-nestjs-san-ru-he-shi-yong-view/"
   - "/2025/07/14/xin-shou-ru-men-nestjs-san-ru-he-shi-yong-view.html"
   - "/xin-shou-ru-men-nestjs-san-ru-he-shi-yong-view.html"
+  - "/2025/07/14/新手入门NestJS-三--如何使用View.html"
 ---
 前面记录了如何安装Nest.js以及如何创建项目
 
