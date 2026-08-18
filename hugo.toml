@@ -11,6 +11,8 @@ paginate = 10
 [permalinks]
     posts = '/p/:slug'
     page = '/:slug/'
+    [permalinks.section]
+      posts = '/post/'
 
 [outputs]
   home = ["HTML", "RSS", "JSON"]
