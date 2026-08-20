@@ -5,15 +5,9 @@ slug: "mongodb-xiao-zhi-shi-mongodb-sort-how-to-fix-maximum-ram-exceeded-error"
 categories: ["技术"]
 tags: ["MongoDB"]
 aliases:
-  - "/2025/07/15/MongoDB小知识-MongoDB-Sort-:-how-to-fix-maximum-RAM-exceeded-error/"
-  - "/2025/07/15/MongoDB小知识-MongoDB-Sort-:-how-to-fix-maximum-RAM-exceeded-error.html"
-  - "/MongoDB小知识-MongoDB-Sort-:-how-to-fix-maximum-RAM-exceeded-error/"
-  - "/MongoDB小知识-MongoDB-Sort-:-how-to-fix-maximum-RAM-exceeded-error.html"
   - "/2025/07/15/MongoDB小知识-MongoDB-Sort-how-to-fix-maximum-RAM-exceeded-error/"
   - "/2025/07/15/MongoDB小知识-MongoDB-Sort-how-to-fix-maximum-RAM-exceeded-error.html"
-  - "/2025/07/15/mongodb-xiao-zhi-shi-mongodb-sort-how-to-fix-maximum-ram-exceeded-error/"
-  - "/2025/07/15/mongodb-xiao-zhi-shi-mongodb-sort-how-to-fix-maximum-ram-exceeded-error.html"
-  - "/mongodb-xiao-zhi-shi-mongodb-sort-how-to-fix-maximum-ram-exceeded-error.html"
+  - "/2025/07/15/MongoDB小知识-MongoDB-Sort---how-to-fix-maximum-RAM-exceeded-error.html"
 ---
 **MongoDB Sort : how to fix maximum RAM exceeded error**
 

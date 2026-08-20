@@ -11,9 +11,7 @@ aliases:
   - "/自PHP-5.3.4版本开始mt-rand()函数的参数要求变动-mt-rand():-max(1)-is-smaller-than-min(2).html"
   - "/2025/06/27/自PHP-5-3-4版本开始mt-rand-函数的参数要求变动-mt-rand-max-1-is-smaller-than-min-2/"
   - "/2025/06/27/自PHP-5-3-4版本开始mt-rand-函数的参数要求变动-mt-rand-max-1-is-smaller-than-min-2.html"
-  - "/2025/06/27/zi-php-534-ban-ben-kai-shi-mt-rand-han-shu-de-can-shu-yao-qiu-bian-dong-mt-rand-max1-is/"
-  - "/2025/06/27/zi-php-534-ban-ben-kai-shi-mt-rand-han-shu-de-can-shu-yao-qiu-bian-dong-mt-rand-max.html"
-  - "/zi-php-534-ban-ben-kai-shi-mt-rand-han-shu-de-can-shu-yao-qiu-bian-dong-mt-rand-max1-is-smalle.html"
+  - "/2025/06/27/自PHP-5-3-4版本开始mt_rand-函数的参数要求变动-mt_rand-max-1-is-smaller-than-min-2.html"
 ---
 在PHP 5.3.3版本以前，`mt_rand($a, $b)`传入的参数$a和$b二者没有数字大小比较的限制，但是自5.3.4版本PHP开始，传入的参数必须满足`$a<=$b`，即`mt_rand(1, 1)`和`mt_rand(1, 2)`是可以的，但是`mt_rand(2, 1)`就会报错：`mt_rand():
 max(1) is smaller than min(2)`。  
