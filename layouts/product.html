@@ -1,0 +1,99 @@
+{{ define "main" }}
+<article class="article-content">
+  <div class="product-page">
+
+    <!-- Product Hero -->
+    <section class="product-hero">
+      <div class="product-hero-icon">
+        {{ .Params.product_icon | default "🚀" }}
+      </div>
+
+      <div class="product-hero-content">
+        <div class="product-status">
+          <span class="product-status-dot"></span>
+          {{ .Params.product_status | default "Available" }}
+        </div>
+
+        <h1 class="product-title">
+          {{ .Params.product_name | default .Title }}
+        </h1>
+
+        {{ with .Description }}
+        <p class="product-description">
+          {{ . }}
+        </p>
+        {{ end }}
+
+        <div class="product-actions">
+          {{ with .Params.chrome_store }}
+          <a
+            class="product-button product-button-primary"
+            href="{{ . }}"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            Chrome Web Store
+          </a>
+          {{ end }}
+
+          {{ with .Params.github }}
+          <a
+            class="product-button product-button-secondary"
+            href="{{ . }}"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            GitHub
+          </a>
+          {{ end }}
+        </div>
+      </div>
+    </section>
+
+    <!-- Features -->
+    {{ with .Params.features }}
+    <section class="product-section">
+      <h2>Features</h2>
+
+      <div class="product-features">
+        {{ range . }}
+        <div class="product-feature">
+          <span class="product-feature-icon">✓</span>
+          <span>{{ . }}</span>
+        </div>
+        {{ end }}
+      </div>
+    </section>
+    {{ end }}
+
+    <!-- Screenshots -->
+    {{ with .Params.screenshots }}
+    <section class="product-section">
+      <h2>Screenshots</h2>
+
+      <div class="product-screenshots">
+        {{ range . }}
+        <figure class="product-screenshot">
+          <a href="{{ . }}" target="_blank" rel="noopener noreferrer">
+            <img
+              src="{{ . }}"
+              alt="{{ $.Params.product_name }} screenshot"
+              loading="lazy"
+            >
+          </a>
+        </figure>
+        {{ end }}
+      </div>
+    </section>
+    {{ end }}
+
+    <!-- Content -->
+    {{ if .Content }}
+    <section class="product-section product-content">
+      {{ .Content }}
+    </section>
+    {{ end }}
+
+  </div>
+</article>
+{{ end }}

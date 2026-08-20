@@ -1,0 +1,209 @@
+{{ define "main" }}
+
+
+<section class="homepage-hero">
+
+    <div class="homepage-hero-content">
+
+        <span class="homepage-eyebrow">
+            Indie Developer · Build. Ship. Repeat.
+        </span>
+
+        <h1>
+            Daniel Zhang
+        </h1>
+
+        <p class="homepage-hero-description">
+            Independent developer building useful, privacy-first software.
+        </p>
+
+        <div class="homepage-hero-actions">
+
+            <a href="/products/" class="homepage-button homepage-button-primary">
+                View Products
+            </a>
+
+            <a href="/post/" class="homepage-button homepage-button-secondary">
+                Read the Blog
+            </a>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+<section class="homepage-products" id="products">
+
+    <div class="homepage-section-heading">
+
+        <div>
+
+            <span class="homepage-section-label">
+                WHAT I'M BUILDING
+            </span>
+
+            <h2>Featured Products</h2>
+
+        </div>
+
+        <a href="/products/">
+            View all
+        </a>
+
+    </div>
+
+
+    <div class="homepage-product-grid">
+
+        <article class="homepage-product-card">
+
+            <div class="homepage-product-icon">
+                ⏱
+            </div>
+
+            <div class="homepage-product-content">
+
+                <h3>
+                    Unix Timestamp Converter & Epoch Pro
+                </h3>
+
+                <p>
+                    Fast and convenient Unix timestamp conversion for developers,
+                    with smart 10/13-digit detection, timezone support, and a
+                    privacy-first design.
+                </p>
+
+                <div class="homepage-product-links">
+
+                    <a href="https://chromewebstore.google.com/detail/unix-timestamp-converter/bpkonjocbaapcknnndcgofaicjceioap">
+                        Chrome Web Store
+                    </a>
+
+                    <a href="https://github.com/durban89/unix-timestamp-converter-epoch-pro"
+                       target="_blank"
+                       rel="noopener">
+                        GitHub
+                    </a>
+
+                </div>
+
+            </div>
+
+        </article>
+
+
+        <article class="homepage-product-card">
+
+            <div class="homepage-product-icon">
+                🖼
+            </div>
+
+            <div class="homepage-product-content">
+
+                <h3>
+                    IndieResizer
+                </h3>
+
+                <p>
+                    A privacy-first batch image resizer and icon generator
+                    designed for indie hackers, developers, and creators.
+                </p>
+
+                <div class="homepage-product-links">
+
+                    <a href="https://chromewebstore.google.com/detail/batch-image-resizer-icon/bgmnjjdgickfbmololhlkkphdphjailc">
+                        Chrome Web Store
+                    </a>
+
+                    <a href="https://github.com/durban89/indie-resizer-pro"
+                       target="_blank"
+                       rel="noopener">
+                        GitHub
+                    </a>
+
+                </div>
+
+            </div>
+
+        </article>
+
+
+        <article class="homepage-product-card">
+
+            <div class="homepage-product-icon">
+                ⚡
+            </div>
+
+            <div class="homepage-product-content">
+
+                <h3>
+                    PulseTimer
+                </h3>
+
+                <p>
+                    A sleek, minimalist countdown timer and alarm for focused work,
+                    quick sessions, and everyday browser reminders.
+                </p>
+
+                <div class="homepage-product-links">
+
+                    <a href="https://chromewebstore.google.com/detail/pulsetimer-sleek-focus-al/iggdfaaidnmphfahfnaddpjbofebkgdk">
+                        Chrome Web Store
+                    </a>
+
+                    <a href="https://github.com/durban89/pulse-timer-pro"
+                       target="_blank"
+                       rel="noopener">
+                        GitHub
+                    </a>
+
+                </div>
+
+            </div>
+
+        </article>
+
+    </div>
+
+</section>
+
+
+<section class="homepage-blog">
+
+    <div class="homepage-section-heading">
+
+        <h2>
+            Latest from the Blog
+        </h2>
+
+        <a href="/blog/">
+            View all
+        </a>
+
+    </div>
+
+    <section class="article-list">
+
+        {{ $posts := where .Site.RegularPages "Section" "posts" }}
+
+        {{ range first 6 $posts }}
+            {{ partial "article-list/default.html" . }}
+        {{ end }}
+
+    </section>
+
+</section>
+
+
+{{ partial "footer/footer.html" . }}
+
+{{ end }}
+
+
+{{ define "right-sidebar" }}
+
+    {{ partial "sidebar/right.html" (dict "Context" . "Scope" "homepage") }}
+
+{{ end }}

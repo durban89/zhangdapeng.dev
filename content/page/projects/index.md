@@ -3,11 +3,6 @@ title: "Projects"
 description: "A showcase of published Chrome extensions, SaaS tools, and digital products built by Daniel."
 date: 2026-08-12
 slug: "projects"
-menu:
-    main:
-        weight: 6
-        params: 
-            icon: code
 ---
 
 Welcome to my portfolio! As an independent developer, I love building practical tools that solve daily friction for creators, developers, and designers.

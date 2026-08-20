@@ -1,0 +1,65 @@
+{{ define "main" }}
+
+<div class="products-page">
+
+    <header class="products-header">
+        <h1>{{ .Title }}</h1>
+
+        {{ with .Description }}
+            <p>{{ . }}</p>
+        {{ end }}
+    </header>
+
+    {{ with .Content }}
+        <div class="products-intro">
+            {{ . }}
+        </div>
+    {{ end }}
+
+    <div class="products-grid">
+
+        {{ range .Pages.ByWeight }}
+
+            <article class="product-card">
+
+                {{ with .Params.image }}
+                    <div class="product-card-image">
+                        <img
+                            src="{{ . }}"
+                            alt="{{ $.Title }}"
+                            loading="lazy"
+                        >
+                    </div>
+                {{ end }}
+
+                <div class="product-card-content">
+
+                    <h2>
+                        <a href="{{ .RelPermalink }}">
+                            {{ .Title }}
+                        </a>
+                    </h2>
+
+                    {{ with .Description }}
+                        <p>{{ . }}</p>
+                    {{ end }}
+
+                    <a
+                        class="product-card-link"
+                        href="{{ .RelPermalink }}"
+                    >
+                        View Product
+                        <span>→</span>
+                    </a>
+
+                </div>
+
+            </article>
+
+        {{ end }}
+
+    </div>
+
+</div>
+
+{{ end }}

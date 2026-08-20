@@ -1,0 +1,25 @@
+{{ define "main" }}
+
+    {{ $pages := where site.RegularPages "Section" "posts" }}
+
+    {{ $pages = $pages.ByDate.Reverse }}
+
+    {{ $paginator := .Paginate $pages }}
+
+    <section class="article-list">
+        {{ range $paginator.Pages }}
+            {{ partial "article-list/default" . }}
+        {{ end }}
+    </section>
+
+    {{ partial "pagination.html" . }}
+
+    {{ partialCached "footer/footer" . }}
+{{ end }}
+
+{{ define "right-sidebar" }}
+    {{ partial "sidebar/right.html" (dict
+        "Context" .
+        "Scope" "homepage"
+    ) }}
+{{ end }}

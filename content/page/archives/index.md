@@ -7,7 +7,7 @@ outputs:
     - html
 menu:
     main:
-        weight: 2
+        weight: 4
         params: 
             icon: archives
 ---

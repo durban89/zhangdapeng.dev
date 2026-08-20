@@ -1,0 +1,61 @@
+.products-header h1,.products-page h1,.products-page h2,.products-page h3{color:var(--custom-heading)!important}
+
+.products-header p,.products-page p{color:var(--custom-muted)}
+
+.products-page{width:100%;margin:0 auto}
+
+.products-header{margin-bottom:3rem}
+
+.products-eyebrow{display:block;margin-bottom:.75rem;color:var(--custom-accent)!important;font-size:1.22rem;font-weight:700;letter-spacing:.12em;text-transform:uppercase}
+
+.products-header h1{margin:0 0 .75rem;font-size:clamp(2.5rem,5vw,3.5rem);line-height:1.15;font-weight:800;letter-spacing:-.035em}
+
+.products-header p{max-width:680px;margin:0;font-size:1.5rem;line-height:1.75}
+
+.products-intro{max-width:760px;margin-bottom:3rem;color:var(--custom-muted);font-size:1.5rem;line-height:1.8}
+
+.products-intro p{margin-bottom:1rem}
+
+.products-intro blockquote,.products-page>blockquote{margin:1.5rem 0;padding:1rem 1.25rem;border-left:3px solid var(--custom-accent);border-radius:0 var(--custom-radius-sm) var(--custom-radius-sm) 0;background:var(--custom-soft);color:var(--custom-text)!important;font-style:italic}
+
+.products-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:1.5rem}
+
+.products-page>h1{margin-top:0}
+
+.products-page>h2{margin-top:3rem;color:var(--custom-heading)!important;font-size:2rem}
+
+.products-page>h3{color:var(--custom-heading)!important}
+
+.products-page>p,.products-page>ul{color:var(--custom-text)}
+
+.products-page>p{line-height:1.8}
+
+.products-page>ul{margin-top:1rem;margin-bottom:2rem}
+
+.products-page a,.product-page a{color:var(--custom-accent)!important}
+
+.products-page a:hover,.product-page a:hover{color:var(--custom-accent-hover)!important}
+
+.products-more{max-width:760px;margin-top:4rem;padding-top:2rem;border-top:1px solid var(--custom-border)}
+
+.products-more h2{margin:0 0 .75rem;color:var(--custom-heading)!important;font-size:1.85rem}
+
+.products-more p{margin:0 0 .75rem;color:var(--custom-muted);line-height:1.8}
+
+.products-more a{color:var(--custom-accent)!important;font-weight:600}
+
+@media(max-width:900px){
+
+  .products-grid{grid-template-columns:repeat(2,minmax(0,1fr))}
+
+}
+
+@media(max-width:640px){
+
+  .products-grid{grid-template-columns:1fr}
+
+  .products-header{margin-bottom:2rem}
+
+  .products-header h1{font-size:2.6rem}
+
+}

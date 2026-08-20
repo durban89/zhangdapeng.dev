@@ -1,0 +1,21 @@
+{{ define "main" }}
+
+    {{ $pages := where site.RegularPages "Section" "posts" }}
+
+    {{ $pages = $pages.ByDate.Reverse }}
+
+    <section class="article-list">
+        {{ range $pages }}
+            {{ partial "article-list/default" . }}
+        {{ end }}
+    </section>
+
+    {{ partialCached "footer/footer" . }}
+{{ end }}
+
+{{ define "right-sidebar" }}
+    {{ partial "sidebar/right.html" (dict
+        "Context" .
+        "Scope" "homepage"
+    ) }}
+{{ end }}

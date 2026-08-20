@@ -5,3 +5,60 @@
 <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#2d96bd">
 <meta name="msapplication-TileColor" content="#da532c">
 <meta name="theme-color" content="#ffffff">
+
+{{- $custom := resources.Get "scss/custom.scss" -}}
+
+{{- if $custom -}}
+    {{- $custom = $custom | toCSS -}}
+    {{- $custom = $custom | minify -}}
+    {{- $custom = $custom | fingerprint -}}
+
+    <link
+        rel="stylesheet"
+        href="{{ $custom.RelPermalink }}"
+        integrity="{{ $custom.Data.Integrity }}"
+    >
+{{- end -}}
+
+
+{{ if .IsHome }}
+
+    {{ $homeSCSS := resources.Get "scss/home.scss" }}
+
+    {{ if $homeSCSS }}
+    {{ $homeCSS := $homeSCSS | css.Sass | resources.Minify | resources.Fingerprint }}
+    <link
+        rel="stylesheet"
+        href="{{ $homeCSS.RelPermalink }}"
+        integrity="{{ $homeCSS.Data.Integrity }}"
+    >
+    {{ end }}
+
+{{ end}}
+
+
+{{ if eq .Layout "products" }}
+    {{ $productsSCSS := resources.Get "scss/products.scss" }}
+
+    {{ if $productsSCSS }}
+    {{ $productsSCSS := $productsSCSS | css.Sass | resources.Minify | resources.Fingerprint }}
+    <link
+        rel="stylesheet"
+        href="{{ $productsSCSS.RelPermalink }}"
+        integrity="{{ $productsSCSS.Data.Integrity }}"
+    >
+    {{ end }}
+{{ end }}
+
+{{ if eq .Layout "product" }}
+    {{ $productSCSS := resources.Get "scss/product.scss" }}
+
+    {{ if $productSCSS }}
+    {{ $productSCSS := $productSCSS | css.Sass | resources.Minify | resources.Fingerprint }}
+    <link
+        rel="stylesheet"
+        href="{{ $productSCSS.RelPermalink }}"
+        integrity="{{ $productSCSS.Data.Integrity }}"
+    >
+    {{ end }}
+{{ end }}
