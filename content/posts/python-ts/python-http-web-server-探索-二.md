@@ -9,6 +9,7 @@ tags: ["Python"]
 aliases:
   - "/2025/07/30/python-http-web-server-探索-二"
   - "/2025/07/30/python-http-web-server-探索-二/"
+  - "/2025/07/30/python-http-web-server-探索二/"
 ---
 
 web server的实现最基础逻辑的几点思考

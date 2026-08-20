@@ -9,6 +9,7 @@ tags: ["Python"]
 aliases:
   - "/2025/07/30/python-http-web-server-探索-七"
   - "/2025/07/30/python-http-web-server-探索-七/"
+  - "/2025/07/30/python-http-web-server-探索七/"
 ---
 
 前面的文章已经理顺了如何获取请求的数据

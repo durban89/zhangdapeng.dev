@@ -9,6 +9,7 @@ tags: ["Python"]
 aliases:
   - "/2025/07/30/python-http-web-server-探索-八"
   - "/2025/07/30/python-http-web-server-探索-八/"
+  - "/2025/07/30/python-http-web-server-探索八/"
 ---
 
 前面的文章已经分析了，路由如何创建。并且知道如何根据请求的数据获取路由参数
