@@ -14,6 +14,7 @@ aliases:
   - "/2025/07/11/swift-ji-chu-zhi-shi-1-ban-ben-hao-yi-ji-guan-wang-wen-dang/"
   - "/2025/07/11/swift-ji-chu-zhi-shi-1-ban-ben-hao-yi-ji-guan-wang-wen-dang.html"
   - "/swift-ji-chu-zhi-shi-1-ban-ben-hao-yi-ji-guan-wang-wen-dang.html"
+  - "/2025/07/11/Swift基础知识-1--版本号以及官网文档.html"
 ---
 swift基础知识，掌握swift的版本号如何查看，swift文档权威官网
 
