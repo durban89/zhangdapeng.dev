@@ -21,7 +21,7 @@ enableRobotsTXT = true
 [languages.zh-cn]
     languageName = "中文"
     weight = 2
-    title = "张大鹏"
+    title = "Daniel Zhang"
 
 [permalinks]
     posts = "/p/:slug"
