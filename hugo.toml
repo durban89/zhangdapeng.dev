@@ -12,6 +12,17 @@ paginate = 10
 
 enableRobotsTXT = true
 
+
+[languages.en]
+    languageName = "English"
+    weight = 1
+    title = "Daniel Zhang"
+
+[languages.zh-cn]
+    languageName = "中文"
+    weight = 2
+    title = "张大鹏"
+
 [permalinks]
     posts = "/p/:slug"
 
