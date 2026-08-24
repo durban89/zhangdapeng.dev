@@ -8,6 +8,7 @@ tags: ["Python"]
 aliases:
   - "/2025/07/25/python-入门基础知识-poplib和smtplib邮件模块-一"
   - "/2025/07/25/python-入门基础知识-poplib和smtplib邮件模块-一/"
+  - "/2025/07/25/python-入门基础知识-poplib和smtplib邮件模块一/"
 ---
 
 **使用poplib和smtplib模块收到邮件**

@@ -9,6 +9,7 @@ tags: ["Android", "签名"]
 aliases:
   - "/2025/07/30/android-签名keystore-jks生成方式"
   - "/2025/07/30/android-签名keystore-jks生成方式/"
+  - "/2025/07/30/android-签名keystore/jks生成方式/"
 ---
 
 ### 生成签名证书

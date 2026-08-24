@@ -9,6 +9,7 @@ tags: ["Java", "Spring-Boot"]
 aliases:
   - "/2025/07/28/spring-boot基础学习记录之uploading-files-上传文件-部分代码解惑"
   - "/2025/07/28/spring-boot基础学习记录之uploading-files-上传文件-部分代码解惑/"
+  - "/2025/07/28/spring-boot基础学习记录之uploading-files上传文件部分代码解惑/"
 ---
 
 ### **实践环境**

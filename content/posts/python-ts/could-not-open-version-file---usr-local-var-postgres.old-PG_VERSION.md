@@ -8,6 +8,7 @@ tags: ["PostgreSQL"]
 aliases:
   - "/2025/07/29/could-not-open-version-file---usr-local-var-postgres.old-pg_version"
   - "/2025/07/29/could-not-open-version-file---usr-local-var-postgres.old-pg_version/"
+  - "/2025/07/29/could-not-open-version-file-/usr/local/var/postgres.old/pg_version/"
 ---
 
 初次使用PostgreSQL发现了一个问题， 就是在使用mac中使用brew安装PostgreSQL时，会自动进行版本升级，但是再进行版本升级的时候会遇到如下错误

@@ -8,6 +8,7 @@ tags: ["Python"]
 aliases:
   - "/2025/07/28/python数据挖掘入门-亲和性分析示例-affinity-analysis"
   - "/2025/07/28/python数据挖掘入门-亲和性分析示例-affinity-analysis/"
+  - "/2025/07/28/python数据挖掘入门-亲和性分析示例affinity-analysis/"
 ---
 
 **# 亲和性分析示例**

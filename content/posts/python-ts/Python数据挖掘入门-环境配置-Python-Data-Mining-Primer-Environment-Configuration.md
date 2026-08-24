@@ -8,6 +8,7 @@ tags: ["Python"]
 aliases:
   - "/2025/07/28/python数据挖掘入门-环境配置-python-data-mining-primer-environment-configuration"
   - "/2025/07/28/python数据挖掘入门-环境配置-python-data-mining-primer-environment-configuration/"
+  - "/2025/07/28/python数据挖掘入门-环境配置python-data-mining-primer-environment-configuration/"
 ---
 
 1】创建虚拟环境

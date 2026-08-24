@@ -9,6 +9,7 @@ tags: ["Python", "AsyncIO"]
 aliases:
   - "/2025/07/30/python小知识-asyncio使用记录-1"
   - "/2025/07/30/python小知识-asyncio使用记录-1/"
+  - "/2025/07/30/python小知识-asyncio使用记录1/"
 ---
 
 asyncio是什么，如何使用

@@ -9,6 +9,7 @@ tags: ["Python", "AsyncIO"]
 aliases:
   - "/2025/07/30/python-asyncio协程-gather-1"
   - "/2025/07/30/python-asyncio协程-gather-1/"
+  - "/2025/07/30/python-asyncio协程-gather1/"
 ---
 
 在Python 3的协程中，官方针对gather的使用有几个特性的说明，先说第一点的特性

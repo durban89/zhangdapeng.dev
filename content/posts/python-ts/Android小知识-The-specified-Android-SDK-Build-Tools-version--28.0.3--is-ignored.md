@@ -9,6 +9,7 @@ tags: ["Android"]
 aliases:
   - "/2025/07/30/android小知识-the-specified-android-sdk-build-tools-version--28.0.3--is-ignored"
   - "/2025/07/30/android小知识-the-specified-android-sdk-build-tools-version--28.0.3--is-ignored/"
+  - "/2025/07/30/android小知识-the-specified-android-sdk-build-tools-version-28.0.3-is-ignored/"
 ---
 
 问题：
