@@ -8,6 +8,7 @@ tags: ["ReactNative"]
 aliases:
   - "/2025/07/21/react-native-学习-一"
   - "/2025/07/21/react-native-学习-一/"
+  - "/2025/07/21/react-native-学习一/"
 ---
 
 react-native的安装
