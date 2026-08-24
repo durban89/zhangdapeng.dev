@@ -1,2 +1,3 @@
 /post/page/:num  /blog/page/:num  301
 /archives/page/:num  /archives/  301
+/page/:num  /blog/page/:num  301

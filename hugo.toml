@@ -8,10 +8,10 @@ theme = "hugo-theme-stack"
 
 hasCJKLanguage = true
 summaryLength = 140
-paginate = 10
+[pagination]
+    pagerSize = 10
 
 enableRobotsTXT = true
-
 
 [languages.en]
     languageName = "English"
