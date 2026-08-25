@@ -1,10 +1,16 @@
 baseURL = "https://zhangdapeng.dev/"
 
-languageCode = "en-us"
+title = "Daniel Zhang"
+
+ignoreLogs = ["warning-remote-resource"]
+
+locale = "en-us"
+
 defaultContentLanguage = "en"
 
-title = "Daniel Zhang"
 theme = "hugo-theme-stack"
+
+
 
 hasCJKLanguage = true
 summaryLength = 140
@@ -13,15 +19,11 @@ summaryLength = 140
 
 enableRobotsTXT = true
 
-[languages.en]
-    languageName = "English"
-    weight = 1
-    title = "Daniel Zhang"
 
-[languages.zh-cn]
-    languageName = "中文"
-    weight = 2
-    title = "Daniel Zhang"
+[markup]
+    [markup.goldmark]
+        [markup.goldmark.renderer]
+            unsafe = true
 
 [permalinks]
     posts = "/p/:slug"
@@ -29,10 +31,6 @@ enableRobotsTXT = true
     [permalinks.section]
         posts = "/post/"
 
-[outputs]
-    home = ["HTML", "RSS", "JSON"]
-    page = ["HTML"]
-    section = ["HTML", "RSS", "JSON"]
 
 # ============================================================
 # Site Parameters

@@ -2,3 +2,4 @@
 /archives/page/:num  /archives/  301
 /page/:num/  /blog/page/:num/  301!
 /page/:num  /blog/page/:num/  301!
+/en/ / 301!
