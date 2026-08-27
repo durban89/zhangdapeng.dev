@@ -1,8 +1,8 @@
 const CACHE_NAME = 'aosibin-v1'
 const STATIC_ASSETS = [
-  '/memory/',
-  '/memory/index.html',
-  '/memory/manifest.json',
+  '/spaced/',
+  '/spaced/index.html',
+  '/spaced/manifest.json',
 ]
 
 const DB_NAME = 'aosibin-db'
@@ -48,11 +48,11 @@ self.addEventListener('notificationclick', (event) => {
   event.waitUntil(
     clients.matchAll({ type: 'window', includeUncontrolled: true }).then((clientList) => {
       for (const client of clientList) {
-        if (client.url.includes('/memory/') && 'focus' in client) {
+        if (client.url.includes('/spaced/') && 'focus' in client) {
           return client.focus()
         }
       }
-      return clients.openWindow('/memory/')
+      return clients.openWindow('/spaced/')
     })
   )
 })
@@ -86,8 +86,8 @@ async function checkDueCards() {
     const preview = due.slice(0, 3).map((c) => c.question.slice(0, 40))
 
     self.registration.showNotification('Ebbinghaus Memory', {
-      body: `${due.length} 张卡片需要复习\n${preview.join('\n')}`,
-      icon: '/memory/icons/icon-192.png',
+      body: `${due.length} cards due for review\n${preview.join('\n')}`,
+      icon: '/spaced/icons/icon-192.png',
       tag: 'due-cards',
       renotify: true,
     })
