@@ -6,8 +6,7 @@ slug: "lek-logstash-elasticsearch-kibana-gu-zhang-yi"
 categories: ["技术"]
 tags: ["Elasticsearch", "Logstash", "Kibana"]
 aliases:
-  - "/2025/07/21/lek[logstash-+-elasticsearch-+-kibana]-故障一"
-  - "/2025/07/21/lek[logstash-+-elasticsearch-+-kibana]-故障一/"
+  - "/2025/07/21/leklogstash--elasticsearch--kibana-故障一/"
 ---
 
 今早遇到如下几个问题：

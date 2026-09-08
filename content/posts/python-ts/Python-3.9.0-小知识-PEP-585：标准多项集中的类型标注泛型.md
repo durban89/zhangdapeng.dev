@@ -7,8 +7,7 @@ slug: "python-3-9-0-xiao-zhi-shi-pep-585-biao-zhun-duo-xiang-ji-zhong-de-lei-xin
 categories: ["技术"]
 tags: ["Python"]
 aliases:
-  - "/2025/07/30/python-3.9.0-小知识-pep-585：标准多项集中的类型标注泛型"
-  - "/2025/07/30/python-3.9.0-小知识-pep-585：标准多项集中的类型标注泛型/"
+  - "/2025/07/30/python-3.9.0-小知识-pep-585标准多项集中的类型标注泛型/"
 ---
 
 PEP 585：标准多项集中的类型标注泛型
