@@ -6,8 +6,7 @@ slug: "python-json-loads-fails-with-valueerror-invalid-control-character-at-line
 categories: ["技术"]
 tags: ["Python"]
 aliases:
-  - "/2025/07/22/python-json-loads-fails-with-valueerror--invalid-control-character-at--line-1-column-33--char-33"
-  - "/2025/07/22/python-json-loads-fails-with-valueerror--invalid-control-character-at--line-1-column-33--char-33/"
+  - "/2025/07/22/python-json.loads-fails-with-valueerror-invalid-control-character-at-line-1-column-33-char-33/"
 ---
 
 > Python json.loads fails with `ValueError: Invalid control character at: line 1 column 33 (char 33)`

@@ -7,8 +7,7 @@ slug: "android-xiao-zhi-shi-android-support-v4-content-that-cannot-be-safely-rew
 categories: ["技术"]
 tags: ["Android"]
 aliases:
-  - "/2025/07/30/android小知识--android.support.v4.content--that-cannot-be-safely-rewritten.-for-androidx"
-  - "/2025/07/30/android小知识--android.support.v4.content--that-cannot-be-safely-rewritten.-for-androidx/"
+  - "/2025/07/30/android小知识-android.support.v4.content-that-cannot-be-safely-rewritten.-for-androidx/"
 ---
 
 遇到的问题：

@@ -6,8 +6,7 @@ slug: "python-ru-men-ji-chu-zhi-shi-duo-mei-ti-bian-cheng-shi-yong-pyopengl-hui-
 categories: ["技术"]
 tags: ["Python", "PyOpenGL"]
 aliases:
-  - "/2025/07/28/python-入门基础知识-多媒体编程-使用pyopengl绘制3d图形-二"
-  - "/2025/07/28/python-入门基础知识-多媒体编程-使用pyopengl绘制3d图形-二/"
+  - "/2025/07/28/python-入门基础知识-多媒体编程-使用pyopengl绘制3d图形二/"
 ---
 
 **绘制文案**

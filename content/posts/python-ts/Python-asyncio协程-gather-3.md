@@ -7,8 +7,7 @@ slug: "python-asyncio-xie-cheng-gather-3"
 categories: ["技术"]
 tags: ["Python", "AsyncIO"]
 aliases:
-  - "/2025/07/30/python-asyncio协程-gather-3"
-  - "/2025/07/30/python-asyncio协程-gather-3/"
+  - "/2025/07/30/python-asyncio协程-gather3/"
 ---
 
 在Python 3的协程中，官方针对gather的使用有几个特性的说明，先说第三点的特性

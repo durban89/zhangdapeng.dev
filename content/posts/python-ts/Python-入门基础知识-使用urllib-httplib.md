@@ -6,8 +6,7 @@ slug: "python-ru-men-ji-chu-zhi-shi-shi-yong-urllib-httplib"
 categories: ["技术"]
 tags: ["Python"]
 aliases:
-  - "/2025/07/25/python-入门基础知识-使用urllib-httplib"
-  - "/2025/07/25/python-入门基础知识-使用urllib-httplib/"
+  - "/2025/07/25/python-入门基础知识-使用urllibhttplib/"
 ---
 
 **使用urllib、httplib**

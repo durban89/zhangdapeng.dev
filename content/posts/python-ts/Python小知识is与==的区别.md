@@ -7,8 +7,7 @@ slug: "python-xiao-zhi-shi-is-yu-de-qu-bie"
 categories: ["技术"]
 tags: ["Python"]
 aliases:
-  - "/2025/07/30/python小知识is与==的区别"
-  - "/2025/07/30/python小知识is与==的区别/"
+  - "/2025/07/30/python小知识-is-与-的区别/"
 ---
 
 Python中 “`is`” 与 “`==`” 有什么区别

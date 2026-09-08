@@ -8,6 +8,7 @@ tags: ["Python"]
 aliases:
   - "/2025/07/28/python-入门基础知识-多媒体编程-使用pyopengl绘制3d图形-四"
   - "/2025/07/28/python-入门基础知识-多媒体编程-使用pyopengl绘制3d图形-四/"
+  - "/2025/07/28/python-入门基础知识-多媒体编程-使用pyopengl绘制3d图形四/"
 ---
 
 绘制3D图形
