@@ -6,8 +6,7 @@ slug: "python-ru-men-ji-chu-zhi-shi-poplib-he-smtplib-you-jian-mo-kuai-er"
 categories: ["技术"]
 tags: ["Python"]
 aliases:
-  - "/2025/07/25/python-入门基础知识-poplib和smtplib邮件模块-二"
-  - "/2025/07/25/python-入门基础知识-poplib和smtplib邮件模块-二/"
+  - "/2025/07/25/python-入门基础知识-poplib和smtplib邮件模块二/"
 ---
 
 **发送邮件**

@@ -8,7 +8,7 @@ categories: ["技术"]
 tags: ["Python", "AsyncIO"]
 aliases:
   - "/2025/07/30/python-asyncio协程-简单等待-二"
-  - "/2025/07/30/python-asyncio协程-简单等待-二/"
+  - "/2025/07/30/python-asyncio协程-简单等待二/"
 ---
 
 asyncio协程 - 简单等待（二）

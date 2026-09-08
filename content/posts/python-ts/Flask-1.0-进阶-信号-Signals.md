@@ -7,8 +7,7 @@ slug: "flask-1-0-jin-jie-xin-hao-signals"
 categories: ["技术"]
 tags: ["Python", "Flask"]
 aliases:
-  - "/2025/07/29/flask-1.0-进阶-信号-signals"
-  - "/2025/07/29/flask-1.0-进阶-信号-signals/"
+  - "/2025/07/29/flask-1.0-进阶-信号signals/"
 ---
 
 从Flask 0.6开始，Flask中集成了对信号的支持。这种支持由优秀的 [blinker](https://pypi.org/project/blinker/) 库提供，如果不可用，将优雅地退回。

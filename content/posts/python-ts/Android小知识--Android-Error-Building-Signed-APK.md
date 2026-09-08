@@ -7,8 +7,7 @@ slug: "android-xiao-zhi-shi-android-error-building-signed-apk"
 categories: ["技术"]
 tags: ["Android"]
 aliases:
-  - "/2025/07/30/android小知识--android-error-building-signed-apk"
-  - "/2025/07/30/android小知识--android-error-building-signed-apk/"
+  - "/2025/07/30/android小知识-android-error-building-signed-apk/"
 ---
 
 问题：

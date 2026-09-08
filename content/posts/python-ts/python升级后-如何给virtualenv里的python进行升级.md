@@ -8,7 +8,7 @@ categories: ["技术"]
 tags: ["Python"]
 aliases:
   - "/2025/07/29/python升级后-如何给virtualenv里的python进行升级"
-  - "/2025/07/29/python升级后-如何给virtualenv里的python进行升级/"
+  - "/2025/07/29/python升级后如何给virtualenv里的python进行升级/"
 ---
 
 > 如题：virtualenv的python版本是3.6.4，现在装了3.7.4，如何将virtualenv里的版本也更新到3.7.4呢？如果是3.6，那么这种跨大版本的又该如何升级到3.7呢？

@@ -6,8 +6,7 @@ slug: "python-ru-men-ji-chu-zhi-shi-mo-kuai-du-li-yun-xing-__name__-shu-xing-ji-
 categories: ["技术"]
 tags: ["Python"]
 aliases:
-  - "/2025/07/25/python-入门基础知识-模块独立运行-__name__属性及dir--函数"
-  - "/2025/07/25/python-入门基础知识-模块独立运行-__name__属性及dir--函数/"
+  - "/2025/07/25/python-入门基础知识-模块独立运行-__name__属性及dir函数/"
 ---
 
 **模块独立运行-\_\_name\_\_属性**

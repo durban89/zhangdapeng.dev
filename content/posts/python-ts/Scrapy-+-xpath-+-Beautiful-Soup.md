@@ -6,8 +6,7 @@ slug: "scrapy-xpath-beautiful-soup"
 categories: ["技术"]
 tags: ["Python", "Scrapy"]
 aliases:
-  - "/2025/07/21/scrapy-+-xpath-+-beautiful-soup"
-  - "/2025/07/21/scrapy-+-xpath-+-beautiful-soup/"
+  - "/2025/07/21/scrapy--xpath--beautiful-soup/"
 ---
 
 在使用scrapy的过程中会遇到一个问题就是类似如下的代码

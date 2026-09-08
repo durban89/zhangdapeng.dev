@@ -8,7 +8,7 @@ categories: ["技术"]
 tags: ["Python", "List"]
 aliases:
   - "/2025/07/30/python的list-comprehension-列表推导式"
-  - "/2025/07/30/python的list-comprehension-列表推导式/"
+  - "/2025/07/30/python的list-comprehension列表推导式/"
 ---
 
 如何更高效的创建列表
