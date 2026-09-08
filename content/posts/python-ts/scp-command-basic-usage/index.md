@@ -1,6 +1,6 @@
 +++
 date = '2025-06-04T15:25:48+08:00'
-draft = true
+draft = false
 slug = "scp-command-basic-usage"
 title = 'SCP传输命令的基本使用'
 categories = [
