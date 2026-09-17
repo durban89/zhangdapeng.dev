@@ -7,8 +7,7 @@ slug: "python-xiao-ji-qiao-zi-dian-zhong-ru-he-shi-yong-get-fang-fa"
 categories: ["技术"]
 tags: ["Python", "字典"]
 aliases:
-  - "/2025/07/30/python小技巧-字典中如何使用get--方法"
-  - "/2025/07/30/python小技巧-字典中如何使用get--方法/"
+  - "/2025/07/30/python小技巧-字典中如何使用get方法/"
 ---
 
 字典类型在很多编程语言中都是常用的类型

@@ -7,8 +7,7 @@ slug: "python-xiao-zhi-shi-shen-me-shi-namedtuples-ru-he-shi-yong-namedtuples"
 categories: ["技术"]
 tags: ["Python", "Namedtuples"]
 aliases:
-  - "/2025/07/30/python小知识-什么是namedtuples-如何使用namedtuples"
-  - "/2025/07/30/python小知识-什么是namedtuples-如何使用namedtuples/"
+  - "/2025/07/30/python小知识-什么是namedtuples如何使用namedtuples/"
 ---
 
 什么是Namedtuples，如何使用Namedtuples
