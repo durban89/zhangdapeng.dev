@@ -7,8 +7,7 @@ slug: "zhong-guo-wang-wada-huo-jin-zhi-mei-guo-yun-dong-yuan-can-jia-ao-yun"
 categories: ["大事件"]
 tags: ["奥运"]
 aliases:
-  - "/2025/07/30/中国网：wada或禁止美国运动员参加奥运"
-  - "/2025/07/30/中国网：wada或禁止美国运动员参加奥运/"
+  - "/2025/07/30/中国网wada或禁止美国运动员参加奥运/"
 ---
 
 【WADA或禁止美国运动员参加奥运】世界反兴奋剂机构：美国若撤资，或禁止美国运动员参加奥运。
