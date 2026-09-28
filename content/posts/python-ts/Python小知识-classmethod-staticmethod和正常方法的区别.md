@@ -7,8 +7,7 @@ slug: "python-xiao-zhi-shi-classmethod-staticmethod-he-zheng-chang-fang-fa-de-qu
 categories: ["技术"]
 tags: ["Python"]
 aliases:
-  - "/2025/07/30/python小知识-classmethod-staticmethod和正常方法的区别"
-  - "/2025/07/30/python小知识-classmethod-staticmethod和正常方法的区别/"
+  - "/2025/07/30/python小知识-classmethodstaticmethod和正常方法的区别/"
 ---
 
 `classmethod`、`staticmethod`和正常方法的区别是什么

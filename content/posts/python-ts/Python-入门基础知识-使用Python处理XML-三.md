@@ -6,8 +6,7 @@ slug: "python-ru-men-ji-chu-zhi-shi-shi-yong-python-chu-li-xml-san"
 categories: ["技术"]
 tags: ["Python"]
 aliases:
-  - "/2025/07/25/python-入门基础知识-使用python处理xml-三"
-  - "/2025/07/25/python-入门基础知识-使用python处理xml-三/"
+  - "/2025/07/25/python-入门基础知识-使用python处理xml三/"
 ---
 
 **使用xml.dom处理XML的简介**
