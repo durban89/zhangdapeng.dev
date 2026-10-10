@@ -2,6 +2,7 @@
 title = "Unix Timestamp Converter & Epoch Pro"
 description = "Convert Unix timestamps to readable dates and back. Detect seconds and milliseconds, compare local and UTC time, and check relative time in your browser."
 date = "2026-07-28 16:10:14"
+lastmod = "2026-10-10 16:24:14"
 
 layout = "product"
 
