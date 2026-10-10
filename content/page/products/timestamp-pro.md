@@ -1,6 +1,6 @@
 +++
 title = "Unix Timestamp Converter & Epoch Pro"
-description = "A fast and privacy-first Unix timestamp converter for developers, with smart 10/13-digit detection, timezone support, and quick conversion."
+description = "Convert Unix timestamps to readable dates and back. Detect seconds and milliseconds, compare local and UTC time, and check relative time in your browser."
 date = "2026-07-28 16:10:14"
 
 layout = "product"
@@ -33,114 +33,76 @@ screenshots = [
 ]
 +++
 
-Fast and privacy-first Unix timestamp conversion built for developers.
+Convert Unix timestamps to readable dates and back without leaving your browser.
 
-Unix Timestamp Converter & Epoch Pro makes it easy to convert Unix timestamps and dates without leaving your browser.
+**Unix Timestamp Converter & Epoch Pro** is a browser extension for developers who work with API responses, database records, server logs, and other timestamp-heavy data. It detects common 10-digit and 13-digit timestamps and helps you check local time, UTC time, and relative time at a glance.
 
-It automatically detects common **10-digit and 13-digit Unix timestamps** and provides clear local time, UTC time, and relative time information.
+[**Get it from the Chrome Web Store**](https://chromewebstore.google.com/detail/bpkonjocbaapcknnndcgofaicjceioap)
 
----
+## Convert timestamps in seconds or milliseconds
 
-## Built for developers
+Unix timestamps commonly appear in two formats:
 
-Unix timestamps appear everywhere in software development.
+* **Seconds:** typically 10 digits
+* **Milliseconds:** typically 13 digits
 
-Whether you are debugging an API response, checking a database record, reading server logs, or working with distributed systems, converting timestamps should not require opening another website or switching between tools.
+Confusing the two can lead to incorrect dates when debugging APIs or inspecting stored data. Timestamp Pro automatically detects these common formats, helping you interpret timestamp values without manually figuring out which unit they use.
 
-Unix Timestamp Converter & Epoch Pro keeps the conversion workflow directly in your browser.
+## Key features
 
----
+### Timestamp to date conversion
 
-## Core features
+Turn a Unix timestamp into a human-readable date and time. Quickly inspect values copied from API responses, JSON payloads, database records, or server logs.
 
-**Smart timestamp detection**
+### Date to timestamp conversion
 
-Automatically recognizes the two most common Unix timestamp formats:
+Convert a date and time into a Unix timestamp when preparing test data, checking API parameters, or working with backend systems.
 
-- 10-digit timestamps in seconds
-- 13-digit timestamps in milliseconds
+### Local time and UTC
 
-**Timestamp conversion**
+View timestamps in local time and UTC to help investigate timezone differences between your development environment, servers, and API responses.
 
-Convert Unix timestamps into readable dates and times with a single glance.
+### Relative time
 
-**Date conversion**
+Check how a timestamp relates to the present, making it easier to interpret recent events, older records, and future dates.
 
-Convert date and time values back into Unix timestamps when working with APIs, databases, logs, and backend systems.
+### Convert timestamps from selected text
 
-**Local and UTC time**
+Select a timestamp on a webpage and send it to the extension for conversion. This is useful when inspecting logs, documentation, dashboards, or other pages containing timestamp values.
 
-View both local time and UTC time to quickly understand timestamps across different environments and time zones.
+### Quick copy actions
 
-**Relative time**
+Copy converted values without manually selecting and reformatting the output.
 
-See whether a timestamp is in the past or future with a human-readable relative time.
+## Designed for everyday debugging
 
-**Selection-based conversion**
+Timestamp Pro fits naturally into common development workflows:
 
-Select a timestamp directly on a webpage and send it to the extension for quick conversion.
+* **API debugging:** inspect timestamps returned by an endpoint.
+* **Database inspection:** understand stored creation and update times.
+* **Server logs:** translate event timestamps into readable dates.
+* **Timezone troubleshooting:** compare local time with UTC.
+* **Test data preparation:** convert dates into timestamps for API requests and test cases.
 
-**Fast and lightweight**
+Instead of opening a separate online converter every time you encounter a timestamp, you can perform these conversions directly in your browser.
 
-Designed for quick everyday conversions without unnecessary interfaces or complicated configuration.
+## Privacy-first, local conversion
 
----
+Timestamp Pro processes timestamp values locally in your browser. Timestamp data does not need to be uploaded to a remote conversion service.
 
-## Privacy by design
+This makes it a practical option when inspecting development data, logs, or other values you prefer to keep on your own device.
 
-All timestamp conversion happens locally in your browser.
+## How to use Timestamp Pro
 
-Your timestamp values do not need to be uploaded to a remote server, making the extension suitable for working with development data, logs, API responses, and other potentially sensitive information.
-
-> Your timestamp data stays in your browser.
-
----
-
-## Useful for
-
-Unix Timestamp Converter & Epoch Pro is designed for everyday development workflows, including:
-
-- API responses
-- Database records
-- Server logs
-- JSON data
-- Debugging
-- Distributed systems
-- Backend development
-- Data analysis
-
-Whether you are investigating a production issue or simply checking a timestamp, the goal is to make the conversion immediate.
-
----
-
-## A simple workflow
-
-Using Unix Timestamp Converter & Epoch Pro takes only a few seconds:
-
-1. Enter or select a Unix timestamp.
-2. Let the extension detect the timestamp format.
-3. View the local time, UTC time, and relative time.
-4. Convert dates back to timestamps when needed.
-5. Continue working without leaving your browser.
-
-No external website required. No unnecessary workflow.
-
----
+1. Open the extension and enter a timestamp, or select a timestamp from a webpage.
+2. Let the extension detect whether the value represents seconds or milliseconds.
+3. Check the converted date, local time, UTC time, and relative time.
+4. Convert a date back to a timestamp when needed, then copy the result.
 
 ## Open source
 
-Unix Timestamp Converter & Epoch Pro is developed independently with a focus on speed, privacy, and a practical developer experience.
+Timestamp Pro is independently developed, and its source code is available on GitHub.
 
-The source code is available on GitHub:
+[**View the source code on GitHub**](https://github.com/durban89/unix-timestamp-converter-epoch-pro)
 
-**[View Unix Timestamp Converter & Epoch Pro on GitHub](https://github.com/durban89/unix-timestamp-converter-epoch-pro)**
-
----
-
-## Built for everyday development
-
-Unix Timestamp Converter & Epoch Pro is one of several small, focused developer tools I am building as an independent developer.
-
-The goal is simple:
-
-> Build useful software that is fast, focused, and respectful of your privacy.
+If you work with Unix timestamps regularly, Timestamp Pro aims to make those small but frequent conversions quicker, clearer, and more convenient—all without leaving your browser.

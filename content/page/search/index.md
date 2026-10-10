@@ -3,6 +3,8 @@ title: "Search"
 slug: "search"
 layout: "search"
 url: "/search/"
+sitemap:
+  disable: true
 outputs:
     - html
     - json
