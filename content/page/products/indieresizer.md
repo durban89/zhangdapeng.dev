@@ -1,6 +1,8 @@
 +++
 title = "IndieResizer"
 description = "A privacy-first batch image resizer and icon generator for indie hackers, developers, and creators."
+date = "2026-07-28 16:10:14"
+
 layout = "product"
 
 slug = "products/indieresizer"

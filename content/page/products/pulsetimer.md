@@ -1,6 +1,8 @@
 +++
 title = "PulseTimer"
 description = "A sleek, minimalist countdown timer and alarm for focused work, quick sessions, and everyday browser reminders."
+date = "2026-07-28 16:10:14"
+
 layout = "product"
 
 slug = "products/pulsetimer"

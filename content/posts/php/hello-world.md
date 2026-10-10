@@ -4,6 +4,8 @@ date: "2025-05-28 16:10:14"
 slug: "hello-world"
 categories: ["技术"]
 tags: ["Hexo"]
+sitemap:
+  disable: true
 aliases:
   - "/2025/05/28/Hello-World/"
   - "/2025/05/28/Hello-World.html"
