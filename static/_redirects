@@ -3,3 +3,4 @@
 /page/:num/  /blog/page/:num/  301!
 /page/:num  /blog/page/:num/  301!
 /en/ / 301!
+/2025/06/24/Python异常处理体系-学习-三.html  /p/python-yi-chang-chu-li-ti-xi-xue-xi-san/  301!
