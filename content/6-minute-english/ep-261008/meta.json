@@ -1,0 +1,15 @@
+{
+  "originalAddress": "https://www.bbc.co.uk/learningenglish/english/features/6-minute-english_2026/ep-261008",
+  "title": "Are people drinking less alcohol?",
+  "date": "2026-10-08T00:00:00Z",
+  "episodeCode": "261008",
+  "audioUrl": "https://downloads.bbc.co.uk/learningenglish/features/6min/261008_6_minute_english_are_people_drinking_less_alcohol_download.mp3",
+  "transcriptUrl": "https://downloads.bbc.co.uk/learningenglish/features/6min/261008_6_minute_english_are_people_drinking_less_alcohol_transcript.pdf",
+  "files": {
+    "audio": "tmp/ep-261008/audio.mp3",
+    "transcriptPdf": "tmp/ep-261008/transcript.pdf",
+    "transcriptText": "tmp/ep-261008/transcript.txt",
+    "indexMd": "tmp/ep-261008/index.md"
+  },
+  "fetchedAt": "2026-10-15T07:32:19.461Z"
+}

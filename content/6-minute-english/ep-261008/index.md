@@ -1,0 +1,101 @@
++++
+title = "Are people drinking less alcohol?"
+date = "2026-10-15T07:32:19.460Z"
+type = "6-minute-english"
+draft = false
+categories = ["English", "6 Minute English"]
+tags = ["bbc", "listening", "vocabulary", "6-minute-english"]
+slug = "are-people-drinking-less-alcohol-261008"
+episode_id = "261008"
+original_address = "https://www.bbc.co.uk/learningenglish/english/features/6-minute-english_2026/ep-261008"
+audio = "audio.mp3"
+transcript = "transcript.txt"
+transcript_pdf = "transcript.pdf"
++++
+{{< audio src="audio.mp3" >}}
+
+## Transcript
+
+Note: This is not a word-for-word transcript.
+
+**Georgie:** Hi Neil.
+
+**Neil:** Hi Georgie. Do you want to hear something quite unusual for me?
+
+**Georgie:** Err, yes!
+
+**Neil:** I haven't had an alcoholic drink this year.
+
+**Georgie:** Wow! That is really impressive. How do you feel? Like a new person?
+
+**Neil:** I do feel very good, I have to say.
+
+**Georgie:** I can't say the same – I did have a few alcoholic drinks at the weekend with my friends. But in many parts of the world, people don't drink alcohol at all. In the UK it's very common – that is until recently. Today on 6 Minute English, we're going to find out why many people are choosing to give up or cut down on alcohol, and we'll be asking, "Is this the end of British drinking culture?"
+
+**Georgie:** OK. Neil, let's start with a quiz question. Many people in the UK and other countries choose to give up alcohol in the new year for the whole of the month of January, but what is the challenge called? Is it: a) No-drink New Year b) Alcohol-free January, or c) Dry January?
+
+**Neil:** Well, I know the answer to this, but I'm not going to give it away.
+
+**Georgie:** OK. Well, then our listeners can find out the answer at the end of the programme.
+
+**Neil:** Yes, they can. So, Georgie, I hear all the time that younger people don't drink as much alcohol today as they used to in the past. Is that true?
+
+**Georgie:** Well, in the UK, surveys suggest that 16 to 24-year-olds are more likely to be non-drinkers than the older generations.
+
+**Neil:** OK. So, why are more young people choosing to be sober? That means not to drink alcohol.
+
+**Georgie:** Well, the BBC World Service podcast What in the World have been investigating this. Presenter Hannah Gelbart met three young people who choose to be sober for some alcohol-free drinks to find out more. Here's Daniel's story:
+
+**Daniel:** Yeah. So, today I don't drink at all, but when I was in my early 20s, I think I felt maybe a bit of, like, societal pressure – you know, work drinks or being at uni, where it was the norm to just join in. I think you'd probably get a few weird glances if you're like, "Yeah, I'm not going to join in at all." So, I did that and I think Covid lockdown just gave me a bit of confidence to say, "OK, let me step away from this. It's not necessarily something I want to do moving forward."
+
+**Hannah Gelbart:** So, how many years have you been sober for?
+
+**Daniel:** I would say it's been six years now.
+
+**Hannah Gelbart:** Six years?
+
+**Georgie:** So, Daniel says that when he was younger, he felt societal pressure to drink alcohol. Societal pressure is feeling like you need to do something because lots of people around you are doing it.
+
+**Neil:** Right. So, Daniel says drinking was the norm at university and after work. The norm is a way of saying that something is normal or common.
+
+**Georgie:** But during the Covid-19 pandemic, when people in the UK were unable to socialise and visit pubs and bars, Daniel's attitude to alcohol changed. After that, he decided to be sober and he hasn't had a drink for about six years.
+
+**Neil:** So, Georgie, it seems like many young people don't drink at all and lots of them share their experience of being sober on social media. But recently there's been a bit of a change, hasn't there?
+
+**Georgie:** Yes. Whilst many people use social media to share their experience of drinking less alcohol or no alcohol at all, some people have been saying that they want to go out more and drink and have fun with friends. They argue we're too worried about fitness and wellness, and that drinking some alcohol to have a good time is fine. Here's Millie talking more about this to BBC World Service podcast What in the World:
+
+**Millie:** I think we had this, like, rise of self-optimisation content. I think unfortunately sobriety, kind of, got swept in with that and it got touted as this way to, you know, get up at 5am, do a HYROX. And, you know, for many of us, that's probably not our reality with not drinking. It's that we do it to feel a bit more sane or, you know, things like that. And so, I think now we are entering this, like, almost pushback era of that content and you're seeing celebrities... Like, it's not just alcohol – you're seeing more celebrities smoking and, like, posting that on their Instagram and not worrying if it's brand-friendly.
+
+**Neil:** OK. So, Millie thinks that being sober is associated with certain kinds of self-optimisation content, where people talk about fitness, diet and having big goals for themselves.
+
+**Georgie:** Yes, and Millie says being sober gets touted as a way to get up at 5am to exercise. In other words, people talk about it a lot and try to encourage people to do it.
+
+**Neil:** But Millie says that being sober isn't always about being super fit and healthy. For her, it's about being sane.
+
+**Georgie:** But still, Millie thinks there's a pushback against self-optimisation content.
+
+**Pushback:** means a criticism of the content, and people are pushing back by doing the opposite. For example, lots of celebrities post about themselves drinking and smoking.
+
+**Neil:** Well, Georgie, I've decided to try to give up alcohol for a whole year, but I don't think everybody should do that if they don't want to. It's really up to the individual.
+
+**Georgie:** Yeah, I still enjoy having a few drinks with my friends. I think it's just all about balance, really. OK. Neil, it's time to reveal the answer to this week's question. I asked, "What was the name given for when people give up alcohol in January?"
+
+**Neil:** Yes. And the answer is Dry January.
+
+**Georgie:** That is correct. Well done! Let's recap the vocabulary we learned in this programme, starting with sober, which describes someone who doesn't drink alcohol or take recreational drugs.
+
+**Neil:** Societal pressure is the feeling that you should do something because lots of other people expect you to.
+
+**Georgie:** Saying something is the norm is a way to say it's usual or common.
+
+**Neil:** Self-optimisation content means videos and posts about being fit, healthy and achieving big goals.
+
+**Georgie:** If somebody touts an idea or lifestyle, they talk about it a lot and try to convince people to do it.
+
+**Neil:** And pushback is strong criticism of a trend, and people doing the opposite.
+
+**Georgie:** Once again, our six minutes are up, but don't forget to test what you've learned with the worksheet on our website, bbclearningenglish.com.
+
+**Neil:** Thank you for joining us and goodbye.
+
+**Georgie:** Goodbye!
