@@ -5,15 +5,7 @@ slug: "nscoding-jie-shi-initwithcoder-encodewithcoder"
 categories: ["技术"]
 tags: ["iOS"]
 aliases:
-  - "/2025/06/19/NSCoding解释-initWithCoder:-encodeWithCoder:/"
-  - "/2025/06/19/NSCoding解释-initWithCoder:-encodeWithCoder:.html"
-  - "/NSCoding解释-initWithCoder:-encodeWithCoder:/"
-  - "/NSCoding解释-initWithCoder:-encodeWithCoder:.html"
-  - "/2025/06/19/NSCoding解释-initWithCoder-encodeWithCoder/"
-  - "/2025/06/19/NSCoding解释-initWithCoder-encodeWithCoder.html"
-  - "/2025/06/19/nscoding-jie-shi-initwithcoder-encodewithcoder/"
-  - "/2025/06/19/nscoding-jie-shi-initwithcoder-encodewithcoder.html"
-  - "/nscoding-jie-shi-initwithcoder-encodewithcoder.html"
+  - "/2025/06/19/NSCoding解释-initWithCoder--encodeWithCoder.html"
 ---
 1、为了将应用数据存储到硬盘中，iOS提供基本的文件API、Property List序列化、SQLite、CoreData以及NSCoding。对于轻量级的数据要求，NSCoding因其简单而成为一种比较合适的方式。 NSCoding是一个你需要在数据类上要实现的协议以支持数据类和数据流间的编码和解码。数据流可以持久化到硬盘。
 

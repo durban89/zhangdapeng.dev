@@ -5,15 +5,7 @@ slug: "geng-xin-zheng-shu-cuo-wu-code-sign-error-provisioning-profile-xxxx-cant-
 categories: ["技术"]
 tags: ["iOS", "Xcode"]
 aliases:
-  - "/2025/06/17/更新证书错误Code-Sign-error:-Provisioning-profile-'XXXX'-can't-be-found/"
-  - "/2025/06/17/更新证书错误Code-Sign-error:-Provisioning-profile-'XXXX'-can't-be-found.html"
-  - "/更新证书错误Code-Sign-error:-Provisioning-profile-'XXXX'-can't-be-found/"
-  - "/更新证书错误Code-Sign-error:-Provisioning-profile-'XXXX'-can't-be-found.html"
-  - "/2025/06/17/更新证书错误Code-Sign-error-Provisioning-profile-be-found/"
-  - "/2025/06/17/更新证书错误Code-Sign-error-Provisioning-profile-be-found.html"
-  - "/2025/06/17/geng-xin-zheng-shu-cuo-wu-code-sign-error-provisioning-profile-xxxx-cant-be-found/"
-  - "/2025/06/17/geng-xin-zheng-shu-cuo-wu-code-sign-error-provisioning-profile-xxxx-cant-be-found.html"
-  - "/geng-xin-zheng-shu-cuo-wu-code-sign-error-provisioning-profile-xxxx-cant-be-found.html"
+  - "/2025/06/17/更新证书错误Code-Sign-error--Provisioning-profile-be-found.html"
 ---
 在Xcode中当你在更新了你得证书而再重新编译你的程序，真机调试一直会出现 Code Sign error: Provisioning profile ‘XXXX’ can't be found是不是会另你很恼火。下面说说解决方法，让你很好的解决这个问题。  
   

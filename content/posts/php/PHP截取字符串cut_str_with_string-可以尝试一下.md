@@ -5,13 +5,7 @@ slug: "php-jie-qu-zi-fu-chuan-cut-str-with-string-ke-yi-chang-shi-yi-xia"
 categories: ["技术"]
 tags: ["PHP"]
 aliases:
-  - "/2025/06/27/PHP截取字符串cut-str-with-string-可以尝试一下/"
-  - "/2025/06/27/PHP截取字符串cut-str-with-string-可以尝试一下.html"
-  - "/PHP截取字符串cut-str-with-string-可以尝试一下/"
-  - "/PHP截取字符串cut-str-with-string-可以尝试一下.html"
-  - "/2025/06/27/php-jie-qu-zi-fu-chuan-cut-str-with-string-ke-yi-chang-shi-yi-xia/"
-  - "/2025/06/27/php-jie-qu-zi-fu-chuan-cut-str-with-string-ke-yi-chang-shi-yi-xia.html"
-  - "/php-jie-qu-zi-fu-chuan-cut-str-with-string-ke-yi-chang-shi-yi-xia.html"
+  - "/2025/06/27/PHP截取字符串cut_str_with_string-可以尝试一下.html"
 ---
 cut_str_with_string 截取字符串，可以指定要截取的字符串的长度，指定超过指定字符截取。
 

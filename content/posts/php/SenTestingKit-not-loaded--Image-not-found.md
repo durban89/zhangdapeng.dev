@@ -5,15 +5,7 @@ slug: "sentestingkit-not-loaded-image-not-found"
 categories: ["技术"]
 tags: ["iOS"]
 aliases:
-  - "/2025/06/17/SenTestingKit-not-loaded,-Image-not-found/"
-  - "/2025/06/17/SenTestingKit-not-loaded,-Image-not-found.html"
-  - "/SenTestingKit-not-loaded,-Image-not-found/"
-  - "/SenTestingKit-not-loaded,-Image-not-found.html"
-  - "/2025/06/17/SenTestingKit-not-loaded-Image-not-found/"
-  - "/2025/06/17/SenTestingKit-not-loaded-Image-not-found.html"
-  - "/2025/06/17/sentestingkit-not-loaded-image-not-found/"
-  - "/2025/06/17/sentestingkit-not-loaded-image-not-found.html"
-  - "/sentestingkit-not-loaded-image-not-found.html"
+  - "/2025/06/17/SenTestingKit-not-loaded--Image-not-found.html"
 ---
 报错信息：
 

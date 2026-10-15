@@ -5,15 +5,7 @@ slug: "ntpdate-bao-cuo-the-ntp-socket-is-in-use-exiting"
 categories: ["技术"]
 tags: ["NTP"]
 aliases:
-  - "/2025/07/09/ntpdate报错the-NTP-socket-is-in-use,-exiting/"
-  - "/2025/07/09/ntpdate报错the-NTP-socket-is-in-use,-exiting.html"
-  - "/ntpdate报错the-NTP-socket-is-in-use,-exiting/"
-  - "/ntpdate报错the-NTP-socket-is-in-use,-exiting.html"
-  - "/2025/07/09/ntpdate报错the-NTP-socket-is-in-use-exiting/"
-  - "/2025/07/09/ntpdate报错the-NTP-socket-is-in-use-exiting.html"
-  - "/2025/07/09/ntpdate-bao-cuo-the-ntp-socket-is-in-use-exiting/"
-  - "/2025/07/09/ntpdate-bao-cuo-the-ntp-socket-is-in-use-exiting.html"
-  - "/ntpdate-bao-cuo-the-ntp-socket-is-in-use-exiting.html"
+  - "/2025/07/09/ntpdate报错the-NTP-socket-is-in-use--exiting.html"
 ---
 ***ntpdate报错the NTP socket is in use, exiting***
 

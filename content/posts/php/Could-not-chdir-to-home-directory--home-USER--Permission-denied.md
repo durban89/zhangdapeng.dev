@@ -5,15 +5,7 @@ slug: "could-not-chdir-to-home-directory-homeuser-permission-denied"
 categories: ["技术"]
 tags: ["PHP"]
 aliases:
-  - "/2025/06/18/Could-not-chdir-to-home-directory-/home/USER:-Permission-denied/"
-  - "/2025/06/18/Could-not-chdir-to-home-directory-/home/USER:-Permission-denied.html"
-  - "/Could-not-chdir-to-home-directory-/home/USER:-Permission-denied/"
-  - "/Could-not-chdir-to-home-directory-/home/USER:-Permission-denied.html"
-  - "/2025/06/18/Could-not-chdir-to-home-directory-home-USER-Permission-denied/"
-  - "/2025/06/18/Could-not-chdir-to-home-directory-home-USER-Permission-denied.html"
-  - "/2025/06/18/could-not-chdir-to-home-directory-homeuser-permission-denied/"
-  - "/2025/06/18/could-not-chdir-to-home-directory-homeuser-permission-denied.html"
-  - "/could-not-chdir-to-home-directory-homeuser-permission-denied.html"
+  - "/2025/06/18/Could-not-chdir-to-home-directory--home-USER--Permission-denied.html"
 ---
 > We changed the home folder to /data/home/USER.
 >

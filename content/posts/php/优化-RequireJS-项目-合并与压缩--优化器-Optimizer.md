@@ -5,15 +5,7 @@ slug: "you-hua-requirejs-xiang-mu-he-bing-yu-ya-suo-you-hua-qi-optimizer"
 categories: ["技术"]
 tags: ["RequireJS"]
 aliases:
-  - "/2025/06/30/优化-RequireJS-项目（合并与压缩）-优化器（Optimizer）/"
-  - "/2025/06/30/优化-RequireJS-项目（合并与压缩）-优化器（Optimizer）.html"
-  - "/优化-RequireJS-项目（合并与压缩）-优化器（Optimizer）/"
-  - "/优化-RequireJS-项目（合并与压缩）-优化器（Optimizer）.html"
-  - "/2025/06/30/优化-RequireJS-项目-合并与压缩-优化器-Optimizer/"
-  - "/2025/06/30/优化-RequireJS-项目-合并与压缩-优化器-Optimizer.html"
-  - "/2025/06/30/you-hua-requirejs-xiang-mu-he-bing-yu-ya-suo-you-hua-qi-optimizer/"
-  - "/2025/06/30/you-hua-requirejs-xiang-mu-he-bing-yu-ya-suo-you-hua-qi-optimizer.html"
-  - "/you-hua-requirejs-xiang-mu-he-bing-yu-ya-suo-you-hua-qi-optimizer.html"
+  - "/2025/06/30/优化-RequireJS-项目-合并与压缩--优化器-Optimizer.html"
 ---
 最近在使用js开发项目，用到了requirejs，到后面会发现好多的js文件要加载，于是找到了优化js的方法，就是使用requirejs自带的Optimizer优化器。
 

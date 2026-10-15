@@ -5,13 +5,7 @@ slug: "webpack-hot-server-she-zhi"
 categories: ["技术"]
 tags: ["Webpack"]
 aliases:
-  - "/2025/07/02/Webpack-hot-server-设置/"
-  - "/2025/07/02/Webpack-hot-server-设置.html"
-  - "/Webpack-hot-server-设置/"
-  - "/Webpack-hot-server-设置.html"
-  - "/2025/07/02/webpack-hot-server-she-zhi/"
-  - "/2025/07/02/webpack-hot-server-she-zhi.html"
-  - "/webpack-hot-server-she-zhi.html"
+  - "/2025/07/01/Webpack-hot-server-设置.html"
 ---
 使用node的express或connect作为server来启动项目的如何去设置webpack-dev-server
 

@@ -5,15 +5,7 @@ slug: "clang-error-unable-to-execute-command-posix-spawn-failed-resource-tempora
 categories: ["技术"]
 tags: ["Xcode"]
 aliases:
-  - "/2025/06/12/clang:-error:-unable-to-execute-command:-posix-spawn-failed:-Resource-temporarily-unava/"
-  - "/2025/06/12/clang:-error:-unable-to-execute-command:-posix-spawn-failed:-Resource-temporarily-u.html"
-  - "/clang:-error:-unable-to-execute-command:-posix-spawn-failed:-Resource-temporarily-unavailable/"
-  - "/clang:-error:-unable-to-execute-command:-posix-spawn-failed:-Resource-temporarily-unavailable.html"
-  - "/2025/06/12/clang-error-unable-to-execute-command-posix-spawn-failed-Resource-temporarily-unavailab/"
-  - "/2025/06/12/clang-error-unable-to-execute-command-posix-spawn-failed-Resource-temporarily-unava.html"
-  - "/2025/06/12/clang-error-unable-to-execute-command-posix-spawn-failed-resource-temporarily-unavailab/"
-  - "/2025/06/12/clang-error-unable-to-execute-command-posix-spawn-failed-resource-temporarily-unava.html"
-  - "/clang-error-unable-to-execute-command-posix-spawn-failed-resource-temporarily-unavailable.html"
+  - "/2025/06/12/clang-error-unable-to-execute-command-posix_spawn-failed-Resource-temporarily-unavailable.html"
 ---
 Xcode下创建一个项目，但是运行的时候出现了如下的错误：
 

@@ -5,15 +5,7 @@ slug: "zi-ding-yi-yi-ge-uiscrollview-neng-gou-shi-xian-heng-xiang-gun-dong"
 categories: ["技术"]
 tags: ["iOS"]
 aliases:
-  - "/2025/06/20/自定义一个-UIScrollView-，能够实现横向滚动/"
-  - "/2025/06/20/自定义一个-UIScrollView-，能够实现横向滚动.html"
-  - "/自定义一个-UIScrollView-，能够实现横向滚动/"
-  - "/自定义一个-UIScrollView-，能够实现横向滚动.html"
-  - "/2025/06/20/自定义一个-UIScrollView-能够实现横向滚动/"
-  - "/2025/06/20/自定义一个-UIScrollView-能够实现横向滚动.html"
-  - "/2025/06/20/zi-ding-yi-yi-ge-uiscrollview-neng-gou-shi-xian-heng-xiang-gun-dong/"
-  - "/2025/06/20/zi-ding-yi-yi-ge-uiscrollview-neng-gou-shi-xian-heng-xiang-gun-dong.html"
-  - "/zi-ding-yi-yi-ge-uiscrollview-neng-gou-shi-xian-heng-xiang-gun-dong.html"
+  - "/2025/06/20/自定义一个-UIScrollView--能够实现横向滚动.html"
 ---
 关于自定义UIScrollview的方式，其实很简单，但是如何做到横向滚动，我自己是第一次使用，
 

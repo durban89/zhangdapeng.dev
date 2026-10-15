@@ -5,15 +5,7 @@ slug: "react-16-jest-es6-class-mocks-shi-yong-es6-yu-fa-lei-de-mo-ni-shi-li-yi"
 categories: ["技术"]
 tags: ["ReactJS"]
 aliases:
-  - "/2025/07/07/React-16-Jest-ES6-Class-Mocks(使用ES6语法类的模拟)-实例一/"
-  - "/2025/07/07/React-16-Jest-ES6-Class-Mocks(使用ES6语法类的模拟)-实例一.html"
-  - "/React-16-Jest-ES6-Class-Mocks(使用ES6语法类的模拟)-实例一/"
-  - "/React-16-Jest-ES6-Class-Mocks(使用ES6语法类的模拟)-实例一.html"
-  - "/2025/07/07/React-16-Jest-ES6-Class-Mocks-使用ES6语法类的模拟-实例一/"
-  - "/2025/07/07/React-16-Jest-ES6-Class-Mocks-使用ES6语法类的模拟-实例一.html"
-  - "/2025/07/07/react-16-jest-es6-class-mocks-shi-yong-es6-yu-fa-lei-de-mo-ni-shi-li-yi/"
-  - "/2025/07/07/react-16-jest-es6-class-mocks-shi-yong-es6-yu-fa-lei-de-mo-ni-shi-li-yi.html"
-  - "/react-16-jest-es6-class-mocks-shi-yong-es6-yu-fa-lei-de-mo-ni-shi-li-yi.html"
+  - "/2025/07/07/React-16-Jest-ES6-Class-Mocks-使用ES6语法类的模拟--实例一.html"
 ---
 ### **项目初始化**
 

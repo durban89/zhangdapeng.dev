@@ -5,15 +5,7 @@ slug: "ios-kai-fa-wang-luo-jia-zai-tu-pian-huan-cun-ce-lve-asidownloadcache-huan
 categories: ["技术"]
 tags: ["iOS"]
 aliases:
-  - "/2025/06/17/iOS开发网络加载图片缓存策略(ASIDownloadCache缓存策略)/"
-  - "/2025/06/17/iOS开发网络加载图片缓存策略(ASIDownloadCache缓存策略).html"
-  - "/iOS开发网络加载图片缓存策略(ASIDownloadCache缓存策略)/"
-  - "/iOS开发网络加载图片缓存策略(ASIDownloadCache缓存策略).html"
-  - "/2025/06/17/iOS开发网络加载图片缓存策略-ASIDownloadCache缓存策略/"
-  - "/2025/06/17/iOS开发网络加载图片缓存策略-ASIDownloadCache缓存策略.html"
-  - "/2025/06/17/ios-kai-fa-wang-luo-jia-zai-tu-pian-huan-cun-ce-lve-asidownloadcache-huan-cun-ce-lve/"
-  - "/2025/06/17/ios-kai-fa-wang-luo-jia-zai-tu-pian-huan-cun-ce-lve-asidownloadcache-huan-cun-ce-lv.html"
-  - "/ios-kai-fa-wang-luo-jia-zai-tu-pian-huan-cun-ce-lve-asidownloadcache-huan-cun-ce-lve.html"
+  - "/2025/06/17/iOS开发网络加载图片缓存策略-ASIDownloadCache缓存策略-.html"
 ---
 很多情况需要从网络上加载图片，然后将图片在imageview中显示出来，但每次都要从网络上请求，会严重影响用户体验，为了不是每次显示都需要从网上下载数据，希望将图片放到本地缓存，因此我们需要一个好的的缓存策略，今天我将我在项目工程中的实际经验分享给大家，我这里主要介绍一下强大的ASIHTTPRequest的缓存策略，以及使用方法：
 

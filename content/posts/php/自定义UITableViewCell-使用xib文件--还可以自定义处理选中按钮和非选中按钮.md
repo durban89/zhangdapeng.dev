@@ -5,15 +5,7 @@ slug: "zi-ding-yi-uitableviewcell-shi-yong-xib-wen-jian-hai-ke-yi-zi-ding-yi-chu
 categories: ["技术"]
 tags: ["iOS"]
 aliases:
-  - "/2025/06/18/自定义UITableViewCell（使用xib文件），还可以自定义处理选中按钮和非选中按钮/"
-  - "/2025/06/18/自定义UITableViewCell（使用xib文件），还可以自定义处理选中按钮和非选中按钮.html"
-  - "/自定义UITableViewCell（使用xib文件），还可以自定义处理选中按钮和非选中按钮/"
-  - "/自定义UITableViewCell（使用xib文件），还可以自定义处理选中按钮和非选中按钮.html"
-  - "/2025/06/18/自定义UITableViewCell-使用xib文件-还可以自定义处理选中按钮和非选中按钮/"
-  - "/2025/06/18/自定义UITableViewCell-使用xib文件-还可以自定义处理选中按钮和非选中按钮.html"
-  - "/2025/06/18/zi-ding-yi-uitableviewcell-shi-yong-xib-wen-jian-hai-ke-yi-zi-ding-yi-chu-li-xuan-zhong/"
-  - "/2025/06/18/zi-ding-yi-uitableviewcell-shi-yong-xib-wen-jian-hai-ke-yi-zi-ding-yi-chu-li-xuan-z.html"
-  - "/zi-ding-yi-uitableviewcell-shi-yong-xib-wen-jian-hai-ke-yi-zi-ding-yi-chu-li-xuan-zhong-an-niu.html"
+  - "/2025/06/18/自定义UITableViewCell-使用xib文件--还可以自定义处理选中按钮和非选中按钮.html"
 ---
 最近在做自定义的cell的操作，由于之前是在网上找的一个类似的东东，结果拿来用的时候就出现了很多的问题，呵呵，结果我还是自己研究了一下，原因就是我之前是使用自定义的cell的问题是，在删除和非删除的过程中进行切换，有个选中和非选中的图片总是迟一步退去，导致的问题是，挡住了后面的内容，‍使得整个看起来不美观，结果我就是使用了UIImageView的隐藏功能，代码我放在下面，github也有的。在使用的时候最好是参照我的另一片博文：[IPhone 自定义 UITableViewCell 行缩进（修正版）](https://www.gowhich.com/blog/135)。好了，看代码。
 

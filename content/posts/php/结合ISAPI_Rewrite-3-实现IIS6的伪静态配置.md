@@ -5,13 +5,7 @@ slug: "jie-he-isapi-rewrite-3-shi-xian-iis6-de-wei-jing-tai-pei-zhi"
 categories: ["技术"]
 tags: ["IIS"]
 aliases:
-  - "/2025/06/27/结合ISAPI-Rewrite-3-实现IIS6的伪静态配置/"
-  - "/2025/06/27/结合ISAPI-Rewrite-3-实现IIS6的伪静态配置.html"
-  - "/结合ISAPI-Rewrite-3-实现IIS6的伪静态配置/"
-  - "/结合ISAPI-Rewrite-3-实现IIS6的伪静态配置.html"
-  - "/2025/06/27/jie-he-isapi-rewrite-3-shi-xian-iis6-de-wei-jing-tai-pei-zhi/"
-  - "/2025/06/27/jie-he-isapi-rewrite-3-shi-xian-iis6-de-wei-jing-tai-pei-zhi.html"
-  - "/jie-he-isapi-rewrite-3-shi-xian-iis6-de-wei-jing-tai-pei-zhi.html"
+  - "/2025/06/27/结合ISAPI_Rewrite-3-实现IIS6的伪静态配置.html"
 ---
 结合ISAPI_Rewrite 3 [http://www.helicontech.com/isapi_rewrite/download.html]实现IIS6的伪静态配置，一般iis的筛选项启动成功就好了，其他问题多数是因为自己写的伪静态文件的规则有问题  
   

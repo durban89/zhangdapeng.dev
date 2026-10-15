@@ -5,13 +5,7 @@ slug: "guan-yu-dispatch-once-tan-tao"
 categories: ["技术"]
 tags: ["iOS"]
 aliases:
-  - "/2025/06/19/关于-dispatch-once-探讨/"
-  - "/2025/06/19/关于-dispatch-once-探讨.html"
-  - "/关于-dispatch-once-探讨/"
-  - "/关于-dispatch-once-探讨.html"
-  - "/2025/06/19/guan-yu-dispatch-once-tan-tao/"
-  - "/2025/06/19/guan-yu-dispatch-once-tan-tao.html"
-  - "/guan-yu-dispatch-once-tan-tao.html"
+  - "/2025/06/19/关于-dispatch_once-探讨.html"
 ---
 `dispatch_once` 在ios中是用来创建单例的，具体为什么要创建单例，咱先不讨论，咱先看看，这个要怎么使用。
 

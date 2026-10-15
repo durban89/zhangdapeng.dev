@@ -5,13 +5,7 @@ slug: "ios-tiao-shi-jie-jue-exc-bad-access-cuo-wu"
 categories: ["技术"]
 tags: ["iOS"]
 aliases:
-  - "/2025/06/11/iOS-调试-解决EXC-BAD-ACCESS错误/"
-  - "/2025/06/11/iOS-调试-解决EXC-BAD-ACCESS错误.html"
-  - "/iOS-调试-解决EXC-BAD-ACCESS错误/"
-  - "/iOS-调试-解决EXC-BAD-ACCESS错误.html"
-  - "/2025/06/11/ios-tiao-shi-jie-jue-exc-bad-access-cuo-wu/"
-  - "/2025/06/11/ios-tiao-shi-jie-jue-exc-bad-access-cuo-wu.html"
-  - "/ios-tiao-shi-jie-jue-exc-bad-access-cuo-wu.html"
+  - "/2025/06/11/iOS-调试-解决EXC_BAD_ACCESS错误.html"
 ---
 做iOS 程序开发时经常用遇到 EXC\_BAD\_ACCESS 错误导致 Crash，出现这种错误时一般 Xcode 不会给我们太多的信息来定位错误来源，只是在应用 Delegate 上留下像Thread 1: Program received signal:"EXC\_BAD\_ACCESS"，让问题无从找起。
 

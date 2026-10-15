@@ -5,15 +5,7 @@ slug: "shi-yong-typescript-kai-fa-react-ying-yong-wu-zu-jian-zhuang-tai-guan-li"
 categories: ["技术"]
 tags: ["TypeScript"]
 aliases:
-  - "/2025/07/10/使用TypeScript开发React应用(五)-组件状态管理/"
-  - "/2025/07/10/使用TypeScript开发React应用(五)-组件状态管理.html"
-  - "/使用TypeScript开发React应用(五)-组件状态管理/"
-  - "/使用TypeScript开发React应用(五)-组件状态管理.html"
-  - "/2025/07/10/使用TypeScript开发React应用-五-组件状态管理/"
-  - "/2025/07/10/使用TypeScript开发React应用-五-组件状态管理.html"
-  - "/2025/07/10/shi-yong-typescript-kai-fa-react-ying-yong-wu-zu-jian-zhuang-tai-guan-li/"
-  - "/2025/07/10/shi-yong-typescript-kai-fa-react-ying-yong-wu-zu-jian-zhuang-tai-guan-li.html"
-  - "/shi-yong-typescript-kai-fa-react-ying-yong-wu-zu-jian-zhuang-tai-guan-li.html"
+  - "/2025/07/10/使用TypeScript开发React应用-五--组件状态管理.html"
 ---
 继续前面的文章[使用TypeScript开发React应用(四)](https://www.gowhich.com/blog/978)介绍了React+TypeScript应用的Jest单元测试
 

@@ -5,15 +5,7 @@ slug: "mysql-cuo-wu-jie-jue-could-not-find-binmy-print-defaults"
 categories: ["技术"]
 tags: ["MySQL"]
 aliases:
-  - "/2025/06/27/MySQL-错误解决“Could-not-find-./bin/my-print-defaults”/"
-  - "/2025/06/27/MySQL-错误解决“Could-not-find-./bin/my-print-defaults”.html"
-  - "/MySQL-错误解决“Could-not-find-./bin/my-print-defaults”/"
-  - "/MySQL-错误解决“Could-not-find-./bin/my-print-defaults”.html"
-  - "/2025/06/27/MySQL-错误解决-Could-not-find-bin-my-print-defaults/"
-  - "/2025/06/27/MySQL-错误解决-Could-not-find-bin-my-print-defaults.html"
-  - "/2025/06/27/mysql-cuo-wu-jie-jue-could-not-find-binmy-print-defaults/"
-  - "/2025/06/27/mysql-cuo-wu-jie-jue-could-not-find-binmy-print-defaults.html"
-  - "/mysql-cuo-wu-jie-jue-could-not-find-binmy-print-defaults.html"
+  - "/2025/06/27/MySQL-错误解决-Could-not-find-bin-my_print_defaults.html"
 ---
 Mysql 错误解决“Could not find ./bin/my\_print\_defaults”
 

@@ -5,15 +5,7 @@ slug: "mysql-pagination-sql-calc-found-rows-vs-count-query"
 categories: ["技术"]
 tags: ["MySQL"]
 aliases:
-  - "/2025/06/24/MySQL:-Pagination-SQL-CALC-FOUND-ROWS-vs-COUNT()-Query/"
-  - "/2025/06/24/MySQL:-Pagination-SQL-CALC-FOUND-ROWS-vs-COUNT()-Query.html"
-  - "/MySQL:-Pagination-SQL-CALC-FOUND-ROWS-vs-COUNT()-Query/"
-  - "/MySQL:-Pagination-SQL-CALC-FOUND-ROWS-vs-COUNT()-Query.html"
-  - "/2025/06/24/MySQL-Pagination/"
-  - "/2025/06/24/MySQL-Pagination.html"
-  - "/2025/06/24/mysql-pagination-sql-calc-found-rows-vs-count-query/"
-  - "/2025/06/24/mysql-pagination-sql-calc-found-rows-vs-count-query.html"
-  - "/mysql-pagination-sql-calc-found-rows-vs-count-query.html"
+  - "/2025/06/24/MySQL--Pagination.html"
 ---
 关于Mysql的`SQL_CALC_FOUND_ROWS`的使用，网上有好多种说法，为了求证事实，google一搜索的话，就有好多，但是还是经过实际的测试才知道是不是好用或者不好用
 

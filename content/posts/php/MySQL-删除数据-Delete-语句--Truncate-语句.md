@@ -5,15 +5,7 @@ slug: "mysql-shan-chu-shu-ju-delete-yu-ju-truncate-yu-ju"
 categories: ["技术"]
 tags: ["MySQL"]
 aliases:
-  - "/2025/06/23/MySQL-删除数据-Delete-语句-、Truncate-语句/"
-  - "/2025/06/23/MySQL-删除数据-Delete-语句-、Truncate-语句.html"
-  - "/MySQL-删除数据-Delete-语句-、Truncate-语句/"
-  - "/MySQL-删除数据-Delete-语句-、Truncate-语句.html"
-  - "/2025/06/23/MySQL-删除数据-Delete-语句-Truncate-语句/"
-  - "/2025/06/23/MySQL-删除数据-Delete-语句-Truncate-语句.html"
-  - "/2025/06/23/mysql-shan-chu-shu-ju-delete-yu-ju-truncate-yu-ju/"
-  - "/2025/06/23/mysql-shan-chu-shu-ju-delete-yu-ju-truncate-yu-ju.html"
-  - "/mysql-shan-chu-shu-ju-delete-yu-ju-truncate-yu-ju.html"
+  - "/2025/06/23/MySQL-删除数据-Delete-语句--Truncate-语句.html"
 ---
 如果数据库里面的数据有问题了，或者是有人捣乱，再或者就是您老人家看这条数据不爽，还有就是您想毁灭证据（其实总是会留下痕迹的）的时候，你就需要了解MySQL的Delete语句了。MySQL为我们提供了delete和truncate语句来删除数据。
 

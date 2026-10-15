@@ -5,15 +5,7 @@ slug: "yi-kuan-ke-yi-rang-ni-kai-fa-xiao-lv-ti-gao-10-pei-de-diy-shen-qi-kan-wan
 categories: ["技术"]
 tags: ["Vim"]
 aliases:
-  - "/2025/06/19/一款可以让你开发效率提高10陪的DIY神器-(看完后感觉真的不错)/"
-  - "/2025/06/19/一款可以让你开发效率提高10陪的DIY神器-(看完后感觉真的不错).html"
-  - "/一款可以让你开发效率提高10陪的DIY神器-(看完后感觉真的不错)/"
-  - "/一款可以让你开发效率提高10陪的DIY神器-(看完后感觉真的不错).html"
-  - "/2025/06/19/一款可以让你开发效率提高10陪的DIY神器-看完后感觉真的不错/"
-  - "/2025/06/19/一款可以让你开发效率提高10陪的DIY神器-看完后感觉真的不错.html"
-  - "/2025/06/19/yi-kuan-ke-yi-rang-ni-kai-fa-xiao-lv-ti-gao-10-pei-de-diy-shen-qi-kan-wan-hou-gan-jue-z/"
-  - "/2025/06/19/yi-kuan-ke-yi-rang-ni-kai-fa-xiao-lv-ti-gao-10-pei-de-diy-shen-qi-kan-wan-hou-gan-j.html"
-  - "/yi-kuan-ke-yi-rang-ni-kai-fa-xiao-lv-ti-gao-10-pei-de-diy-shen-qi-kan-wan-hou-gan-jue-zhen-de-.html"
+  - "/2025/06/19/一款可以让你开发效率提高10陪的DIY神器--看完后感觉真的不错.html"
 ---
 一款可以让你开发效率提高10陪的DIY神器   
 关于这篇文章，我看完后，感觉确实不错，虽然我用的是MacVim。但是感觉还是差不多的。

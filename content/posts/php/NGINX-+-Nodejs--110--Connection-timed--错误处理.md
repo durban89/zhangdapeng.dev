@@ -5,15 +5,7 @@ slug: "nginx-nodejs-110-connection-timed-cuo-wu-chu-li"
 categories: ["技术"]
 tags: ["NGINX"]
 aliases:
-  - "/2025/07/03/NGINX-+-Nodejs-(110:-Connection-timed)-错误处理/"
-  - "/2025/07/03/NGINX-+-Nodejs-(110:-Connection-timed)-错误处理.html"
-  - "/NGINX-+-Nodejs-(110:-Connection-timed)-错误处理/"
-  - "/NGINX-+-Nodejs-(110:-Connection-timed)-错误处理.html"
-  - "/2025/07/03/NGINX-+-Nodejs-110-Connection-timed-错误处理/"
-  - "/2025/07/03/NGINX-+-Nodejs-110-Connection-timed-错误处理.html"
-  - "/2025/07/03/nginx-nodejs-110-connection-timed-cuo-wu-chu-li/"
-  - "/2025/07/03/nginx-nodejs-110-connection-timed-cuo-wu-chu-li.html"
-  - "/nginx-nodejs-110-connection-timed-cuo-wu-chu-li.html"
+  - "/2025/07/03/NGINX-+-Nodejs--110--Connection-timed--错误处理.html"
 ---
 最近服务器出现问题了，error.log日志里面多了很多的（110: Connection timed）这个错误。
 

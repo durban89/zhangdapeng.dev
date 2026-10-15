@@ -5,13 +5,7 @@ slug: "reactjs-zu-jian-de-sheng-ming-zhou-qi-xu-yao-de-han-shu-ji-lu"
 categories: ["技术"]
 tags: ["ReactJS"]
 aliases:
-  - "/2025/06/30/ReactJS-组件的生命周期-需要的函数-记录/"
-  - "/2025/06/30/ReactJS-组件的生命周期-需要的函数-记录.html"
-  - "/ReactJS-组件的生命周期-需要的函数-记录/"
-  - "/ReactJS-组件的生命周期-需要的函数-记录.html"
-  - "/2025/06/30/reactjs-zu-jian-de-sheng-ming-zhou-qi-xu-yao-de-han-shu-ji-lu/"
-  - "/2025/06/30/reactjs-zu-jian-de-sheng-ming-zhou-qi-xu-yao-de-han-shu-ji-lu.html"
-  - "/reactjs-zu-jian-de-sheng-ming-zhou-qi-xu-yao-de-han-shu-ji-lu.html"
+  - "/2025/06/30/React-组件的生命周期-需要的函数-记录.html"
 ---
 **React组件的生命周期分成三个状态：**   
 

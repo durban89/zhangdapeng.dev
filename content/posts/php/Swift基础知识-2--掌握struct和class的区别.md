@@ -5,15 +5,7 @@ slug: "swift-ji-chu-zhi-shi-2-zhang-wo-struct-he-class-de-qu-bie"
 categories: ["技术"]
 tags: ["Swift"]
 aliases:
-  - "/2025/07/11/Swift基础知识（2）-掌握struct和class的区别/"
-  - "/2025/07/11/Swift基础知识（2）-掌握struct和class的区别.html"
-  - "/Swift基础知识（2）-掌握struct和class的区别/"
-  - "/Swift基础知识（2）-掌握struct和class的区别.html"
-  - "/2025/07/11/Swift基础知识-2-掌握struct和class的区别/"
-  - "/2025/07/11/Swift基础知识-2-掌握struct和class的区别.html"
-  - "/2025/07/11/swift-ji-chu-zhi-shi-2-zhang-wo-struct-he-class-de-qu-bie/"
-  - "/2025/07/11/swift-ji-chu-zhi-shi-2-zhang-wo-struct-he-class-de-qu-bie.html"
-  - "/swift-ji-chu-zhi-shi-2-zhang-wo-struct-he-class-de-qu-bie.html"
+  - "/2025/07/11/Swift基础知识-2--掌握struct和class的区别.html"
 ---
 很多新手在进行macOS app开发的时候  
 创建完项目后一般会遇到一个问题，就是我连swift都没有学过，或者我只是接触过语法，那么看到下面这个ContentView.swift文件的代码的时候，代码如下

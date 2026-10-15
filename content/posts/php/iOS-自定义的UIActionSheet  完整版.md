@@ -5,13 +5,7 @@ slug: "ios-zi-ding-yi-de-uiactionsheet-wan-zheng-ban"
 categories: ["技术"]
 tags: ["iOS"]
 aliases:
-  - "/2025/06/13/iOS-自定义的UIActionSheet-完整版/"
-  - "/2025/06/13/iOS-自定义的UIActionSheet-完整版.html"
-  - "/iOS-自定义的UIActionSheet-完整版/"
-  - "/iOS-自定义的UIActionSheet-完整版.html"
-  - "/2025/06/13/ios-zi-ding-yi-de-uiactionsheet-wan-zheng-ban/"
-  - "/2025/06/13/ios-zi-ding-yi-de-uiactionsheet-wan-zheng-ban.html"
-  - "/ios-zi-ding-yi-de-uiactionsheet-wan-zheng-ban.html"
+  - "/2025/06/13/iOS-自定义的UIActionSheet%20%20完整版.html"
 ---
 自定义的UIActionSheet ，网上找了好久，都没有完整的解决办法，于是自己 经过查找资料，然后根据自己的项目需要做了一些改动，得到了一个完整版的，自定义的UIActionSheet,代码如下：
 

@@ -5,15 +5,7 @@ slug: "uiwebview-yu-jsjavascript-de-jiao-hu-shi-li"
 categories: ["技术"]
 tags: ["iOS"]
 aliases:
-  - "/2025/06/20/UIWebView与js(JavaScript)-的交互-示例/"
-  - "/2025/06/20/UIWebView与js(JavaScript)-的交互-示例.html"
-  - "/UIWebView与js(JavaScript)-的交互-示例/"
-  - "/UIWebView与js(JavaScript)-的交互-示例.html"
-  - "/2025/06/20/UIWebView与js-JavaScript-的交互-示例/"
-  - "/2025/06/20/UIWebView与js-JavaScript-的交互-示例.html"
-  - "/2025/06/20/uiwebview-yu-jsjavascript-de-jiao-hu-shi-li/"
-  - "/2025/06/20/uiwebview-yu-jsjavascript-de-jiao-hu-shi-li.html"
-  - "/uiwebview-yu-jsjavascript-de-jiao-hu-shi-li.html"
+  - "/2025/06/20/UIWebView与js-JavaScript--的交互-示例.html"
 ---
 关于这个的使用是源于我参看的一个图表表格的使用
 

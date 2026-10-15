@@ -5,15 +5,7 @@ slug: "xiu-zheng-pil-cuo-wu-ioerror-decoder-zip-not-available"
 categories: ["技术"]
 tags: ["Ubuntu", "Linux"]
 aliases:
-  - "/2025/06/20/修正pil错误-IOError:-decoder-zip-not-available/"
-  - "/2025/06/20/修正pil错误-IOError:-decoder-zip-not-available.html"
-  - "/修正pil错误-IOError:-decoder-zip-not-available/"
-  - "/修正pil错误-IOError:-decoder-zip-not-available.html"
-  - "/2025/06/20/修正pil错误-IOError-decoder-zip-not-available/"
-  - "/2025/06/20/修正pil错误-IOError-decoder-zip-not-available.html"
-  - "/2025/06/20/xiu-zheng-pil-cuo-wu-ioerror-decoder-zip-not-available/"
-  - "/2025/06/20/xiu-zheng-pil-cuo-wu-ioerror-decoder-zip-not-available.html"
-  - "/xiu-zheng-pil-cuo-wu-ioerror-decoder-zip-not-available.html"
+  - "/2025/06/20/修正pil错误-IOError--decoder-zip-not-available.html"
 ---
 关于修正UBUNTU下PIL错误 IOError: decoder zip not available
 

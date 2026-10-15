@@ -5,15 +5,7 @@ slug: "shi-yong-typescript-kai-fa-react-ying-yong-er-chuang-jian-zu-jian"
 categories: ["技术"]
 tags: ["TypeScript"]
 aliases:
-  - "/2025/07/10/使用TypeScript开发React应用(二)-创建组件/"
-  - "/2025/07/10/使用TypeScript开发React应用(二)-创建组件.html"
-  - "/使用TypeScript开发React应用(二)-创建组件/"
-  - "/使用TypeScript开发React应用(二)-创建组件.html"
-  - "/2025/07/10/使用TypeScript开发React应用-二-创建组件/"
-  - "/2025/07/10/使用TypeScript开发React应用-二-创建组件.html"
-  - "/2025/07/10/shi-yong-typescript-kai-fa-react-ying-yong-er-chuang-jian-zu-jian/"
-  - "/2025/07/10/shi-yong-typescript-kai-fa-react-ying-yong-er-chuang-jian-zu-jian.html"
-  - "/shi-yong-typescript-kai-fa-react-ying-yong-er-chuang-jian-zu-jian.html"
+  - "/2025/07/10/使用TypeScript开发React应用-二--创建组件.html"
 ---
 继续前面的文章[使用TypeScript开发React应用(一)](https://www.gowhich.com/blog/975)介绍了基础的React+TypeScript应用的搭建
 

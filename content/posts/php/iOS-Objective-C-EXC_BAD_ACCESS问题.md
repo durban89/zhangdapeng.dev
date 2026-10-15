@@ -5,13 +5,7 @@ slug: "ios-objective-c-exc-bad-access-wen-ti"
 categories: ["技术"]
 tags: ["iOS"]
 aliases:
-  - "/2025/06/11/iOS-Objective-C-EXC-BAD-ACCESS问题/"
-  - "/2025/06/11/iOS-Objective-C-EXC-BAD-ACCESS问题.html"
-  - "/iOS-Objective-C-EXC-BAD-ACCESS问题/"
-  - "/iOS-Objective-C-EXC-BAD-ACCESS问题.html"
-  - "/2025/06/11/ios-objective-c-exc-bad-access-wen-ti/"
-  - "/2025/06/11/ios-objective-c-exc-bad-access-wen-ti.html"
-  - "/ios-objective-c-exc-bad-access-wen-ti.html"
+  - "/2025/06/11/iOS-Objective-C-EXC_BAD_ACCESS问题.html"
 ---
 写程序遇到 Bug 并不可怕，大部分的问题，通过简单的 Log 或者 代码分析并不难找到原因所在。但是在 Objective-C 编程中遇到 EXC\_BAD\_ACCESS 问题的时候，通过简单常规的手段很难发现问题。  
 写程序遇到 Bug 并不可怕，大部分的问题，通过简单的 Log 或者 代码分析并不难找到原因所在。但是在 Objective-C 编程中遇到 EXC\_BAD\_ACCESS 问题的时候，通过简单常规的手段很难发现问题。这篇文章，给大家介绍一个常用的查找 EXC\_BAD\_ACCESS 问题根源的方法。  

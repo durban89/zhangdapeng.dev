@@ -5,15 +5,7 @@ slug: "linux-varspoolclientmqueue-xia-sheng-cheng-tai-duo-wen-jian-chu-li"
 categories: ["技术"]
 tags: ["Linux"]
 aliases:
-  - "/2025/06/13/Linux-“/var/spool/clientmqueue-下生成太多文件处理”/"
-  - "/2025/06/13/Linux-“/var/spool/clientmqueue-下生成太多文件处理”.html"
-  - "/Linux-“/var/spool/clientmqueue-下生成太多文件处理”/"
-  - "/Linux-“/var/spool/clientmqueue-下生成太多文件处理”.html"
-  - "/2025/06/13/Linux-var-spool-clientmqueue-下生成太多文件处理/"
-  - "/2025/06/13/Linux-var-spool-clientmqueue-下生成太多文件处理.html"
-  - "/2025/06/13/linux-varspoolclientmqueue-xia-sheng-cheng-tai-duo-wen-jian-chu-li/"
-  - "/2025/06/13/linux-varspoolclientmqueue-xia-sheng-cheng-tai-duo-wen-jian-chu-li.html"
-  - "/linux-varspoolclientmqueue-xia-sheng-cheng-tai-duo-wen-jian-chu-li.html"
+  - "/2025/06/13/Linux---var-spool-clientmqueue-下生成太多文件处理-.html"
 ---
 最近服务器空间总是越来越小，找不到原因，其中有一项是这样的
 

@@ -5,13 +5,7 @@ slug: "gitlab-zhi-mail-room"
 categories: ["技术"]
 tags: ["Gitlab"]
 aliases:
-  - "/2025/07/03/Gitlab-之-mail-room/"
-  - "/2025/07/03/Gitlab-之-mail-room.html"
-  - "/Gitlab-之-mail-room/"
-  - "/Gitlab-之-mail-room.html"
-  - "/2025/07/03/gitlab-zhi-mail-room/"
-  - "/2025/07/03/gitlab-zhi-mail-room.html"
-  - "/gitlab-zhi-mail-room.html"
+  - "/2025/07/03/Gitlab-之-mail_room.html"
 ---
 最近使用docker部署gitlab，启动后会有一个问题，不知道哪里会一直在执行mail\_room 这个命令，查看了下配置
 

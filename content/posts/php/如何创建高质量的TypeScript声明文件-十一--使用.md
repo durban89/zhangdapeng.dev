@@ -5,15 +5,7 @@ slug: "ru-he-chuang-jian-gao-zhi-liang-de-typescript-sheng-ming-wen-jian-shi-yi-
 categories: ["技术"]
 tags: ["TypeScript"]
 aliases:
-  - "/2025/07/10/如何创建高质量的TypeScript声明文件(十一)-使用/"
-  - "/2025/07/10/如何创建高质量的TypeScript声明文件(十一)-使用.html"
-  - "/如何创建高质量的TypeScript声明文件(十一)-使用/"
-  - "/如何创建高质量的TypeScript声明文件(十一)-使用.html"
-  - "/2025/07/10/如何创建高质量的TypeScript声明文件-十一-使用/"
-  - "/2025/07/10/如何创建高质量的TypeScript声明文件-十一-使用.html"
-  - "/2025/07/10/ru-he-chuang-jian-gao-zhi-liang-de-typescript-sheng-ming-wen-jian-shi-yi-shi-yong/"
-  - "/2025/07/10/ru-he-chuang-jian-gao-zhi-liang-de-typescript-sheng-ming-wen-jian-shi-yi-shi-yong.html"
-  - "/ru-he-chuang-jian-gao-zhi-liang-de-typescript-sheng-ming-wen-jian-shi-yi-shi-yong.html"
+  - "/2025/07/10/如何创建高质量的TypeScript声明文件-十一--使用.html"
 ---
 ### 使用
 

@@ -5,15 +5,7 @@ slug: "sessionsave-path-mu-lu-da-liang-session-lin-shi-wen-jian-dai-lai-de-fu-wu
 categories: ["技术"]
 tags: ["PHP", "Session"]
 aliases:
-  - "/2025/06/19/session.save-path目录大量session临时文件带来的服务器效率问题/"
-  - "/2025/06/19/session.save-path目录大量session临时文件带来的服务器效率问题.html"
-  - "/session.save-path目录大量session临时文件带来的服务器效率问题/"
-  - "/session.save-path目录大量session临时文件带来的服务器效率问题.html"
-  - "/2025/06/19/Session-save-path目录大量session临时文件带来的服务器效率问题/"
-  - "/2025/06/19/Session-save-path目录大量session临时文件带来的服务器效率问题.html"
-  - "/2025/06/19/sessionsave-path-mu-lu-da-liang-session-lin-shi-wen-jian-dai-lai-de-fu-wu-qi-xiao-lv-we/"
-  - "/2025/06/19/sessionsave-path-mu-lu-da-liang-session-lin-shi-wen-jian-dai-lai-de-fu-wu-qi-xiao-l.html"
-  - "/sessionsave-path-mu-lu-da-liang-session-lin-shi-wen-jian-dai-lai-de-fu-wu-qi-xiao-lv-wen-ti.html"
+  - "/2025/06/19/Session_save_path目录大量session临时文件带来的服务器效率问题.html"
 ---
 如果访问量大，可能产生的 SESSION 文件会比较多，这时可以设置分级目录进行 SESSION 文件的保存，效率会提高很多，设置方法为：session.save_path="N;/save_path"，N 为分级的级数，save_path 为开始目录。当写入 SESSION 数据的时候，PHP 会获取到客户端的 SESSION_ID，然后根据这个 SESSION ID 到指定的 SESSION 文件保存目录中找到相应的 SESSION 文件，不存在则创建之，最后将数据序列化之后写入文件。     检查了下各web节点，所有web服务器的httpd线程均达到满负荷，很奇怪。因为所有web节点都通过nfs来共享session目录来达到 session的一致性，检查了下nfs文件服务器，IO读写比较大，检查了session_tmp目录，发现session目录临时文件达到 70000多个，初步判断也许是因为一级目录下文件过多带来的IO性能下降。  
    

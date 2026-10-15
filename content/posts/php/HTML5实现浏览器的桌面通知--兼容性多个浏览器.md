@@ -5,15 +5,7 @@ slug: "html5-shi-xian-liu-lan-qi-de-zhuo-mian-tong-zhi-jian-rong-xing-duo-ge-liu
 categories: ["技术"]
 tags: ["HTML", "桌面通知"]
 aliases:
-  - "/2025/06/30/HTML5实现浏览器的桌面通知-（兼容性多个浏览器）/"
-  - "/2025/06/30/HTML5实现浏览器的桌面通知-（兼容性多个浏览器）.html"
-  - "/HTML5实现浏览器的桌面通知-（兼容性多个浏览器）/"
-  - "/HTML5实现浏览器的桌面通知-（兼容性多个浏览器）.html"
-  - "/2025/06/30/HTML5实现浏览器的桌面通知-兼容性多个浏览器/"
-  - "/2025/06/30/HTML5实现浏览器的桌面通知-兼容性多个浏览器.html"
-  - "/2025/06/30/html5-shi-xian-liu-lan-qi-de-zhuo-mian-tong-zhi-jian-rong-xing-duo-ge-liu-lan-qi/"
-  - "/2025/06/30/html5-shi-xian-liu-lan-qi-de-zhuo-mian-tong-zhi-jian-rong-xing-duo-ge-liu-lan-qi.html"
-  - "/html5-shi-xian-liu-lan-qi-de-zhuo-mian-tong-zhi-jian-rong-xing-duo-ge-liu-lan-qi.html"
+  - "/2025/06/30/HTML5实现浏览器的桌面通知--兼容性多个浏览器.html"
 ---
 HTML5实现浏览器的桌面通知 （兼容性多个浏览器）
 

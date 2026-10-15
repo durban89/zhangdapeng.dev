@@ -5,15 +5,7 @@ slug: "django-shi-yong-yan-zheng-ma-gong-ju-django-simple-captcha-de-yu-dao-wen-
 categories: ["技术"]
 tags: ["Django", "Python"]
 aliases:
-  - "/2025/06/26/Django-使用验证码工具django-simple-captcha的遇到问题{-imagingft,IndexError:-list-index-out-of-range/"
-  - "/2025/06/26/Django-使用验证码工具django-simple-captcha的遇到问题{-imagingft,IndexError:-list-index-out-of-r.html"
-  - "/Django-使用验证码工具django-simple-captcha的遇到问题{-imagingft,IndexError:-list-index-out-of-range}/"
-  - "/Django-使用验证码工具django-simple-captcha的遇到问题{-imagingft,IndexError:-list-index-out-of-range}.html"
-  - "/2025/06/26/Django-使用验证码工具django-simple-captcha的遇到问题-imagingft-IndexError-list-index-out-of-range/"
-  - "/2025/06/26/Django-使用验证码工具django-simple-captcha的遇到问题-imagingft-IndexError-list-index-out-of-ran.html"
-  - "/2025/06/26/django-shi-yong-yan-zheng-ma-gong-ju-django-simple-captcha-de-yu-dao-wen-ti-imagingftin/"
-  - "/2025/06/26/django-shi-yong-yan-zheng-ma-gong-ju-django-simple-captcha-de-yu-dao-wen-ti-imaging.html"
-  - "/django-shi-yong-yan-zheng-ma-gong-ju-django-simple-captcha-de-yu-dao-wen-ti-imagingftindexerro.html"
+  - "/2025/06/26/Django-使用验证码工具django-simple-captcha的遇到问题-imagingft-IndexError--list-index-out-of-range.html"
 ---
 ### [先来看看第一个问题](#1)
 

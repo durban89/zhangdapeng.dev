@@ -5,15 +5,7 @@ slug: "ios-6-sdk-zai-ying-yong-nei-zhan-shi-app-store"
 categories: ["技术"]
 tags: ["iOS"]
 aliases:
-  - "/2025/06/23/iOS-6-SDK:-在应用内展示App-Store/"
-  - "/2025/06/23/iOS-6-SDK:-在应用内展示App-Store.html"
-  - "/iOS-6-SDK:-在应用内展示App-Store/"
-  - "/iOS-6-SDK:-在应用内展示App-Store.html"
-  - "/2025/06/23/iOS-6-SDK-在应用内展示App-Store-StoreKit-SKStoreProductViewController/"
-  - "/2025/06/23/iOS-6-SDK-在应用内展示App-Store-StoreKit-SKStoreProductViewController.html"
-  - "/2025/06/23/ios-6-sdk-zai-ying-yong-nei-zhan-shi-app-store/"
-  - "/2025/06/23/ios-6-sdk-zai-ying-yong-nei-zhan-shi-app-store.html"
-  - "/ios-6-sdk-zai-ying-yong-nei-zhan-shi-app-store.html"
+  - "/2025/06/23/iOS-6-SDK--在应用内展示App-Store-StoreKit-SKStoreProductViewController.html"
 ---
 出于什么样的原因你会希望用户从你的iOS app中进入App Store呢？可能你想用户去App Store 为你的应用评分，也可能你希望用户看到你其他的iOS app。iOS 6引入了SKStoreProductViewController类，可以让用户在不离开当前应用的前提下展示App Store中的其他产品。
 

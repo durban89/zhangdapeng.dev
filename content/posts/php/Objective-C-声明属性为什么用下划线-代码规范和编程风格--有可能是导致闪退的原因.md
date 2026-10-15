@@ -5,15 +5,7 @@ slug: "objective-c-sheng-ming-shu-xing-wei-shen-me-yong-xia-hua-xian-dai-ma-gui-
 categories: ["技术"]
 tags: ["Objective-C"]
 aliases:
-  - "/2025/06/17/Objective-C-声明属性为什么用下划线，代码规范和编程风格-,有可能是导致闪退的原因/"
-  - "/2025/06/17/Objective-C-声明属性为什么用下划线，代码规范和编程风格-,有可能是导致闪退的原因.html"
-  - "/Objective-C-声明属性为什么用下划线，代码规范和编程风格-,有可能是导致闪退的原因/"
-  - "/Objective-C-声明属性为什么用下划线，代码规范和编程风格-,有可能是导致闪退的原因.html"
-  - "/2025/06/17/Objective-C-声明属性为什么用下划线-代码规范和编程风格-有可能是导致闪退的原因/"
-  - "/2025/06/17/Objective-C-声明属性为什么用下划线-代码规范和编程风格-有可能是导致闪退的原因.html"
-  - "/2025/06/17/objective-c-sheng-ming-shu-xing-wei-shen-me-yong-xia-hua-xian-dai-ma-gui-fan-he-bian-ch/"
-  - "/2025/06/17/objective-c-sheng-ming-shu-xing-wei-shen-me-yong-xia-hua-xian-dai-ma-gui-fan-he-bia.html"
-  - "/objective-c-sheng-ming-shu-xing-wei-shen-me-yong-xia-hua-xian-dai-ma-gui-fan-he-bian-cheng-fen.html"
+  - "/2025/06/17/Objective-C-声明属性为什么用下划线-代码规范和编程风格--有可能是导致闪退的原因.html"
 ---
 在阅读和书写关于iPhone编程的代码的时候，发现有很多这样的情况：  
 看到很多源代码里面，使用前面带下划线变量，然后在@synthesize 语句中在用一个不带下划线的变量名。  

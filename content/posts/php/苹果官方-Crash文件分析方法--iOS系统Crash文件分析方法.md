@@ -5,15 +5,7 @@ slug: "ping-guo-guan-fang-crash-wen-jian-fen-xi-fang-fa-ios-xi-tong-crash-wen-ji
 categories: ["技术"]
 tags: ["iOS"]
 aliases:
-  - "/2025/06/20/苹果官方-Crash文件分析方法-（iOS系统Crash文件分析方法）/"
-  - "/2025/06/20/苹果官方-Crash文件分析方法-（iOS系统Crash文件分析方法）.html"
-  - "/苹果官方-Crash文件分析方法-（iOS系统Crash文件分析方法）/"
-  - "/苹果官方-Crash文件分析方法-（iOS系统Crash文件分析方法）.html"
-  - "/2025/06/20/苹果官方-Crash文件分析方法-iOS系统Crash文件分析方法/"
-  - "/2025/06/20/苹果官方-Crash文件分析方法-iOS系统Crash文件分析方法.html"
-  - "/2025/06/20/ping-guo-guan-fang-crash-wen-jian-fen-xi-fang-fa-ios-xi-tong-crash-wen-jian-fen-xi-fang/"
-  - "/2025/06/20/ping-guo-guan-fang-crash-wen-jian-fen-xi-fang-fa-ios-xi-tong-crash-wen-jian-fen-xi-.html"
-  - "/ping-guo-guan-fang-crash-wen-jian-fen-xi-fang-fa-ios-xi-tong-crash-wen-jian-fen-xi-fang-fa.html"
+  - "/2025/06/20/苹果官方-Crash文件分析方法--iOS系统Crash文件分析方法.html"
 ---
 对于提交的苹果官方的app，在审核的时候会给我们一些crash文件，对于这些有用的文件，里面是关于我们的bug的一些信息，那么该如何去调试呢  
 第一步：在任意目录创建一个目录，用来调试crash，我这里创建一个crash目录  

@@ -5,15 +5,7 @@ slug: "swift-ji-chu-zhi-shi-3-private-he-fileprivate-de-qu-bie"
 categories: ["技术"]
 tags: ["Swift"]
 aliases:
-  - "/2025/07/11/Swift基础知识（3）-private和fileprivate的区别/"
-  - "/2025/07/11/Swift基础知识（3）-private和fileprivate的区别.html"
-  - "/Swift基础知识（3）-private和fileprivate的区别/"
-  - "/Swift基础知识（3）-private和fileprivate的区别.html"
-  - "/2025/07/11/Swift基础知识-3-private和fileprivate的区别/"
-  - "/2025/07/11/Swift基础知识-3-private和fileprivate的区别.html"
-  - "/2025/07/11/swift-ji-chu-zhi-shi-3-private-he-fileprivate-de-qu-bie/"
-  - "/2025/07/11/swift-ji-chu-zhi-shi-3-private-he-fileprivate-de-qu-bie.html"
-  - "/swift-ji-chu-zhi-shi-3-private-he-fileprivate-de-qu-bie.html"
+  - "/2025/07/11/Swift基础知识-3--private和fileprivate的区别.html"
 ---
 private和fileprivate的区别，private在类中代表是私有的，只能本类使用
 

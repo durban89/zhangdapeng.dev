@@ -5,15 +5,7 @@ slug: "svn-lei-si-zhe-yang-de-cuo-wu-svn-the-repository-at-svnxxxxx-has-uuid-xxx
 categories: ["技术"]
 tags: ["SVN"]
 aliases:
-  - "/2025/06/24/svn-类似-这样的错误”svn:-The-repository-at-'svn://xxxxx'-has-uuid-'XXXX',-but-the-WC-has-'XXXX/"
-  - "/2025/06/24/svn-类似-这样的错误”svn:-The-repository-at-'svn://xxxxx'-has-uuid-'XXXX',-but-the-WC-has-'.html"
-  - "/svn-类似-这样的错误”svn:-The-repository-at-'svn://xxxxx'-has-uuid-'XXXX',-but-the-WC-has-'XXXX'“/"
-  - "/svn-类似-这样的错误”svn:-The-repository-at-'svn://xxxxx'-has-uuid-'XXXX',-but-the-WC-has-'XXXX'“.html"
-  - "/2025/06/24/SVN-类似-这样的错误-SVN-The-repository-at-svn-has-uuid-but-the-WC-has/"
-  - "/2025/06/24/SVN-类似-这样的错误-SVN-The-repository-at-svn-has-uuid-but-the-WC-has.html"
-  - "/2025/06/24/svn-lei-si-zhe-yang-de-cuo-wu-svn-the-repository-at-svnxxxxx-has-uuid-xxxx-but-the-wc-h/"
-  - "/2025/06/24/svn-lei-si-zhe-yang-de-cuo-wu-svn-the-repository-at-svnxxxxx-has-uuid-xxxx-but-the-.html"
-  - "/svn-lei-si-zhe-yang-de-cuo-wu-svn-the-repository-at-svnxxxxx-has-uuid-xxxx-but-the-wc-has-xxxx.html"
+  - "/2025/06/24/SVN-类似-这样的错误-SVN--The-repository-at-svn-has-uuid-but-the-WC-has.html"
 ---
 首先到你新建的svn仓库的目录外面，执行类型下面的命令
 

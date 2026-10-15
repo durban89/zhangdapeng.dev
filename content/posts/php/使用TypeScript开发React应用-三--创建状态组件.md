@@ -5,15 +5,7 @@ slug: "shi-yong-typescript-kai-fa-react-ying-yong-san-chuang-jian-zhuang-tai-zu-
 categories: ["技术"]
 tags: ["TypeScript"]
 aliases:
-  - "/2025/07/10/使用TypeScript开发React应用(三)-创建状态组件/"
-  - "/2025/07/10/使用TypeScript开发React应用(三)-创建状态组件.html"
-  - "/使用TypeScript开发React应用(三)-创建状态组件/"
-  - "/使用TypeScript开发React应用(三)-创建状态组件.html"
-  - "/2025/07/10/使用TypeScript开发React应用-三-创建状态组件/"
-  - "/2025/07/10/使用TypeScript开发React应用-三-创建状态组件.html"
-  - "/2025/07/10/shi-yong-typescript-kai-fa-react-ying-yong-san-chuang-jian-zhuang-tai-zu-jian/"
-  - "/2025/07/10/shi-yong-typescript-kai-fa-react-ying-yong-san-chuang-jian-zhuang-tai-zu-jian.html"
-  - "/shi-yong-typescript-kai-fa-react-ying-yong-san-chuang-jian-zhuang-tai-zu-jian.html"
+  - "/2025/07/10/使用TypeScript开发React应用-三--创建状态组件.html"
 ---
 继续前面的文章[使用TypeScript开发React应用(二)](https://www.gowhich.com/blog/976)介绍了React+TypeScript应用的搭建中如何创建组件
 

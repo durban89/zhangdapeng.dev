@@ -5,15 +5,7 @@ slug: "mysql-fu-wu-xing-neng-you-hua-mycnf-pei-zhi-shuo-ming-xiang-jie"
 categories: ["技术"]
 tags: ["MySQL"]
 aliases:
-  - "/2025/06/27/MySQL服务性能优化-my.cnf配置说明详解/"
-  - "/2025/06/27/MySQL服务性能优化-my.cnf配置说明详解.html"
-  - "/MySQL服务性能优化-my.cnf配置说明详解/"
-  - "/MySQL服务性能优化-my.cnf配置说明详解.html"
-  - "/2025/06/27/MySQL服务性能优化-my-cnf配置说明详解/"
-  - "/2025/06/27/MySQL服务性能优化-my-cnf配置说明详解.html"
-  - "/2025/06/27/mysql-fu-wu-xing-neng-you-hua-mycnf-pei-zhi-shuo-ming-xiang-jie/"
-  - "/2025/06/27/mysql-fu-wu-xing-neng-you-hua-mycnf-pei-zhi-shuo-ming-xiang-jie.html"
-  - "/mysql-fu-wu-xing-neng-you-hua-mycnf-pei-zhi-shuo-ming-xiang-jie.html"
+  - "/2025/06/27/MySQL服务性能优化—my-cnf配置说明详解.html"
 ---
 MYSQL服务器my.cnf配置文档详解  
 硬件：内存16G  

@@ -5,13 +5,7 @@ slug: "php-file-get-contents-zhong-wen-luan-ma-jie-jue-fang-an-ji-lu"
 categories: ["技术"]
 tags: ["PHP", "乱码"]
 aliases:
-  - "/2025/07/10/PHP-file-get-contents-中文乱码解决方案记录/"
-  - "/2025/07/10/PHP-file-get-contents-中文乱码解决方案记录.html"
-  - "/PHP-file-get-contents-中文乱码解决方案记录/"
-  - "/PHP-file-get-contents-中文乱码解决方案记录.html"
-  - "/2025/07/10/php-file-get-contents-zhong-wen-luan-ma-jie-jue-fang-an-ji-lu/"
-  - "/2025/07/10/php-file-get-contents-zhong-wen-luan-ma-jie-jue-fang-an-ji-lu.html"
-  - "/php-file-get-contents-zhong-wen-luan-ma-jie-jue-fang-an-ji-lu.html"
+  - "/2025/07/10/PHP-file_get_contents-中文乱码解决方案记录.html"
 ---
 最近拉取了京东结算订单csv文件，结果发现在用file\_get\_contents获取内容的时候，中文出现了乱码，感觉京东这么大，这个技术问题他们帮忙解决才好吧，想想还是算了，自己动动手的问题。
 

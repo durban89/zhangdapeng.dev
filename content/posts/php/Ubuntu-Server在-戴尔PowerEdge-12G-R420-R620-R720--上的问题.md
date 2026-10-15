@@ -5,15 +5,7 @@ slug: "ubuntu-server-zai-dai-er-poweredge-12gr420r620r720-shang-de-wen-ti"
 categories: ["技术"]
 tags: ["Ubuntu", "Linux"]
 aliases:
-  - "/2025/06/23/Ubuntu-Server在-戴尔PowerEdge-12G(R420/R620/R720)-上的问题/"
-  - "/2025/06/23/Ubuntu-Server在-戴尔PowerEdge-12G(R420/R620/R720)-上的问题.html"
-  - "/Ubuntu-Server在-戴尔PowerEdge-12G(R420/R620/R720)-上的问题/"
-  - "/Ubuntu-Server在-戴尔PowerEdge-12G(R420/R620/R720)-上的问题.html"
-  - "/2025/06/23/Ubuntu-Server在-戴尔PowerEdge-12G-R420-R620-R720-上的问题/"
-  - "/2025/06/23/Ubuntu-Server在-戴尔PowerEdge-12G-R420-R620-R720-上的问题.html"
-  - "/2025/06/23/ubuntu-server-zai-dai-er-poweredge-12gr420r620r720-shang-de-wen-ti/"
-  - "/2025/06/23/ubuntu-server-zai-dai-er-poweredge-12gr420r620r720-shang-de-wen-ti.html"
-  - "/ubuntu-server-zai-dai-er-poweredge-12gr420r620r720-shang-de-wen-ti.html"
+  - "/2025/06/23/Ubuntu-Server在-戴尔PowerEdge-12G-R420-R620-R720--上的问题.html"
 ---
 DELL 12G(R420/R620/R720) 的服务器在安装 Ubuntu 的时候会出现诸多的问题，原先的 10.04.x LTS 版本已经不支持了，现在非官方还支持的有 12.04，不过依然有不少问题。根据这个帖子的描述，。  
 BIOS 会显示如下的 error log:

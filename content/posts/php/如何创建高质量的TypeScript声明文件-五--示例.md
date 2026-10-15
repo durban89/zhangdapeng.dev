@@ -5,15 +5,7 @@ slug: "ru-he-chuang-jian-gao-zhi-liang-de-typescript-sheng-ming-wen-jian-wu-shi-
 categories: ["技术"]
 tags: ["TypeScript"]
 aliases:
-  - "/2025/07/10/如何创建高质量的TypeScript声明文件(五)-示例/"
-  - "/2025/07/10/如何创建高质量的TypeScript声明文件(五)-示例.html"
-  - "/如何创建高质量的TypeScript声明文件(五)-示例/"
-  - "/如何创建高质量的TypeScript声明文件(五)-示例.html"
-  - "/2025/07/10/如何创建高质量的TypeScript声明文件-五-示例/"
-  - "/2025/07/10/如何创建高质量的TypeScript声明文件-五-示例.html"
-  - "/2025/07/10/ru-he-chuang-jian-gao-zhi-liang-de-typescript-sheng-ming-wen-jian-wu-shi-li/"
-  - "/2025/07/10/ru-he-chuang-jian-gao-zhi-liang-de-typescript-sheng-ming-wen-jian-wu-shi-li.html"
-  - "/ru-he-chuang-jian-gao-zhi-liang-de-typescript-sheng-ming-wen-jian-wu-shi-li.html"
+  - "/2025/07/10/如何创建高质量的TypeScript声明文件-五--示例.html"
 ---
 前面四篇文章一起介绍了在声明文件中关于库结构的一些介绍，本篇文章之后分享一些API的文档，还有它们的使用示例，并且阐述如何为他们创建声明文件
 

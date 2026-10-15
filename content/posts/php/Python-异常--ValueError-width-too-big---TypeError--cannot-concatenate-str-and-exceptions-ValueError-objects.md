@@ -5,15 +5,7 @@ slug: "python-yi-chang-valueerror-width-too-big-typeerror-cannot-concatenate-str
 categories: ["技术"]
 tags: ["Python"]
 aliases:
-  - "/2025/06/24/Python-异常-”ValueError-width-too-big“-”TypeError:-cannot-concatenate-'str'-and-'exceptio/"
-  - "/2025/06/24/Python-异常-”ValueError-width-too-big“-”TypeError:-cannot-concatenate-'str'-and-'exce.html"
-  - "/Python-异常-”ValueError-width-too-big“-”TypeError:-cannot-concatenate-'str'-and-'exceptions.ValueErr/"
-  - "/Python-异常-”ValueError-width-too-big“-”TypeError:-cannot-concatenate-'str'-and-'exceptions.Valu.html"
-  - "/2025/06/24/Python-异常-ValueError-width-too-big-TypeError-cannot-concatenate-str-and-exceptions-Valu/"
-  - "/2025/06/24/Python-异常-ValueError-width-too-big-TypeError-cannot-concatenate-str-and-exceptions-.html"
-  - "/2025/06/24/python-yi-chang-valueerror-width-too-big-typeerror-cannot-concatenate-str-and-exception/"
-  - "/2025/06/24/python-yi-chang-valueerror-width-too-big-typeerror-cannot-concatenate-str-and-excep.html"
-  - "/python-yi-chang-valueerror-width-too-big-typeerror-cannot-concatenate-str-and-exceptionsvaluee.html"
+  - "/2025/06/24/Python-异常--ValueError-width-too-big---TypeError--cannot-concatenate-str-and-exceptions-ValueError-objects.html"
 ---
 ### [Python 异常](#1)
 
