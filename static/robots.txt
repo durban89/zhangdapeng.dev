@@ -3,3 +3,6 @@ Allow: /
 Allow: /p/
 
 Sitemap: https://zhangdapeng.dev/sitemap.xml
+
+Disallow: /6-minute-english/
+Disallow: /6-minute-english/**
