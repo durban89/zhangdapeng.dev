@@ -5,15 +5,7 @@ slug: "typescript-tiao-zhan-san-shi-xian-yuan-zu-zhuan-huan-wei-dui-xiang"
 categories: ["技术"]
 tags: ["TypeScript"]
 aliases:
-  - "/2025/07/14/TypeScript-挑战（三）-实现元组转换为对象/"
-  - "/2025/07/14/TypeScript-挑战（三）-实现元组转换为对象.html"
-  - "/TypeScript-挑战（三）-实现元组转换为对象/"
-  - "/TypeScript-挑战（三）-实现元组转换为对象.html"
-  - "/2025/07/14/TypeScript-挑战-三-实现元组转换为对象/"
-  - "/2025/07/14/TypeScript-挑战-三-实现元组转换为对象.html"
-  - "/2025/07/14/typescript-tiao-zhan-san-shi-xian-yuan-zu-zhuan-huan-wei-dui-xiang/"
-  - "/2025/07/14/typescript-tiao-zhan-san-shi-xian-yuan-zu-zhuan-huan-wei-dui-xiang.html"
-  - "/typescript-tiao-zhan-san-shi-xian-yuan-zu-zhuan-huan-wei-dui-xiang.html"
+  - "/2025/07/14/TypeScript-挑战-三--实现元组转换为对象.html"
 ---
 实现元组转换为对象，学习记录
 

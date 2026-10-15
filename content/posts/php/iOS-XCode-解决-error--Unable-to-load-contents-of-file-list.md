@@ -5,15 +5,7 @@ slug: "ios-xcode-jie-jue-error-unable-to-load-contents-of-file-list"
 categories: ["技术"]
 tags: ["PHP"]
 aliases:
-  - "/2025/07/15/iOS-XCode-解决-error:-Unable-to-load-contents-of-file-list/"
-  - "/2025/07/15/iOS-XCode-解决-error:-Unable-to-load-contents-of-file-list.html"
-  - "/iOS-XCode-解决-error:-Unable-to-load-contents-of-file-list/"
-  - "/iOS-XCode-解决-error:-Unable-to-load-contents-of-file-list.html"
-  - "/2025/07/15/iOS-XCode-解决-error-Unable-to-load-contents-of-file-list/"
-  - "/2025/07/15/iOS-XCode-解决-error-Unable-to-load-contents-of-file-list.html"
-  - "/2025/07/15/ios-xcode-jie-jue-error-unable-to-load-contents-of-file-list/"
-  - "/2025/07/15/ios-xcode-jie-jue-error-unable-to-load-contents-of-file-list.html"
-  - "/ios-xcode-jie-jue-error-unable-to-load-contents-of-file-list.html"
+  - "/2025/07/15/iOS-XCode-解决-error--Unable-to-load-contents-of-file-list.html"
 ---
 问题：`error: Unable to load contents of file list ......`
 

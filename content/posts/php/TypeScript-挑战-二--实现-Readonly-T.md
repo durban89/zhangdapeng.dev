@@ -5,15 +5,7 @@ slug: "typescript-tiao-zhan-er-shi-xian-readonlyt"
 categories: ["技术"]
 tags: ["TypeScript"]
 aliases:
-  - "/2025/07/14/TypeScript-挑战（二）-实现-Readonly<T>/"
-  - "/2025/07/14/TypeScript-挑战（二）-实现-Readonly<T>.html"
-  - "/TypeScript-挑战（二）-实现-Readonly<T>/"
-  - "/TypeScript-挑战（二）-实现-Readonly<T>.html"
-  - "/2025/07/14/TypeScript-挑战-二-实现-Readonly-T/"
-  - "/2025/07/14/TypeScript-挑战-二-实现-Readonly-T.html"
-  - "/2025/07/14/typescript-tiao-zhan-er-shi-xian-readonlyt/"
-  - "/2025/07/14/typescript-tiao-zhan-er-shi-xian-readonlyt.html"
-  - "/typescript-tiao-zhan-er-shi-xian-readonlyt.html"
+  - "/2025/07/14/TypeScript-挑战-二--实现-Readonly-T.html"
 ---
 实现 Readonly<T>，学习记录
 

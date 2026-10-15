@@ -5,15 +5,7 @@ slug: "typescript-tiao-zhan-wu-huo-qu-yuan-su-chang-du"
 categories: ["技术"]
 tags: ["TypeScript"]
 aliases:
-  - "/2025/07/14/TypeScript-挑战（五）-获取元素长度/"
-  - "/2025/07/14/TypeScript-挑战（五）-获取元素长度.html"
-  - "/TypeScript-挑战（五）-获取元素长度/"
-  - "/TypeScript-挑战（五）-获取元素长度.html"
-  - "/2025/07/14/TypeScript-挑战-五-获取元素长度/"
-  - "/2025/07/14/TypeScript-挑战-五-获取元素长度.html"
-  - "/2025/07/14/typescript-tiao-zhan-wu-huo-qu-yuan-su-chang-du/"
-  - "/2025/07/14/typescript-tiao-zhan-wu-huo-qu-yuan-su-chang-du.html"
-  - "/typescript-tiao-zhan-wu-huo-qu-yuan-su-chang-du.html"
+  - "/2025/07/14/TypeScript-挑战-五--获取元素长度.html"
 ---
 学习记录 - 获取元素长度 - 对于给定的元组，您需要创建一个通用的Length，选择元组的长度
 

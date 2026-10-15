@@ -7,8 +7,7 @@ slug: "wrap_socket-got-an-unexpected-keyword-argument-_context"
 categories: ["技术"]
 tags: ["Python"]
 aliases:
-  - "/2025/07/30/wrap_socket---got-an-unexpected-keyword-argument-'_context'"
-  - "/2025/07/30/wrap_socket---got-an-unexpected-keyword-argument-'_context'/"
+  - "/2025/07/30/wrap_socket-got-an-unexpected-keyword-argument-_context/"
 ---
 
 最近的项目gunicorn+flask+nginx

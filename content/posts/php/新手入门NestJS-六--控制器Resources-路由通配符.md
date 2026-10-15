@@ -5,15 +5,7 @@ slug: "xin-shou-ru-men-nestjs-liu-kong-zhi-qi-resources-lu-you-tong-pei-fu"
 categories: ["技术"]
 tags: ["NestJS"]
 aliases:
-  - "/2025/07/14/新手入门NestJS（六）-控制器Resources、路由通配符/"
-  - "/2025/07/14/新手入门NestJS（六）-控制器Resources、路由通配符.html"
-  - "/新手入门NestJS（六）-控制器Resources、路由通配符/"
-  - "/新手入门NestJS（六）-控制器Resources、路由通配符.html"
-  - "/2025/07/14/新手入门NestJS-六-控制器Resources-路由通配符/"
-  - "/2025/07/14/新手入门NestJS-六-控制器Resources-路由通配符.html"
-  - "/2025/07/14/xin-shou-ru-men-nestjs-liu-kong-zhi-qi-resources-lu-you-tong-pei-fu/"
-  - "/2025/07/14/xin-shou-ru-men-nestjs-liu-kong-zhi-qi-resources-lu-you-tong-pei-fu.html"
-  - "/xin-shou-ru-men-nestjs-liu-kong-zhi-qi-resources-lu-you-tong-pei-fu.html"
+  - "/2025/07/14/新手入门NestJS-六--控制器Resources-路由通配符.html"
 ---
 #### Nest.js控制中的Resources
 

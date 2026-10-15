@@ -5,6 +5,7 @@ slug: "go-ji-chu-xue-xi-ji-lu-bian-xie-web-ying-yong-cheng-xu-shu-ju-ku-wu"
 categories: ["技术"]
 tags: ["Golang"]
 aliases:
+  - "/2025/08/01/Go基础学习记录-编写Web应用程-数据库-五.html"
   - "/2025/08/01/Go基础学习记录-编写Web应用程序-数据库(五)/"
   - "/2025/08/01/Go基础学习记录-编写Web应用程序-数据库(五).html"
   - "/Go基础学习记录-编写Web应用程序-数据库(五)/"

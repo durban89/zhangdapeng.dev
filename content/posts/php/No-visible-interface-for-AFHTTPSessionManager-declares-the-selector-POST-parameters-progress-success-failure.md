@@ -5,15 +5,7 @@ slug: "no-visible-interface-for-afhttpsessionmanager-declares-the-selector-postp
 categories: ["技术"]
 tags: ["PHP"]
 aliases:
-  - "/2025/07/15/No-visible-@interface-for-'AFHTTPSessionManager'-declares-the-selector-'POST:parameters/"
-  - "/2025/07/15/No-visible-@interface-for-'AFHTTPSessionManager'-declares-the-selector-'POST:parame.html"
-  - "/No-visible-@interface-for-'AFHTTPSessionManager'-declares-the-selector-'POST:parameters:progress:s/"
-  - "/No-visible-@interface-for-'AFHTTPSessionManager'-declares-the-selector-'POST:parameters:progre.html"
-  - "/2025/07/15/No-visible-interface-for-AFHTTPSessionManager-declares-the-selector-POST-parameters-pro/"
-  - "/2025/07/15/No-visible-interface-for-AFHTTPSessionManager-declares-the-selector-POST-parameters.html"
-  - "/2025/07/15/no-visible-interface-for-afhttpsessionmanager-declares-the-selector-postparametersprogr/"
-  - "/2025/07/15/no-visible-interface-for-afhttpsessionmanager-declares-the-selector-postparametersp.html"
-  - "/no-visible-interface-for-afhttpsessionmanager-declares-the-selector-postparametersprogresssucc.html"
+  - "No-visible-interface-for-AFHTTPSessionManager-declares-the-selector-POST-parameters-progress-success-failure.html"
 ---
 这个提示意思是 `AFHTTPSessionManager` 中没有这个方法
 

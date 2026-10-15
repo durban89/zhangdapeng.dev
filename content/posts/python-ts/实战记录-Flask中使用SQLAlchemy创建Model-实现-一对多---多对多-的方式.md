@@ -7,8 +7,7 @@ slug: "shi-zhan-ji-lu-flask-zhong-shi-yong-sqlalchemy-chuang-jian-model-shi-xian
 categories: ["技术"]
 tags: ["Python", "Flask", "SQLAlchemy"]
 aliases:
-  - "/2025/07/29/实战记录-flask中使用sqlalchemy创建model-实现-一对多---多对多-的方式"
-  - "/2025/07/29/实战记录-flask中使用sqlalchemy创建model-实现-一对多---多对多-的方式/"
+  - "/2025/07/29/实战记录-flask中使用sqlalchemy创建model实现一对多多对多的方式/"
 ---
 
 Flask中使用SQLAlchemy创建Model，实现“一对多”、“多对多”的方式

@@ -5,15 +5,7 @@ slug: "typescript-tiao-zhan-yi-shi-xian-pickt-k"
 categories: ["技术"]
 tags: ["TypeScript"]
 aliases:
-  - "/2025/07/14/TypeScript-挑战（一）-实现Pick<T,-K>/"
-  - "/2025/07/14/TypeScript-挑战（一）-实现Pick<T,-K>.html"
-  - "/TypeScript-挑战（一）-实现Pick<T,-K>/"
-  - "/TypeScript-挑战（一）-实现Pick<T,-K>.html"
-  - "/2025/07/14/TypeScript-挑战-一-实现Pick-T-K/"
-  - "/2025/07/14/TypeScript-挑战-一-实现Pick-T-K.html"
-  - "/2025/07/14/typescript-tiao-zhan-yi-shi-xian-pickt-k/"
-  - "/2025/07/14/typescript-tiao-zhan-yi-shi-xian-pickt-k.html"
-  - "/typescript-tiao-zhan-yi-shi-xian-pickt-k.html"
+  - "/2025/07/14/TypeScript-挑战-一--实现Pick-T-K.html"
 ---
 记录下学习过程
 

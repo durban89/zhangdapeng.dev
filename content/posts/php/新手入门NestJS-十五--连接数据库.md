@@ -5,15 +5,7 @@ slug: "xin-shou-ru-men-nestjs-shi-wu-lian-jie-shu-ju-ku"
 categories: ["技术"]
 tags: ["NestJS"]
 aliases:
-  - "/2025/07/15/新手入门NestJS（十五）-连接数据库/"
-  - "/2025/07/15/新手入门NestJS（十五）-连接数据库.html"
-  - "/新手入门NestJS（十五）-连接数据库/"
-  - "/新手入门NestJS（十五）-连接数据库.html"
-  - "/2025/07/15/新手入门NestJS-十五-连接数据库/"
-  - "/2025/07/15/新手入门NestJS-十五-连接数据库.html"
-  - "/2025/07/15/xin-shou-ru-men-nestjs-shi-wu-lian-jie-shu-ju-ku/"
-  - "/2025/07/15/xin-shou-ru-men-nestjs-shi-wu-lian-jie-shu-ju-ku.html"
-  - "/xin-shou-ru-men-nestjs-shi-wu-lian-jie-shu-ju-ku.html"
+  - "/2025/07/15/新手入门NestJS-十五--连接数据库.html"
 ---
 Nestjs中为了连接数据库，提供了@nestjs/typeorm包
 

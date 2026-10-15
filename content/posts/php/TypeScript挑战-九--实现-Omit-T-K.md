@@ -5,15 +5,7 @@ slug: "typescript-tiao-zhan-jiu-shi-xian-omitt-k"
 categories: ["技术"]
 tags: ["TypeScript"]
 aliases:
-  - "/2025/07/14/TypeScript挑战（九）-实现-Omit<T,-K>/"
-  - "/2025/07/14/TypeScript挑战（九）-实现-Omit<T,-K>.html"
-  - "/TypeScript挑战（九）-实现-Omit<T,-K>/"
-  - "/TypeScript挑战（九）-实现-Omit<T,-K>.html"
-  - "/2025/07/14/TypeScript挑战-九-实现-Omit-T-K/"
-  - "/2025/07/14/TypeScript挑战-九-实现-Omit-T-K.html"
-  - "/2025/07/14/typescript-tiao-zhan-jiu-shi-xian-omitt-k/"
-  - "/2025/07/14/typescript-tiao-zhan-jiu-shi-xian-omitt-k.html"
-  - "/typescript-tiao-zhan-jiu-shi-xian-omitt-k.html"
+  - "/2025/07/14/TypeScript挑战-九--实现-Omit-T-K.html"
 ---
 TypeScript Challenge - 实现 Omit<T, K>
 

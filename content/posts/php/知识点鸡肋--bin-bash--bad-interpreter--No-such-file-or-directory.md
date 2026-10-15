@@ -5,15 +5,7 @@ slug: "zhi-shi-dian-ji-lei-binbashm-bad-interpreter-no-such-file-or-directory"
 categories: ["技术"]
 tags: ["Bash"]
 aliases:
-  - "/2025/07/15/知识点鸡肋-/bin/bash^M:-bad-interpreter:-No-such-file-or-directory/"
-  - "/2025/07/15/知识点鸡肋-/bin/bash^M:-bad-interpreter:-No-such-file-or-directory.html"
-  - "/知识点鸡肋-/bin/bash^M:-bad-interpreter:-No-such-file-or-directory/"
-  - "/知识点鸡肋-/bin/bash^M:-bad-interpreter:-No-such-file-or-directory.html"
-  - "/2025/07/15/知识点鸡肋-bin-bash-bad-interpreter-No-such-file-or-directory/"
-  - "/2025/07/15/知识点鸡肋-bin-bash-bad-interpreter-No-such-file-or-directory.html"
-  - "/2025/07/15/zhi-shi-dian-ji-lei-binbashm-bad-interpreter-no-such-file-or-directory/"
-  - "/2025/07/15/zhi-shi-dian-ji-lei-binbashm-bad-interpreter-no-such-file-or-directory.html"
-  - "/zhi-shi-dian-ji-lei-binbashm-bad-interpreter-no-such-file-or-directory.html"
+  - "/2025/07/15/知识点鸡肋--bin-bash--bad-interpreter--No-such-file-or-directory.html"
 ---
 知识点鸡肋 - /bin/bash^M: bad interpreter: No such file or directory
 

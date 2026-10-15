@@ -7,8 +7,7 @@ slug: "python-asyncio-xie-cheng-jian-dan-deng-dai-yi"
 categories: ["技术"]
 tags: ["Python", "AsyncIO"]
 aliases:
-  - "/2025/07/30/python-asyncio协程-简单等待-一"
-  - "/2025/07/30/python-asyncio协程-简单等待-一/"
+  - "/2025/07/30/python-asyncio协程-简单等待一/"
 ---
 
 asyncio协程 - 简单等待

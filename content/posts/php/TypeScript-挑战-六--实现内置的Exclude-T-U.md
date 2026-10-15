@@ -5,15 +5,7 @@ slug: "typescript-tiao-zhan-liu-shi-xian-nei-zhi-de-exclude-t-u"
 categories: ["技术"]
 tags: ["TypeScript"]
 aliases:
-  - "/2025/07/14/TypeScript-挑战（六）-实现内置的Exclude-<T，U>/"
-  - "/2025/07/14/TypeScript-挑战（六）-实现内置的Exclude-<T，U>.html"
-  - "/TypeScript-挑战（六）-实现内置的Exclude-<T，U>/"
-  - "/TypeScript-挑战（六）-实现内置的Exclude-<T，U>.html"
-  - "/2025/07/14/TypeScript-挑战-六-实现内置的Exclude-T-U/"
-  - "/2025/07/14/TypeScript-挑战-六-实现内置的Exclude-T-U.html"
-  - "/2025/07/14/typescript-tiao-zhan-liu-shi-xian-nei-zhi-de-exclude-t-u/"
-  - "/2025/07/14/typescript-tiao-zhan-liu-shi-xian-nei-zhi-de-exclude-t-u.html"
-  - "/typescript-tiao-zhan-liu-shi-xian-nei-zhi-de-exclude-t-u.html"
+  - "/2025/07/14/TypeScript-挑战-六--实现内置的Exclude-T-U.html"
 ---
 学习记录 - 实现内置的Exclude <T，U>
 

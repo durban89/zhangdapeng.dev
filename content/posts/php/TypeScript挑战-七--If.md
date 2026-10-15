@@ -5,15 +5,7 @@ slug: "typescript-tiao-zhan-qi-if"
 categories: ["技术"]
 tags: ["TypeScript"]
 aliases:
-  - "/2025/07/14/TypeScript挑战（七）-If/"
-  - "/2025/07/14/TypeScript挑战（七）-If.html"
-  - "/TypeScript挑战（七）-If/"
-  - "/TypeScript挑战（七）-If.html"
-  - "/2025/07/14/TypeScript挑战-七-If/"
-  - "/2025/07/14/TypeScript挑战-七-If.html"
-  - "/2025/07/14/typescript-tiao-zhan-qi-if/"
-  - "/2025/07/14/typescript-tiao-zhan-qi-if.html"
-  - "/typescript-tiao-zhan-qi-if.html"
+  - "/2025/07/14/TypeScript挑战-七--If.html"
 ---
 学习记录 - If
 

@@ -5,15 +5,7 @@ slug: "x509-certificate-signed-by-unknown-authority-zhe-ge-wen-ti-ye-xu-mei-you-
 categories: ["技术"]
 tags: ["x509", "certificate"]
 aliases:
-  - "/2025/07/03/x509:-certificate-signed-by-unknown-authority-这个问题也许没有你想的那么复杂/"
-  - "/2025/07/03/x509:-certificate-signed-by-unknown-authority-这个问题也许没有你想的那么复杂.html"
-  - "/x509:-certificate-signed-by-unknown-authority-这个问题也许没有你想的那么复杂/"
-  - "/x509:-certificate-signed-by-unknown-authority-这个问题也许没有你想的那么复杂.html"
-  - "/2025/07/03/x509-certificate-signed-by-unknown-authority-这个问题也许没有你想的那么复杂/"
-  - "/2025/07/03/x509-certificate-signed-by-unknown-authority-这个问题也许没有你想的那么复杂.html"
-  - "/2025/07/03/x509-certificate-signed-by-unknown-authority-zhe-ge-wen-ti-ye-xu-mei-you-ni-xiang-de-na/"
-  - "/2025/07/03/x509-certificate-signed-by-unknown-authority-zhe-ge-wen-ti-ye-xu-mei-you-ni-xiang-d.html"
-  - "/x509-certificate-signed-by-unknown-authority-zhe-ge-wen-ti-ye-xu-mei-you-ni-xiang-de-na-me-fu-.html"
+  - "/2025/07/03/x509--certificate-signed-by-unknown-authority-这个问题也许没有你想的那么复杂.html"
 ---
 `x509: certificate signed by unknown authority` 这个问题也许没有你想的那么复杂
 

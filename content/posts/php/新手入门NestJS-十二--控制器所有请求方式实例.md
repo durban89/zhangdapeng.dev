@@ -5,15 +5,7 @@ slug: "xin-shou-ru-men-nestjs-shi-er-kong-zhi-qi-suo-you-qing-qiu-fang-shi-shi-l
 categories: ["技术"]
 tags: ["NestJS"]
 aliases:
-  - "/2025/07/14/新手入门NestJS（十二）-控制器所有请求方式实例/"
-  - "/2025/07/14/新手入门NestJS（十二）-控制器所有请求方式实例.html"
-  - "/新手入门NestJS（十二）-控制器所有请求方式实例/"
-  - "/新手入门NestJS（十二）-控制器所有请求方式实例.html"
-  - "/2025/07/14/新手入门NestJS-十二-控制器所有请求方式实例/"
-  - "/2025/07/14/新手入门NestJS-十二-控制器所有请求方式实例.html"
-  - "/2025/07/14/xin-shou-ru-men-nestjs-shi-er-kong-zhi-qi-suo-you-qing-qiu-fang-shi-shi-li/"
-  - "/2025/07/14/xin-shou-ru-men-nestjs-shi-er-kong-zhi-qi-suo-you-qing-qiu-fang-shi-shi-li.html"
-  - "/xin-shou-ru-men-nestjs-shi-er-kong-zhi-qi-suo-you-qing-qiu-fang-shi-shi-li.html"
+  - "/2025/07/14/新手入门NestJS-十二--控制器所有请求方式实例.html"
 ---
 这里记录下使用Nest.js中，在控制器中如何添加所有请求方式的方法
 

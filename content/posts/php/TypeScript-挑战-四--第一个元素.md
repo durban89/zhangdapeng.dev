@@ -5,15 +5,7 @@ slug: "typescript-tiao-zhan-si-di-yi-ge-yuan-su"
 categories: ["技术"]
 tags: ["TypeScript"]
 aliases:
-  - "/2025/07/14/TypeScript-挑战（四）-第一个元素/"
-  - "/2025/07/14/TypeScript-挑战（四）-第一个元素.html"
-  - "/TypeScript-挑战（四）-第一个元素/"
-  - "/TypeScript-挑战（四）-第一个元素.html"
-  - "/2025/07/14/TypeScript-挑战-四-第一个元素/"
-  - "/2025/07/14/TypeScript-挑战-四-第一个元素.html"
-  - "/2025/07/14/typescript-tiao-zhan-si-di-yi-ge-yuan-su/"
-  - "/2025/07/14/typescript-tiao-zhan-si-di-yi-ge-yuan-su.html"
-  - "/typescript-tiao-zhan-si-di-yi-ge-yuan-su.html"
+  - "/2025/07/14/TypeScript-挑战-四--第一个元素.html"
 ---
 第一个元素 - 实现一个通用`First<T>`，它接受一个数组`T`并返回它的第一个元素的类型。学习记录如下
 

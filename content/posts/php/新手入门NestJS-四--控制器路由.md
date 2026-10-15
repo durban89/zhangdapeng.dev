@@ -5,15 +5,7 @@ slug: "xin-shou-ru-men-nestjs-si-kong-zhi-qi-lu-you"
 categories: ["技术"]
 tags: ["NestJS"]
 aliases:
-  - "/2025/07/14/新手入门NestJS（四）-控制器路由/"
-  - "/2025/07/14/新手入门NestJS（四）-控制器路由.html"
-  - "/新手入门NestJS（四）-控制器路由/"
-  - "/新手入门NestJS（四）-控制器路由.html"
-  - "/2025/07/14/新手入门NestJS-四-控制器路由/"
-  - "/2025/07/14/新手入门NestJS-四-控制器路由.html"
-  - "/2025/07/14/xin-shou-ru-men-nestjs-si-kong-zhi-qi-lu-you/"
-  - "/2025/07/14/xin-shou-ru-men-nestjs-si-kong-zhi-qi-lu-you.html"
-  - "/xin-shou-ru-men-nestjs-si-kong-zhi-qi-lu-you.html"
+  - "/2025/07/14/新手入门NestJS-四--控制器路由.html"
 ---
 一个控制器的目的是接收来自应用的一个请求
 

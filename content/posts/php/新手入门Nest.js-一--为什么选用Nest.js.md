@@ -5,15 +5,7 @@ slug: "xin-shou-ru-men-nestjs-yi-wei-shen-me-xuan-yong-nestjs"
 categories: ["技术"]
 tags: ["NestJS"]
 aliases:
-  - "/2025/07/14/新手入门NestJS（一）-为什么选用NestJS/"
-  - "/2025/07/14/新手入门NestJS（一）-为什么选用NestJS.html"
-  - "/新手入门NestJS（一）-为什么选用NestJS/"
-  - "/新手入门NestJS（一）-为什么选用NestJS.html"
-  - "/2025/07/14/新手入门Nest.js-一-为什么选用Nest.js/"
-  - "/2025/07/14/新手入门Nest.js-一-为什么选用Nest.js.html"
-  - "/2025/07/14/xin-shou-ru-men-nestjs-yi-wei-shen-me-xuan-yong-nestjs/"
-  - "/2025/07/14/xin-shou-ru-men-nestjs-yi-wei-shen-me-xuan-yong-nestjs.html"
-  - "/xin-shou-ru-men-nestjs-yi-wei-shen-me-xuan-yong-nestjs.html"
+  - "/2025/07/14/新手入门NestJS-一--为什么选用NestJS.html"
 ---
 最近开发一个小的项目  
 出于几点考虑，最后选择了这个`Nest.js`

@@ -5,15 +5,7 @@ slug: "xin-shou-ru-men-nestjs-shi-yi-kong-zhi-qi-payloads-qing-qiu"
 categories: ["技术"]
 tags: ["NestJS"]
 aliases:
-  - "/2025/07/14/新手入门NestJS（十一）-控制器payloads请求/"
-  - "/2025/07/14/新手入门NestJS（十一）-控制器payloads请求.html"
-  - "/新手入门NestJS（十一）-控制器payloads请求/"
-  - "/新手入门NestJS（十一）-控制器payloads请求.html"
-  - "/2025/07/14/新手入门NestJS-十一-控制器payloads请求/"
-  - "/2025/07/14/新手入门NestJS-十一-控制器payloads请求.html"
-  - "/2025/07/14/xin-shou-ru-men-nestjs-shi-yi-kong-zhi-qi-payloads-qing-qiu/"
-  - "/2025/07/14/xin-shou-ru-men-nestjs-shi-yi-kong-zhi-qi-payloads-qing-qiu.html"
-  - "/xin-shou-ru-men-nestjs-shi-yi-kong-zhi-qi-payloads-qing-qiu.html"
+  - "/2025/07/14/新手入门NestJS-十一--控制器payloads请求.html"
 ---
 #### 控制器payloads请求
 

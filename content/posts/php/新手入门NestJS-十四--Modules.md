@@ -5,15 +5,7 @@ slug: "xin-shou-ru-men-nestjs-shi-si-modules"
 categories: ["技术"]
 tags: ["NestJS"]
 aliases:
-  - "/2025/07/14/新手入门NestJS（十四）-Modules/"
-  - "/2025/07/14/新手入门NestJS（十四）-Modules.html"
-  - "/新手入门NestJS（十四）-Modules/"
-  - "/新手入门NestJS（十四）-Modules.html"
-  - "/2025/07/14/新手入门NestJS-十四-Modules/"
-  - "/2025/07/14/新手入门NestJS-十四-Modules.html"
-  - "/2025/07/14/xin-shou-ru-men-nestjs-shi-si-modules/"
-  - "/2025/07/14/xin-shou-ru-men-nestjs-shi-si-modules.html"
-  - "/xin-shou-ru-men-nestjs-shi-si-modules.html"
+  - "/2025/07/14/新手入门NestJS-十四--Modules.html"
 ---
 新手入门，了解Nest.js的Modules
 

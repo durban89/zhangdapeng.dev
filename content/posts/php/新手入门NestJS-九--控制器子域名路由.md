@@ -5,15 +5,7 @@ slug: "xin-shou-ru-men-nestjs-jiu-kong-zhi-qi-zi-yu-ming-lu-you"
 categories: ["技术"]
 tags: ["NestJS"]
 aliases:
-  - "/2025/07/14/新手入门NestJS（九）-控制器子域名路由/"
-  - "/2025/07/14/新手入门NestJS（九）-控制器子域名路由.html"
-  - "/新手入门NestJS（九）-控制器子域名路由/"
-  - "/新手入门NestJS（九）-控制器子域名路由.html"
-  - "/2025/07/14/新手入门NestJS-九-控制器子域名路由/"
-  - "/2025/07/14/新手入门NestJS-九-控制器子域名路由.html"
-  - "/2025/07/14/xin-shou-ru-men-nestjs-jiu-kong-zhi-qi-zi-yu-ming-lu-you/"
-  - "/2025/07/14/xin-shou-ru-men-nestjs-jiu-kong-zhi-qi-zi-yu-ming-lu-you.html"
-  - "/xin-shou-ru-men-nestjs-jiu-kong-zhi-qi-zi-yu-ming-lu-you.html"
+  - "/2025/07/14/新手入门NestJS-九--控制器子域名路由.html"
 ---
 子域路由
 

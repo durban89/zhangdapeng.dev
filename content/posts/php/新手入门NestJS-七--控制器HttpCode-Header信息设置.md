@@ -5,15 +5,7 @@ slug: "xin-shou-ru-men-nestjs-qi-kong-zhi-qi-httpcode-header-xin-xi-she-zhi"
 categories: ["技术"]
 tags: ["NestJS"]
 aliases:
-  - "/2025/07/14/新手入门Nest.js（七）-控制器HttpCode、Header信息设置/"
-  - "/2025/07/14/新手入门Nest.js（七）-控制器HttpCode、Header信息设置.html"
-  - "/新手入门Nest.js（七）-控制器HttpCode、Header信息设置/"
-  - "/新手入门Nest.js（七）-控制器HttpCode、Header信息设置.html"
-  - "/2025/07/14/新手入门NestJS-七-控制器HttpCode-Header信息设置/"
-  - "/2025/07/14/新手入门NestJS-七-控制器HttpCode-Header信息设置.html"
-  - "/2025/07/14/xin-shou-ru-men-nestjs-qi-kong-zhi-qi-httpcode-header-xin-xi-she-zhi/"
-  - "/2025/07/14/xin-shou-ru-men-nestjs-qi-kong-zhi-qi-httpcode-header-xin-xi-she-zhi.html"
-  - "/xin-shou-ru-men-nestjs-qi-kong-zhi-qi-httpcode-header-xin-xi-she-zhi.html"
+  - "/2025/07/14/新手入门NestJS-七--控制器HttpCode-Header信息设置.html"
 ---
 #### 如何设置状态码
 

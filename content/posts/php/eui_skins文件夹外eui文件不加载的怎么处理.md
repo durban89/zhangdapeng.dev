@@ -5,13 +5,7 @@ slug: "eui-skins-wen-jian-jia-wai-eui-wen-jian-bu-jia-zai-de-zen-me-chu-li"
 categories: ["技术"]
 tags: ["Egret"]
 aliases:
-  - "/2025/07/11/eui-skins文件夹外eui文件不加载的怎么处理/"
-  - "/2025/07/11/eui-skins文件夹外eui文件不加载的怎么处理.html"
-  - "/eui-skins文件夹外eui文件不加载的怎么处理/"
-  - "/eui-skins文件夹外eui文件不加载的怎么处理.html"
-  - "/2025/07/11/eui-skins-wen-jian-jia-wai-eui-wen-jian-bu-jia-zai-de-zen-me-chu-li/"
-  - "/2025/07/11/eui-skins-wen-jian-jia-wai-eui-wen-jian-bu-jia-zai-de-zen-me-chu-li.html"
-  - "/eui-skins-wen-jian-jia-wai-eui-wen-jian-bu-jia-zai-de-zen-me-chu-li.html"
+  - "/2025/07/11/eui_skins文件夹外eui文件不加载的怎么处理.html"
 ---
 eui\_skins文件夹外eui文件不加载的怎么处理
 

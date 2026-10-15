@@ -5,15 +5,7 @@ slug: "ios-yu-javascript-jiao-hu-messagehandler"
 categories: ["技术"]
 tags: ["iOS", "JavaScript"]
 aliases:
-  - "/2025/07/15/iOS与JavaScript交互:-MessageHandler/"
-  - "/2025/07/15/iOS与JavaScript交互:-MessageHandler.html"
-  - "/iOS与JavaScript交互:-MessageHandler/"
-  - "/iOS与JavaScript交互:-MessageHandler.html"
-  - "/2025/07/15/iOS与JavaScript交互-MessageHandler/"
-  - "/2025/07/15/iOS与JavaScript交互-MessageHandler.html"
-  - "/2025/07/15/ios-yu-javascript-jiao-hu-messagehandler/"
-  - "/2025/07/15/ios-yu-javascript-jiao-hu-messagehandler.html"
-  - "/ios-yu-javascript-jiao-hu-messagehandler.html"
+  - "/2025/07/15/iOS与JavaScript交互--MessageHandler.html"
 ---
 WKWebView有一个内容交互控制器，该对象提供了通过JS向WKWebView发送消息的途径。需要设置MessageHandler，我把这个功能简称为MessageHandler。
 

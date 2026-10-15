@@ -5,15 +5,7 @@ slug: "xin-shou-ru-men-nestjs-wu-kong-zhi-qi-request"
 categories: ["技术"]
 tags: ["NestJS"]
 aliases:
-  - "/2025/07/14/新手入门NestJS（五）-控制器Request/"
-  - "/2025/07/14/新手入门NestJS（五）-控制器Request.html"
-  - "/新手入门NestJS（五）-控制器Request/"
-  - "/新手入门NestJS（五）-控制器Request.html"
-  - "/2025/07/14/新手入门NestJS-五-控制器Request/"
-  - "/2025/07/14/新手入门NestJS-五-控制器Request.html"
-  - "/2025/07/14/xin-shou-ru-men-nestjs-wu-kong-zhi-qi-request/"
-  - "/2025/07/14/xin-shou-ru-men-nestjs-wu-kong-zhi-qi-request.html"
-  - "/xin-shou-ru-men-nestjs-wu-kong-zhi-qi-request.html"
+  - "/2025/07/14/新手入门NestJS-五--控制器Request.html"
 ---
 一个控制器的目的是接收来自应用的一个请求
 

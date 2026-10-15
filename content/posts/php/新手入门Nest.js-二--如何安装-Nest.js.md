@@ -5,15 +5,7 @@ slug: "xin-shou-ru-men-nestjs-er-ru-he-an-zhuang-nestjs"
 categories: ["技术"]
 tags: ["NestJS"]
 aliases:
-  - "/2025/07/14/新手入门NestJS（二）-如何安装-NestJS/"
-  - "/2025/07/14/新手入门NestJS（二）-如何安装-NestJS.html"
-  - "/新手入门NestJS（二）-如何安装-NestJS/"
-  - "/新手入门NestJS（二）-如何安装-NestJS.html"
-  - "/2025/07/14/新手入门Nest.js-二-如何安装-Nest.js/"
-  - "/2025/07/14/新手入门Nest.js-二-如何安装-Nest.js.html"
-  - "/2025/07/14/xin-shou-ru-men-nestjs-er-ru-he-an-zhuang-nestjs/"
-  - "/2025/07/14/xin-shou-ru-men-nestjs-er-ru-he-an-zhuang-nestjs.html"
-  - "/xin-shou-ru-men-nestjs-er-ru-he-an-zhuang-nestjs.html"
+  - "/2025/07/14/新手入门NestJS-二--如何安装-NestJS.html"
 ---
 Nest.js如何安装
 

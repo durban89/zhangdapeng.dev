@@ -5,15 +5,7 @@ slug: "swift-ji-chu-zhi-shi-6-list-lei-si-table"
 categories: ["技术"]
 tags: ["Swift"]
 aliases:
-  - "/2025/07/14/swift基础知识（6）-List（类似Table）/"
-  - "/2025/07/14/swift基础知识（6）-List（类似Table）.html"
-  - "/swift基础知识（6）-List（类似Table）/"
-  - "/swift基础知识（6）-List（类似Table）.html"
-  - "/2025/07/14/Swift基础知识-6-List-类似Table/"
-  - "/2025/07/14/Swift基础知识-6-List-类似Table.html"
-  - "/2025/07/14/swift-ji-chu-zhi-shi-6-list-lei-si-table/"
-  - "/2025/07/14/swift-ji-chu-zhi-shi-6-list-lei-si-table.html"
-  - "/swift-ji-chu-zhi-shi-6-list-lei-si-table.html"
+  - "/2025/07/14/Swift基础知识-6--List-类似Table.html"
 ---
 最近在了解swift这个语言，试着学习一些SwiftUI
 

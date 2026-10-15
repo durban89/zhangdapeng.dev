@@ -5,15 +5,7 @@ slug: "typescript-tiao-zhan-shi-tong-yong-myreadonly2t-k"
 categories: ["技术"]
 tags: ["TypeScript"]
 aliases:
-  - "/2025/07/14/TypeScript挑战（十）-通用MyReadonly2<T,-K>/"
-  - "/2025/07/14/TypeScript挑战（十）-通用MyReadonly2<T,-K>.html"
-  - "/TypeScript挑战（十）-通用MyReadonly2<T,-K>/"
-  - "/TypeScript挑战（十）-通用MyReadonly2<T,-K>.html"
-  - "/2025/07/14/TypeScript挑战-十-通用MyReadonly2-T-K/"
-  - "/2025/07/14/TypeScript挑战-十-通用MyReadonly2-T-K.html"
-  - "/2025/07/14/typescript-tiao-zhan-shi-tong-yong-myreadonly2t-k/"
-  - "/2025/07/14/typescript-tiao-zhan-shi-tong-yong-myreadonly2t-k.html"
-  - "/typescript-tiao-zhan-shi-tong-yong-myreadonly2t-k.html"
+  - "/2025/07/14/TypeScript挑战-十--通用MyReadonly2-T-K.html"
 ---
 TypeScript Challenge - 实现一个通用MyReadonly2<T, K>，它带有两种类型的参数T和K
 

@@ -5,15 +5,7 @@ slug: "swift-ji-chu-zhi-shi-5-swiftui-zhong-ru-he-jiang-image-gu-ding-zhi-ding-d
 categories: ["技术"]
 tags: ["Swift"]
 aliases:
-  - "/2025/07/14/swift基础知识（5）-SwiftUI中如何将Image固定指定大小/"
-  - "/2025/07/14/swift基础知识（5）-SwiftUI中如何将Image固定指定大小.html"
-  - "/swift基础知识（5）-SwiftUI中如何将Image固定指定大小/"
-  - "/swift基础知识（5）-SwiftUI中如何将Image固定指定大小.html"
-  - "/2025/07/14/Swift基础知识-5-SwiftUI中如何将Image固定指定大小/"
-  - "/2025/07/14/Swift基础知识-5-SwiftUI中如何将Image固定指定大小.html"
-  - "/2025/07/14/swift-ji-chu-zhi-shi-5-swiftui-zhong-ru-he-jiang-image-gu-ding-zhi-ding-da-xiao/"
-  - "/2025/07/14/swift-ji-chu-zhi-shi-5-swiftui-zhong-ru-he-jiang-image-gu-ding-zhi-ding-da-xiao.html"
-  - "/swift-ji-chu-zhi-shi-5-swiftui-zhong-ru-he-jiang-image-gu-ding-zhi-ding-da-xiao.html"
+  - "/2025/07/14/Swift基础知识-5--SwiftUI中如何将Image固定指定大小.html"
 ---
 SwiftUI中如何将Image固定指定大小
 

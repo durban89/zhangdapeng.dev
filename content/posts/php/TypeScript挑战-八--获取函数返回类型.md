@@ -5,15 +5,7 @@ slug: "typescript-tiao-zhan-ba-huo-qu-han-shu-fan-hui-lei-xing"
 categories: ["技术"]
 tags: ["TypeScript"]
 aliases:
-  - "/2025/07/14/TypeScript挑战（八）-获取函数返回类型/"
-  - "/2025/07/14/TypeScript挑战（八）-获取函数返回类型.html"
-  - "/TypeScript挑战（八）-获取函数返回类型/"
-  - "/TypeScript挑战（八）-获取函数返回类型.html"
-  - "/2025/07/14/TypeScript挑战-八-获取函数返回类型/"
-  - "/2025/07/14/TypeScript挑战-八-获取函数返回类型.html"
-  - "/2025/07/14/typescript-tiao-zhan-ba-huo-qu-han-shu-fan-hui-lei-xing/"
-  - "/2025/07/14/typescript-tiao-zhan-ba-huo-qu-han-shu-fan-hui-lei-xing.html"
-  - "/typescript-tiao-zhan-ba-huo-qu-han-shu-fan-hui-lei-xing.html"
+  - "2025/07/14/TypeScript挑战-八--获取函数返回类型.html"
 ---
 TypesScript Challenge 学习记录 - 获取函数返回类型
 

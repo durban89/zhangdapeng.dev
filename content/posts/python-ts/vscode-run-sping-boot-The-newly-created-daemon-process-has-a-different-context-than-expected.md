@@ -7,8 +7,7 @@ slug: "vscode-run-sping-boot-the-newly-created-daemon-process-has-a-different-co
 categories: ["技术"]
 tags: ["Java", "Spring-Boot"]
 aliases:
-  - "/2025/07/30/vscode-run-sping-boot-the-newly-created-daemon-process-has-a-different-context-than-expected"
-  - "/2025/07/30/vscode-run-sping-boot-the-newly-created-daemon-process-has-a-different-context-than-expected/"
+  - "/2025/07/30/vscode-run-spring-boot-the-newly-created-daemon-process-has-a-different-context-than-expected/"
 ---
 
 针对问题

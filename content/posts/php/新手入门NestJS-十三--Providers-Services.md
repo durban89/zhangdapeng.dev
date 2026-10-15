@@ -5,15 +5,7 @@ slug: "xin-shou-ru-men-nestjs-shi-san-providers-services"
 categories: ["技术"]
 tags: ["NestJS"]
 aliases:
-  - "/2025/07/14/新手入门NestJS（十三）-Providers-Services/"
-  - "/2025/07/14/新手入门NestJS（十三）-Providers-Services.html"
-  - "/新手入门NestJS（十三）-Providers-Services/"
-  - "/新手入门NestJS（十三）-Providers-Services.html"
-  - "/2025/07/14/新手入门NestJS-十三-Providers-Services/"
-  - "/2025/07/14/新手入门NestJS-十三-Providers-Services.html"
-  - "/2025/07/14/xin-shou-ru-men-nestjs-shi-san-providers-services/"
-  - "/2025/07/14/xin-shou-ru-men-nestjs-shi-san-providers-services.html"
-  - "/xin-shou-ru-men-nestjs-shi-san-providers-services.html"
+  - "/2025/07/14/新手入门Nest.js-十三--Providers-Services.html"
 ---
 Providers是什么，看下官网的解释
 

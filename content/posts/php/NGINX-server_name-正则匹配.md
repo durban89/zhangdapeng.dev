@@ -5,13 +5,7 @@ slug: "nginx-server-name-zheng-ze-pi-pei"
 categories: ["技术"]
 tags: ["NGINX"]
 aliases:
-  - "/2025/07/15/NGINX-server-name-正则匹配/"
-  - "/2025/07/15/NGINX-server-name-正则匹配.html"
-  - "/NGINX-server-name-正则匹配/"
-  - "/NGINX-server-name-正则匹配.html"
-  - "/2025/07/15/nginx-server-name-zheng-ze-pi-pei/"
-  - "/2025/07/15/nginx-server-name-zheng-ze-pi-pei.html"
-  - "/nginx-server-name-zheng-ze-pi-pei.html"
+  - "/2025/07/15/NGINX-server_name-正则匹配.html"
 ---
 测试服务器动态绑定多个域名
 
