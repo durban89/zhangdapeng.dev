@@ -1,6 +1,7 @@
 +++
 title = "Why do people buy gold?"
-date = "2026-10-16T02:26:29.073Z"
+date = "2026-10-16T03:36:01.726Z"
+lastmod = "2026-10-16T03:36:01.726Z"
 type = "6-minute-english"
 draft = false
 categories = ["English", "6 Minute English"]
