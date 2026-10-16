@@ -1,6 +1,7 @@
 +++
 title = "Are people drinking less alcohol?"
 date = "2026-10-15T07:32:19.460Z"
+lastmod = "2026-10-15T07:32:19.460Z"
 type = "6-minute-english"
 draft = false
 categories = ["English", "6 Minute English"]
