@@ -1,0 +1,15 @@
+{
+  "originalAddress": "https://www.bbc.co.uk/learningenglish/english/features/6-minute-english_2026/ep-261029",
+  "title": "Is aircon the answer to a heating world?",
+  "date": "2026-10-29T00:00:00Z",
+  "episodeCode": "261029",
+  "audioUrl": "https://downloads.bbc.co.uk/learningenglish/features/6min/261029_6_minute_english_is_aircon_the_answer_to_a_heating_world_download.mp3",
+  "transcriptUrl": "https://downloads.bbc.co.uk/learningenglish/features/6min/261029_6_minute_english_is_aircon_the_answer_to_a_heating_world_transcript.pdf",
+  "files": {
+    "audio": "tmp/ep-261029/audio.mp3",
+    "transcriptPdf": "tmp/ep-261029/transcript.pdf",
+    "transcriptText": "tmp/ep-261029/transcript.txt",
+    "indexMd": "tmp/ep-261029/index.md"
+  },
+  "fetchedAt": "2026-10-29T21:45:08.184Z"
+}
