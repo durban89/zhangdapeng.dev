@@ -7,5 +7,6 @@
 python hexo_to_hugo_cn.py ~/Workspace/gowhich/gowhich-static/source/_posts ~/Workspace/gowhich/zhangdapeng.dev/content/posts/php
 
 
-{{%
-{&#8203;{%
+### submodule install
+
+git submodule update --init --recursive
