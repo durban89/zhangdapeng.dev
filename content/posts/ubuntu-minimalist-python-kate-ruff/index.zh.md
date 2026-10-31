@@ -4,7 +4,7 @@ date: 2026-10-30T08:00:00+08:00
 draft: false
 tags: ["Ubuntu", "Python", "Kate", "Ruff", "IDE"]
 categories: ["Linux", "开发工具"]
-summary: "在 AI 辅助开发的时代，如果你只是偶尔做点代码微调，动辄上 GB 的庞大 IDE 显然太麻烦了。本文分享如何在 Ubuntu 中使用轻量高颜值的 Kate 编辑器，配合极致丝滑的 Ruff 工具，打造一套爽快的 Python 极简开发环境。"
+description: "在 AI 辅助开发的时代，如果你只是偶尔做点代码微调，动辄上 GB 的庞大 IDE 显然太麻烦了。本文分享如何在 Ubuntu 中使用轻量高颜值的 Kate 编辑器，配合极致丝滑的 Ruff 工具，打造一套爽快的 Python 极简开发环境。"
 ---
 
 在 AI 时代，我们写代码的模式变了。很多时候，核心逻辑 AI 已经帮我们生成好了，**作为开发者，我日常做的事情最多也就是做点“代码微调”和结构修改**。
