@@ -1,6 +1,6 @@
 +++
 title = "Developing with WSL and VS Code: Resolving `code: command not found` and Optimizing Performance"
-date = 2026-10-30T21:18:00-06:00
+date = 2026-10-31T05:18:00+08:00
 categories = ["Linux", "Development"]
 tags = ["Linux", "Windows", "VSCode", "Zsh"]
 slug = "wsl-vscode-command-not-found-performance"
