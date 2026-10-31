@@ -4,11 +4,11 @@ date = 2026-10-30T21:18:00-06:00
 categories = ["Linux", "Development"]
 tags = ["Linux", "Windows", "VSCode", "Zsh"]
 slug = "wsl-vscode-command-not-found-performance"
+summary = "A comprehensive troubleshooting guide on resolving the `code: command not found` shell error in WSL after switching to Zsh, alongside an architectural deep dive into cross-filesystem performance bottlenecks when coding out of `/mnt` directories."
 +++
 
 Pairing WSL (Windows Subsystem for Linux) with VS Code has become one of the most popular development workflows for full-stack and indie developers on Windows. However, during configuration, it is common to run into shell errors or performance bottlenecks caused by cross-filesystem file handling. This post documents the journey from encountering the issue to diagnosing the root cause and implementing the final solution.
 
-<!--more-->
 
 ## 1. Encountering the Issue
 

@@ -1,5 +1,6 @@
 +++
 title = "WSL 配合 VS Code 开发：如何解决 `code: command not found` 报错并优化性能"
+summary = "记录在 WSL 中切换 zsh 后遇到 `zsh: command not found: code` 报错的排查过程，并深入探讨代码存放在 /mnt 与 Linux 内部目录对开发性能带来的影响与抉择。"
 date = 2026-10-30T21:18:00-06:00
 categories = ["Linux", "Development"]
 tags = ["Linux", "Windows", "VSCode", "Zsh"]
