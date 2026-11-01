@@ -4,7 +4,7 @@ date = 2026-11-01T16:24:00+08:00
 slug = 'hugo-google-analytics-setup'
 draft = false
 tags = ['Hugo', 'Google Analytics', 'Web Development', 'Tutorial']
-categories = ['Tutorials', 'Linux', 'Development']
+categories = ['Linux', 'Development']
 description = 'Learn how to easily integrate Google Analytics 4 (GA4) into your Hugo static website using built-in templates and configuration options.'
 +++
 

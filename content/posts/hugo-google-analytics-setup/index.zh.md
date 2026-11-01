@@ -4,7 +4,7 @@ date = 2026-11-01T16:24:00+08:00
 slug = 'hugo-google-analytics-setup'
 draft = false
 tags = ['Hugo', 'Google Analytics', '网站优化', '建站指南']
-categories = ['技术教程', 'Linux', 'Development']
+categories = ['Linux', 'Development']
 description = '如何在 Hugo 静态网站中接入 Google Analytics 4 (GA4)，包括配置步骤、模板检查及本地调试注意事项。'
 +++
 
