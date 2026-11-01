@@ -1,6 +1,6 @@
 +++
 title = 'Hugo 快速集成 Google Analytics (GA4) 完整指南'
-date = 2026-10-31T16:24:00+08:00
+date = 2026-11-01T16:24:00+08:00
 slug = 'hugo-google-analytics-setup'
 draft = false
 tags = ['Hugo', 'Google Analytics', '网站优化', '建站指南']

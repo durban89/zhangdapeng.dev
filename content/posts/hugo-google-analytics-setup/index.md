@@ -1,6 +1,6 @@
 +++
 title = 'How to Add Google Analytics (GA4) to Hugo: A Step-by-Step Guide'
-date = 2026-10-31T16:24:00+08:00
+date = 2026-11-01T16:24:00+08:00
 slug = 'hugo-google-analytics-setup'
 draft = false
 tags = ['Hugo', 'Google Analytics', 'Web Development', 'Tutorial']
