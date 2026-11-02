@@ -117,6 +117,12 @@ enableRobotsTXT = true
             { type = "toc", params = { enabled = true } }
         ]
 
+    [params.comments]
+        enabled = true
+        provider = "disqus"
+
+        [params.comments.disqus]
+            #
 
 # ============================================================
 # Menu
@@ -159,3 +165,5 @@ enableRobotsTXT = true
     [services.googleAnalytics]
         id = "G-3X47GTJY01"
 
+    [services.disqus]
+        shortname = "zhangdapeng"
