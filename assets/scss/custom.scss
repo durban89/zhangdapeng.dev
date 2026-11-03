@@ -35,3 +35,38 @@
   --custom-shadow-sm:0 1px 2px rgba(0,0,0,.2);
   --custom-shadow-md:0 12px 35px rgba(0,0,0,.3)
 }
+
+/* 自定义修改相关文章的滚动条样式 */
+.subsection-list, .menu, .highlight pre {
+    scroll-behavior: smooth;
+    padding-bottom: 12px; /* 留出一点空间给滚动条，避免挤压卡片阴影 */
+
+    /* 定义横向滚动条整体高度 */
+    &::-webkit-scrollbar {
+        height: 5px;
+    }
+
+    /* 滚动条轨道（背景） */
+    &::-webkit-scrollbar-track {
+        background: transparent; /* 保持透明，隐入背景 */
+    }
+
+    /* 滚动条滑块 */
+    &::-webkit-scrollbar-thumb {
+        background-color: var(--card-background); /* 使用主题自带的变量 */
+        filter: brightness(0.9); /* 比卡片颜色略深一点点 */
+        border-radius: 10px;
+        border: 1px solid transparent;
+
+        &:hover {
+            background-color: var(--accent-color); /* 鼠标悬停时变为主题高亮色 */
+        }
+    }
+}
+
+/* 针对暗色模式的微调 */
+html[data-scheme="dark"] .subsection-list::-webkit-scrollbar-thumb,
+html[data-scheme="dark"] .menu::-webkit-scrollbar-thumb,
+html[data-scheme="dark"] .highlight pre::-webkit-scrollbar-thumb,{
+    filter: brightness(1.2); /* 在黑夜模式下则变亮一点点 */
+}
