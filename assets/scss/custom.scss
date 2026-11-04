@@ -37,7 +37,7 @@
 }
 
 /* 自定义修改相关文章的滚动条样式 */
-.subsection-list, .menu, .highlight pre {
+.subsection-list, .menu, .highlight pre, .toc-nav {
     scroll-behavior: smooth;
     padding-bottom: 12px; /* 留出一点空间给滚动条，避免挤压卡片阴影 */
 
@@ -67,6 +67,26 @@
 /* 针对暗色模式的微调 */
 html[data-scheme="dark"] .subsection-list::-webkit-scrollbar-thumb,
 html[data-scheme="dark"] .menu::-webkit-scrollbar-thumb,
-html[data-scheme="dark"] .highlight pre::-webkit-scrollbar-thumb,{
+html[data-scheme="dark"] .highlight pre::-webkit-scrollbar-thumb,
+html[data-scheme="dark"] .toc-nav::-webkit-scrollbar-thumb {
     filter: brightness(1.2); /* 在黑夜模式下则变亮一点点 */
+}
+
+/* ==========================================================================
+   整合 Hugo Theme Stack 代码高亮跟随深浅色切换
+   ========================================================================== */
+
+// 1. 默认状态（浅色模式）下引入浅色代码高亮
+@import "syntax-light.css";
+
+// 2. 当 Stack 主题切换为深色模式 (html[data-scheme="dark"]) 时
+html[data-scheme="dark"] {
+    // 引入深色代码高亮，并让内部的 Chroma 样式生效
+    @import "syntax-dark.css";
+    
+    // 特别兼容：部分高亮主题的背景色可能被 Stack 默认样式覆盖
+    // 如果发现深色模式下代码块背景太亮，可以加上下面这句强行匹配：
+    .highlight {
+        background-color: #24292e !important; // 此处改为你 syntax-dark.css 里的 .chroma 背景色
+    }
 }

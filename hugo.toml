@@ -25,6 +25,10 @@ enableRobotsTXT = true
         [markup.goldmark.renderer]
             unsafe = true
 
+    [markup.highlight]
+        noClasses = false  # 必须设置为 true
+        codeFences = true
+
 [permalinks]
     posts = "/p/:slug"
 
