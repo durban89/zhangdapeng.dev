@@ -1,7 +1,7 @@
 +++
 title = "Is aircon the answer to a heating world?"
-date = "2026-11-03T22:16:21.653Z"
-lastmod = "2026-11-03T22:16:21.653Z"
+date = "2026-11-04T22:31:46.186Z"
+lastmod = "2026-11-04T22:31:46.186Z"
 type = "6-minute-english"
 draft = false
 categories = ["English", "6 Minute English"]
