@@ -9,7 +9,7 @@ slug = "go-python-uv-hybrid-backend"
 categories = ["Development", "Linux"]
 tags = ["Go", "Python", "uv", "Backend", "AI Agents"]
 keywords = ["Go Python integration", "Python uv", "Go subprocess", "Python dependency management", "Hybrid backend architecture"]
-draft = true
+draft = false
 
 toc = true
 
