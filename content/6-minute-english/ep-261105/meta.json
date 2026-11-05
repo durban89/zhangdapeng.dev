@@ -1,0 +1,15 @@
+{
+  "originalAddress": "https://www.bbc.co.uk/learningenglish/english/features/6-minute-english_2026/ep-261105",
+  "title": "Could vaccines cure cancer?",
+  "date": "2026-11-05T00:00:00Z",
+  "episodeCode": "261105",
+  "audioUrl": "https://downloads.bbc.co.uk/learningenglish/features/6min/261105_6_minute_english_could_vaccines_cure_cancer_download.mp3",
+  "transcriptUrl": "https://downloads.bbc.co.uk/learningenglish/features/6min/261105_6_minute_english_could_vaccines_cure_cancer_transcript.pdf",
+  "files": {
+    "audio": "tmp/ep-261105/audio.mp3",
+    "transcriptPdf": "tmp/ep-261105/transcript.pdf",
+    "transcriptText": "tmp/ep-261105/transcript.txt",
+    "indexMd": "tmp/ep-261105/index.md"
+  },
+  "fetchedAt": "2026-11-05T22:38:52.976Z"
+}
