@@ -1,6 +1,6 @@
 +++
 title = "How to Fix grep: Binary File Matches When Searching Linux Logs"
-date = 2026-11-06T08:49:00-06:00
+date = 2026-11-06T08:00:00+08:00
 lastmod = 2026-11-06T08:00:00+08:00
 draft = false
 slug = "grep-binary-file-matches-linux"
