@@ -8,7 +8,7 @@ tags = ["Hugo", "Chroma", "SCSS", "CSS", "Theme Stack"]
 image = "./cover.png"
 image_alt = "Hugo code highlighting switching between dark and light themes using Chroma and SCSS"
 toc = true
-draft = true
+draft = false
 +++
 
 When building a blog with Hugo, many modern themes, including `hugo-theme-stack`, provide built-in Dark and Light mode switching.
