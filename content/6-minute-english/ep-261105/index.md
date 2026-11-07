@@ -1,7 +1,7 @@
 +++
 title = "Could vaccines cure cancer?"
-date = "2026-11-06T22:00:35.747Z"
-lastmod = "2026-11-06T22:00:35.747Z"
+date = "2026-11-07T20:48:38.719Z"
+lastmod = "2026-11-07T20:48:38.719Z"
 type = "6-minute-english"
 draft = false
 categories = ["English", "6 Minute English"]
