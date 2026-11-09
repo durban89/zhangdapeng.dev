@@ -1,6 +1,6 @@
 +++
 title = "PHP2Shell (CVE-2026-109618 / CVE-2026-109619): Nginx Temporary Mitigation and Verification Guide"
-date = 2026-11-07T18:01:00+08:00
+date = 2026-11-08T10:00:00+08:00
 lastmod = 2026-11-08T10:00:00+08:00
 slug = "php2shell-nginx-mitigation-guide"
 draft = false
