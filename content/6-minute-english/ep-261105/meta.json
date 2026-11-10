@@ -3,7 +3,7 @@
   "title": "Could vaccines cure cancer?",
   "date": "2026-11-05T00:00:00Z",
   "episodeCode": "261105",
-  "audioUrl": "https://downloads.bbc.co.uk/learningenglish/features/6min/261105_6_minute_english_could_vaccines_cure_cancer_download.mp3",
+  "audioUrl": "https://downloads.bbc.co.uk/learningenglish/features/6min/261105_6min_could_vaccines_cure_cancer_download.mp3",
   "transcriptUrl": "https://downloads.bbc.co.uk/learningenglish/features/6min/261105_6_minute_english_could_vaccines_cure_cancer_transcript.pdf",
   "files": {
     "audio": "tmp/ep-261105/audio.mp3",
@@ -11,5 +11,5 @@
     "transcriptText": "tmp/ep-261105/transcript.txt",
     "indexMd": "tmp/ep-261105/index.md"
   },
-  "fetchedAt": "2026-11-08T21:04:35.087Z"
+  "fetchedAt": "2026-11-10T00:39:23.072Z"
 }
