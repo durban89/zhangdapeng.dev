@@ -4,8 +4,13 @@ date = 2026-11-08T10:00:00+08:00
 lastmod = 2026-11-08T10:00:00+08:00
 slug = "php2shell-nginx-mitigation-guide" 
 draft = false 
-tags = ["PHP", "Nginx", "安全漏洞", "运维", "PHP2Shell"] 
-categories = ["技术分享", "安全防护"] 
+tags = ["PHP", "Nginx", "Security Vulnerability", "Server Administration", "PHP2Shell"]
+categories = ["Technology", "Linux", "Development"]
+
+image = "./cover.png"
+image_alt = "PHP2Shell security vulnerability mitigation with Nginx, featuring server protection, multipart request filtering, configuration verification, and PHP security upgrades."
+
+toc = true
 +++
 
 PHP2Shell（CVE-2026-109618 / CVE-2026-109619）漏洞：Nginx 临时防御与验证指南

@@ -9,8 +9,9 @@ comments: true
 draft: false
 slug: "hugo-stack-scrollbar-optimization"
 categories:
-    - 前端开发
-    - Hugo 教程
+    - Linux
+    - Development
+    - Hugo
 tags:
     - Hugo
     - CSS

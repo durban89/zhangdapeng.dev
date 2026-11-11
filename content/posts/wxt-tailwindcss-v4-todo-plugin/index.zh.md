@@ -6,7 +6,7 @@ slug = "wxt-tailwindcss-v4-todo-plugin"
 
 description = "作为一名有多年开发经验的老兵，本文深度记录我如何使用 OpenCode 工具，通过精准的 Prompt 约束，让 AI 自动使用最前沿的 WXT 框架、React、TypeScript 和最新的 Tailwind CSS v4 搭建一款高标准、符合目录规范的 Todo List 浏览器插件，并分享全过程的工程化博弈与样式踩坑指南。"
 tags = ["AI 独立开发", "WXT", "Tailwind CSS v4", "React", "TypeScript", "Chrome Extension"]
-categories = ["技术实战", "产品记录"]
+categories = ["Development", "Linux"]
 draft = false
 +++
 
