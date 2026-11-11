@@ -5,7 +5,7 @@ lastmod = 2026-10-16T02:10:00+08:00
 slug = "wxt-tailwindcss-v4-todo-plugin"
 description = "A deep dive into building a standard Chrome extension from scratch using the cutting-edge WXT framework, React, TypeScript, and the brand-new Tailwind CSS v4. Explore how structured prompt engineering can generate high-quality boilerplate and navigate architectural pitfalls."
 tags = ["AI Development", "WXT", "Tailwind CSS v4", "React", "TypeScript", "Chrome Extension"]
-categories = ["Tech Deep Dive", "Product Logging"]
+categories = ["Development", "Linux"]
 draft = false
 +++
 
