@@ -1,22 +1,15 @@
 +++
-
-title = "从零搭建个人云端开发桌面：Vultr VPS + XFCE + XRDP + Tailscale + Remmina"
-
-description = "记录如何使用 Vultr Ubuntu VPS 搭建轻量级 Linux 远程桌面，通过 XFCE、XRDP、Tailscale 和 Remmina 构建安全、稳定且可长期使用的个人云端开发工作站。"
-
-summary = "使用 Vultr VPS、Ubuntu、XFCE、XRDP、Tailscale 和 Remmina，搭建一个安全、轻量且可长期使用的个人云端 Linux 开发桌面。"
-
+title = "Build a Personal Cloud Development Desktop from Scratch: Vultr VPS + XFCE + XRDP + Tailscale + Remmina"
+description = "Learn how to build a lightweight Linux remote desktop on a Vultr Ubuntu VPS using XFCE, XRDP, Tailscale, and Remmina. Create a secure, reliable cloud development workstation accessible from multiple devices."
+summary = "Build a secure and lightweight cloud-based Linux desktop with Vultr VPS, Ubuntu, XFCE, XRDP, Tailscale, and Remmina. A practical guide to setting up your own remote development workstation."
 date = 2026-08-18T12:00:00+09:00
-
 lastmod = 2026-08-18T12:00:00+09:00
-
 draft = false
-
 slug = "build-personal-cloud-development-desktop"
 
 categories = [
     "Linux",
-    "Remote Development"
+    "Development"
 ]
 
 tags = [
@@ -59,272 +52,284 @@ images = [
 ]
 
 [article]
-
 toc = true
-
 readingTime = true
-
 +++
 
+# Build a Personal Cloud Development Desktop from Scratch: Vultr VPS + XFCE + XRDP + Tailscale + Remmina
 
+*A practical guide to building a lightweight Linux desktop on a Vultr VPS and accessing it securely from your local computer using Tailscale and Remmina.*
 
-# 从零搭建 Ubuntu VPS 远程桌面：Vultr + XFCE + XRDP + Tailscale + Remmina
+As an independent developer, I often need a reliable Linux environment for development, testing, and running various tools.
 
-> 使用 Vultr VPS 搭建一台 Linux 云端桌面，并通过 Tailscale + XRDP + Remmina 实现安全的远程访问。
+Rather than configuring and maintaining every development tool on my local computer, I wanted a dedicated cloud-based environment with the following capabilities:
 
-作为独立开发者，我经常需要一台稳定的 Linux 环境来进行开发、测试和运行各种工具。
+- Accessible anytime from different devices.
+- A complete Linux desktop environment.
+- Support for browsers and graphical development tools.
+- Secure remote access without exposing RDP ports to the public internet.
+- A consistent development environment independent of my local machine.
 
-相比直接在本地电脑上配置复杂的开发环境，我更希望拥有一台：
-
-* 随时可以访问
-* 可以运行完整 Linux 桌面
-* 可以安装浏览器和开发工具
-* 不需要暴露远程桌面端口到公网
-* 支持多设备访问
-
-的云端开发环境。
-
-最终，我选择了下面这套方案：
+After considering different approaches, I settled on the following setup:
 
 ```text
-本地 Linux / Windows / macOS
-            │
-            │
-        Remmina
-            │
-            │
-        Tailscale
-            │
-            │
-      ┌──────────────┐
-      │   Vultr VPS  │
-      │              │
-      │ Ubuntu Linux │
-      │     +        │
-      │    XFCE      │
-      │     +        │
-      │    XRDP      │
-      └──────────────┘
+Local Linux / Windows / macOS
+              |
+              |
+           Remmina
+              |
+              |
+          Tailscale
+              |
+              |
+       +--------------+
+       |  Vultr VPS   |
+       |              |
+       | Ubuntu Linux |
+       |      +       |
+       |     XFCE     |
+       |      +       |
+       |     XRDP     |
+       +--------------+
 ```
 
-整个方案的核心是：
+The architecture is straightforward:
 
-> **Vultr 提供 VPS，Ubuntu 提供系统环境，XFCE 提供轻量级桌面，XRDP 提供远程桌面协议，Tailscale 负责安全网络连接，Remmina 作为远程桌面客户端。**
+> **Vultr provides the VPS, Ubuntu provides the operating system, XFCE provides the lightweight desktop, XRDP handles remote desktop connections, Tailscale provides secure private networking, and Remmina acts as the remote desktop client.**
+
+In this guide, I'll walk through the complete setup process, from creating the VPS to connecting to the Linux desktop remotely.
 
 ---
 
-# 一、为什么选择 VPS + 远程桌面
+# 1. Why Choose a VPS with a Remote Desktop?
 
-传统 VPS 通常只提供 SSH 终端。
+A traditional VPS usually provides only SSH access.
 
-例如：
+For example:
 
 ```bash
 ssh root@your-server-ip
 ```
 
-这种方式对于服务器管理已经足够，但如果需要运行：
+SSH is sufficient for most server administration tasks. However, it becomes less convenient when you need to run graphical applications such as:
 
-* Google Chrome
-* Claude
-* Gemini
-* Antigravity
-* VS Code
-* GUI 开发工具
-* 浏览器插件测试
-* 图形化 Git 工具
+- Google Chrome
+- Claude
+- Gemini
+- Antigravity
+- VS Code
+- GUI-based development tools
+- Browser extension testing environments
+- Graphical Git clients
 
-仅靠 SSH 就不够方便了。
+If you want to use these applications directly on a remote server, a command-line-only environment is not always enough.
 
-因此，我们需要给 VPS 安装一个完整的 Linux 桌面环境。
+The solution is to install a complete Linux desktop environment on the VPS.
 
-最终的结构如下：
+The resulting architecture looks like this:
 
 ```text
 VPS
-│
-├── Ubuntu
-│
-├── XFCE Desktop
-│
-├── XRDP
-│
-└── Tailscale
+ |
+ +-- Ubuntu
+ |
+ +-- XFCE Desktop
+ |
+ +-- XRDP
+ |
+ +-- Tailscale
 ```
 
-本地电脑通过：
+Your local computer connects through the following path:
 
 ```text
 Remmina
-    ↓
-Tailscale 私有网络
-    ↓
+   |
+   v
+Tailscale Private Network
+   |
+   v
 XRDP
-    ↓
+   |
+   v
 XFCE Desktop
 ```
 
-连接到 VPS。
+This gives you a graphical Linux environment that you can access remotely, just like a regular desktop computer.
 
 ---
 
-# 二、创建 Vultr Ubuntu VPS
+# 2. Create a Vultr Ubuntu VPS
 
-首先创建一台 Vultr VPS。
+First, create a new VPS through [Vultr](https://www.vultr.com/).
 
-系统可以选择 Ubuntu LTS。
+Choose an Ubuntu LTS image as the operating system.
 
-例如：
+For example:
 
 ```text
-Ubuntu 26.04 LTS
+Ubuntu LTS
 ```
 
-创建完成后，可以先通过 SSH 登录服务器。
+Select a server configuration based on your expected workload.
+
+For a lightweight desktop, XFCE is a reasonable choice for resource-constrained instances. However, if you plan to run multiple browsers, IDEs, or AI development tools simultaneously, consider allocating more memory and CPU resources.
+
+Once the VPS has been created, connect to it through SSH:
 
 ```bash
 ssh root@your-server-ip
 ```
 
-登录后先更新系统：
+Update the system packages:
 
 ```bash
 apt update
 apt upgrade -y
 ```
 
-如果使用普通用户，也可以：
+If you are logged in with a regular user account, use:
 
 ```bash
 sudo apt update
 sudo apt upgrade -y
 ```
 
+Keeping the system updated before installing additional software helps establish a clean starting point.
+
 ---
 
-# 三、安装 XFCE 桌面环境
+# 3. Install the XFCE Desktop Environment
 
-对于 VPS 来说，并不建议安装 GNOME 或 KDE。
+For a VPS, I generally recommend avoiding heavier desktop environments such as GNOME or KDE when system resources are limited.
 
-因为这些桌面环境通常比较重，会占用更多：
+They can consume more:
 
-* 内存
-* CPU
-* GPU 资源
+- RAM
+- CPU resources
+- Graphics resources
 
-对于只有 1～2GB 内存的小型 VPS，XFCE 是一个比较合适的选择。
+For smaller VPS instances with 1–2 GB of RAM, XFCE is often a more practical choice.
 
-安装 XFCE：
+Install XFCE:
 
 ```bash
 sudo apt install xfce4 xfce4-goodies -y
 ```
 
-安装过程中可能会出现显示管理器选择。
+During installation, you may be prompted to select a display manager.
 
-如果需要选择，可以使用：
+If a selection is required, you can choose:
 
 ```text
 lightdm
 ```
 
-XFCE 的特点：
+XFCE offers several advantages for remote desktop environments:
 
-* 占用资源较低
-* 启动速度快
-* 比较适合 VPS
-* 远程桌面体验不错
+- Relatively low resource consumption.
+- Fast startup.
+- Good compatibility with VPS instances.
+- A responsive remote desktop experience.
 
-安装完成后，服务器已经具备基本的 Linux 桌面环境。
+After installation, your server has the basic components required to run a Linux graphical desktop.
 
 ---
 
-# 四、安装 XRDP
+# 4. Install XRDP
 
-XRDP 可以让 Linux VPS 支持微软 RDP 协议。
+XRDP allows Linux systems to accept remote desktop connections using the Microsoft Remote Desktop Protocol (RDP).
 
-安装：
+Install XRDP:
 
 ```bash
 sudo apt install xrdp -y
 ```
 
-安装完成后启动服务：
+Enable the service and start it:
 
 ```bash
 sudo systemctl enable xrdp
 sudo systemctl start xrdp
 ```
 
-检查服务状态：
+Check the service status:
 
 ```bash
 sudo systemctl status xrdp
 ```
 
-如果看到：
+If the output shows:
 
 ```text
 active (running)
 ```
 
-说明 XRDP 已经正常运行。
+XRDP is running successfully.
+
+At this point, the remote desktop service is installed, but we still need to configure it to start the XFCE desktop session correctly.
 
 ---
 
-# 五、配置 XRDP 使用 XFCE
+# 5. Configure XRDP to Use XFCE
 
-默认情况下，XRDP 有时不会正确启动 XFCE 桌面。
+By default, XRDP may not automatically launch the XFCE desktop environment after a remote login.
 
-可以在用户目录创建：
+To specify which desktop session should start, create an `.xsession` file in your user's home directory.
+
+Run:
 
 ```bash
 nano ~/.xsession
 ```
 
-写入：
+Add the following line:
 
 ```bash
 startxfce4
 ```
 
-保存后赋予执行权限：
+Save the file and make it executable:
 
 ```bash
 chmod +x ~/.xsession
 ```
 
-然后重新启动 XRDP：
+Restart XRDP:
 
 ```bash
 sudo systemctl restart xrdp
 ```
 
-这样，当远程桌面登录时，XRDP 就会启动 XFCE。
+Now, when you connect through RDP using that Linux account, XRDP should launch an XFCE session.
+
+**Note:** Run this configuration under the same Linux user account that you will use for remote desktop login. Display manager and session configuration can vary between Ubuntu versions and XRDP setups.
 
 ---
 
-# 六、不要直接暴露 3389 端口
+# 6. Avoid Exposing Port 3389 to the Public Internet
 
-XRDP 默认使用：
+By default, XRDP listens on:
 
 ```text
 3389
 ```
 
-理论上可以直接：
+You could theoretically connect directly using this configuration:
 
 ```text
-你的电脑
-   ↓
-公网 IP
-   ↓
+Your Computer
+      |
+      v
+Public IP Address
+      |
+      v
 VPS:3389
 ```
 
-但是这样存在明显的安全问题。
+However, exposing RDP directly to the public internet introduces unnecessary security risks.
 
-公网扫描器经常扫描：
+Public scanners frequently probe commonly used service ports, including:
 
 ```text
 3389
@@ -333,465 +338,514 @@ VPS:3389
 6379
 ```
 
-如果直接暴露 RDP 端口，可能会遇到：
+An exposed RDP service may receive:
 
-* 暴力破解
-* 密码猜测
-* 漏洞扫描
-* 恶意登录尝试
+- Brute-force login attempts.
+- Password-guessing attacks.
+- Vulnerability scans.
+- Unauthorized connection attempts.
 
-因此，我没有直接把 XRDP 暴露到公网。
+For this reason, I decided not to expose XRDP directly to the public internet.
 
-而是使用：
+Instead, I use:
 
 > **Tailscale**
 
+Tailscale provides a private network that allows authorized devices to communicate securely without requiring the RDP service to be publicly accessible.
+
 ---
 
-# 七、安装 Tailscale
+# 7. Install Tailscale
 
-Tailscale 基于 WireGuard，可以帮助不同设备建立一个私有网络。
+Tailscale uses WireGuard-based encrypted networking to connect devices through a private network.
 
-安装：
+Install Tailscale on the Ubuntu VPS:
 
 ```bash
 curl -fsSL https://tailscale.com/install.sh | sh
 ```
 
-然后登录：
+Start the authentication process:
 
 ```bash
 sudo tailscale up
 ```
 
-终端会提供一个登录地址。
+The terminal will display a login URL.
 
-使用浏览器登录自己的 Tailscale 账号。
+Open it in your browser and authenticate with your Tailscale account.
 
-登录完成后，查看 VPS 的 Tailscale IP：
+After authentication, retrieve the VPS's Tailscale IP address:
 
 ```bash
 tailscale ip
 ```
 
-可能会得到：
+You should see an address similar to:
 
 ```text
 100.x.x.x
 ```
 
-这个地址属于 Tailscale 私有网络。
+This is the device's Tailscale IP address.
+
+Unlike a public IP address, it is used for communication within your Tailscale network.
+
+You will use this address later when configuring Remmina.
+
+**Important:** You also need to install Tailscale and authenticate your local computer. Both devices must belong to an authorized Tailnet, and the applicable access policies must allow the connection.
 
 ---
 
-# 八、配置安全网络结构
+# 8. Configure the Private Network Architecture
 
-完成之后：
+Once Tailscale is installed and authenticated on both devices, the network architecture looks like this:
 
 ```text
-┌─────────────────┐
-│   本地电脑       │
-│                 │
-│  Tailscale      │
-└────────┬────────┘
-         │
-         │ WireGuard 加密
-         │
-         ▼
-┌─────────────────┐
-│    Tailscale    │
-│   Private Mesh  │
-└────────┬────────┘
-         │
-         ▼
-┌─────────────────┐
-│    Vultr VPS    │
-│                 │
-│  Tailscale IP   │
-│   100.x.x.x     │
-│                 │
-│      XRDP       │
-│       :3389     │
-│                 │
-│      XFCE       │
-└─────────────────┘
++----------------------+
+|     Local Computer   |
+|                      |
+|      Tailscale       |
++----------+-----------+
+           |
+           |
+           | Encrypted Connection
+           |
+           v
++----------------------+
+|      Tailscale       |
+|     Private Mesh     |
++----------+-----------+
+           |
+           v
++----------------------+
+|       Vultr VPS      |
+|                      |
+|    Tailscale IP      |
+|     100.x.x.x        |
+|                      |
+|       XRDP           |
+|       :3389          |
+|                      |
+|       XFCE           |
++----------------------+
 ```
 
-此时：
+At this point:
 
-XRDP 不需要直接暴露给公网。
+- The VPS is connected to your private Tailscale network.
+- Your local computer is also connected to the same network.
+- XRDP can be accessed through the VPS's Tailscale IP.
+- You do not need to expose port 3389 to the public internet.
 
-本地设备和 VPS 都加入同一个 Tailscale 网络。
+Only devices authorized by your Tailnet access policies should be able to reach the remote desktop service.
 
-只有经过授权的设备才能访问 VPS。
+For additional security, configure your VPS firewall and Vultr firewall to block public access to port 3389 while allowing the required private Tailscale traffic.
 
 ---
 
-# 九、本地安装 Remmina
+# 9. Install Remmina on Your Local Computer
 
-如果你的本地电脑也是 Ubuntu 或其他 Linux 系统，可以使用 Remmina。
+If your local computer runs Ubuntu or another Linux distribution, Remmina is a convenient remote desktop client.
 
-安装：
+Install it:
 
 ```bash
 sudo apt install remmina -y
 ```
 
-启动：
+Launch Remmina:
 
 ```bash
 remmina
 ```
 
-创建新的远程桌面连接。
+Create a new remote desktop connection.
 
-协议选择：
+Configure the connection as follows:
+
+**Protocol:**
 
 ```text
 RDP
 ```
 
-服务器填写：
+**Server:**
 
 ```text
 100.x.x.x
 ```
 
-注意：
+Make sure you enter the VPS's **Tailscale IP address**, not its public IP address.
 
-这里填写的是 VPS 的 **Tailscale IP**。
-
-例如：
+For example:
 
 ```text
 100.64.12.34
 ```
 
-用户名：
+**Username:**
 
 ```text
-你的 Linux 用户名
+Your Linux username
 ```
 
-密码：
+**Password:**
 
 ```text
-Linux 用户密码
+Your Linux account password
 ```
 
-然后点击连接。
+After entering the connection details, click Connect.
+
+If everything is configured correctly, Remmina should establish an RDP connection to your VPS.
 
 ---
 
-# 十、连接结构
+# 10. Understanding the Remote Desktop Connection
 
-整个连接过程如下：
+The complete connection process looks like this:
 
 ```text
 Remmina
-    │
-    │ RDP
-    ▼
+   |
+   | RDP
+   v
 Tailscale Network
-    │
-    │ Encrypted
-    ▼
+   |
+   | Encrypted Connection
+   v
 Vultr VPS
-    │
-    ▼
+   |
+   v
 XRDP
-    │
-    ▼
+   |
+   v
 XFCE Desktop
 ```
 
-最终效果就是：
+The result is simple:
 
-> 你在本地电脑上打开 Remmina，就像连接一台远程 Windows 电脑一样，直接进入 VPS 的 Ubuntu 桌面。
+> Open Remmina on your local computer, connect to the VPS, and access its Ubuntu desktop just as you would connect to another remote desktop machine.
+
+You can now use graphical applications running on the VPS without installing all of them locally.
+
+This is particularly useful when you want to maintain a consistent development environment across multiple devices.
 
 ---
 
-# 十一、常见问题
+# 11. Common Problems and Troubleshooting
 
-## 1. XRDP 无法连接
+Here are some common issues you may encounter during the setup process.
 
-首先检查服务：
+## 11.1 XRDP Connection Failed
+
+First, check whether the XRDP service is running:
 
 ```bash
 sudo systemctl status xrdp
 ```
 
-如果没有启动：
+If the service is not running, restart it:
 
 ```bash
 sudo systemctl restart xrdp
 ```
 
-然后检查端口：
+Next, check whether port 3389 is listening:
 
 ```bash
 sudo ss -tulpn | grep 3389
 ```
 
-正常情况下应该看到：
+Under normal conditions, you should see a listening socket:
 
 ```text
 LISTEN
 ```
 
----
+If XRDP is running but connections still fail, check the firewall rules and XRDP logs.
 
-## 2. Remmina 显示连接失败
+For example:
 
-首先确认 Tailscale 是否正常。
+```bash
+sudo journalctl -u xrdp -n 50 --no-pager
+```
 
-本地：
+Also verify that the connection is being made through the correct Tailscale IP.
+
+## 11.2 Remmina Cannot Connect
+
+First, verify that Tailscale is running on both devices.
+
+On your local computer:
 
 ```bash
 tailscale status
 ```
 
-VPS：
+On the VPS:
 
 ```bash
 tailscale status
 ```
 
-然后测试：
+Then test connectivity:
 
 ```bash
 ping 100.x.x.x
 ```
 
-如果无法 Ping 通，通常是：
+If the VPS is unreachable, possible causes include:
 
-* Tailscale 没有登录
-* 设备不在同一个 Tailnet
-* ACL 限制
-* 网络连接异常
+- Tailscale is not authenticated.
+- The devices are not connected to the same Tailnet.
+- Tailscale ACL or grants policies restrict access.
+- Network connectivity problems.
+- Firewall rules blocking the required traffic.
 
----
+If ping works but RDP still fails, check whether XRDP is listening and whether the firewall allows connections through the Tailscale interface.
 
-## 3. 登录后黑屏
+## 11.3 Black Screen After Login
 
-可以检查：
+A black screen after authentication may indicate that XRDP failed to start the XFCE desktop session.
+
+Check the session configuration:
 
 ```bash
-~/.xsession
+cat ~/.xsession
 ```
 
-内容应该是：
+It should contain:
 
 ```bash
 startxfce4
 ```
 
-然后重新启动：
+If necessary, recreate the file:
+
+```bash
+echo "startxfce4" > ~/.xsession
+chmod +x ~/.xsession
+```
+
+Restart XRDP:
 
 ```bash
 sudo systemctl restart xrdp
 ```
 
-必要时重新连接。
+Then reconnect using Remmina.
 
----
+If the problem persists, inspect the XRDP and Xorg session logs for additional errors.
 
-## 4. VPS 内存不足
+## 11.4 VPS Running Out of Memory
 
-如果 VPS 配置较低，例如：
+If your VPS has limited resources, such as:
 
 ```text
 1 GB RAM
 ```
 
-安装完整桌面后可能会比较吃力。
+Running a full desktop environment alongside browsers and development tools may become difficult.
 
-可以查看内存：
+Check the current memory usage:
 
 ```bash
 free -h
 ```
 
-如果内存不足，可以增加 Swap。
-
-查看 Swap：
+Check whether Swap is configured:
 
 ```bash
 swapon --show
 ```
 
-如果已经有 Swap：
+For example:
 
 ```text
 Memory: 1.6Gi
 Swap:   5.8Gi
 ```
 
-对于轻量级开发环境通常可以正常使用。
+A Swap configuration can help prevent memory pressure from immediately causing application failures.
+
+However, Swap is not a substitute for physical RAM. Heavy swapping can significantly reduce performance.
+
+For a more comfortable development experience, consider upgrading the VPS memory if you regularly run multiple graphical applications.
 
 ---
 
-# 十二、为什么选择 XFCE
+# 12. Why Choose XFCE?
 
-常见 Linux 桌面对比如下：
+There are several Linux desktop environments worth considering.
 
-| 桌面环境       | 资源占用 | VPS 推荐程度 |
-| ---------- | ---- | -------- |
-| GNOME      | 高    | ⭐⭐       |
-| KDE Plasma | 中等   | ⭐⭐⭐      |
-| XFCE       | 低    | ⭐⭐⭐⭐⭐    |
-| LXQt       | 很低   | ⭐⭐⭐⭐     |
+Here is a simplified comparison:
 
-我的选择是：
+| Desktop Environment | Resource Usage | VPS Suitability |
+|---|---|---|
+| GNOME | High | Limited |
+| KDE Plasma | Medium to High | Good |
+| XFCE | Low | Excellent |
+| LXQt | Very Low | Excellent |
+
+My choice is:
 
 ```text
 XFCE
 ```
 
-原因很简单：
+The reasons are straightforward:
 
-```text
-轻量
-稳定
-速度快
-适合远程桌面
-```
+- Lightweight.
+- Stable.
+- Fast.
+- Well suited to remote desktop environments.
 
-对于 VPS 来说，不需要复杂的桌面动画。
+A VPS does not need complex desktop animations or unnecessary visual effects.
 
-更重要的是：
+What matters more is:
 
-> **稳定、响应快、占用资源少。**
+> **Stability, responsiveness, and low resource consumption.**
+
+XFCE provides a good balance for a personal cloud development desktop.
 
 ---
 
-# 十三、最终环境
+# 13. Final Environment Overview
 
-最终我的 VPS 环境如下：
+After completing the setup, my VPS environment looks like this:
 
 ```text
 Vultr VPS
-│
-├── Ubuntu 26.04 LTS
-│
-├── XFCE Desktop
-│
-├── XRDP
-│
-├── Tailscale
-│
-├── Node.js
-│
-├── Git
-│
-├── Zsh
-│
-├── tmux
-│
-└── Chrome / Development Tools
+|
++-- Ubuntu LTS
+|
++-- XFCE Desktop
+|
++-- XRDP
+|
++-- Tailscale
+|
++-- Node.js
+|
++-- Git
+|
++-- Zsh
+|
++-- tmux
+|
++-- Chrome / Development Tools
 ```
 
-本地：
+My local Linux computer has:
 
 ```text
-Linux Desktop
-│
-├── Remmina
-│
-└── Tailscale
+Local Linux Desktop
+|
++-- Remmina
+|
++-- Tailscale
 ```
+
+This separation keeps the development environment on the VPS while allowing me to access it remotely through my local computer.
 
 ---
 
-# 十四、总结
+# 14. Conclusion
 
-这套方案的核心不是单纯搭建一个 Linux VPS。
+The goal of this setup is not simply to create another Linux VPS.
 
-而是搭建一台真正可以长期使用的：
+It is to build a practical:
 
-> **Cloud Development Desktop**
+> **Personal Cloud Development Desktop**
 
-整体架构：
+The overall architecture is:
 
 ```text
 Local Computer
-       │
-       ▼
-    Remmina
-       │
-       ▼
-   Tailscale
-       │
-       ▼
-    Vultr VPS
-       │
-       ▼
-      XRDP
-       │
-       ▼
-   XFCE Desktop
+      |
+      v
+   Remmina
+      |
+      v
+  Tailscale
+      |
+      v
+   Vultr VPS
+      |
+      v
+     XRDP
+      |
+      v
+  XFCE Desktop
 ```
 
-相比直接暴露 RDP 端口：
+Compared with exposing RDP directly to the public internet:
 
 ```text
-公网
-  ↓
-VPS:3389
+Public Internet
+       |
+       v
+    VPS:3389
 ```
 
-使用 Tailscale：
+Using Tailscale provides a more secure approach:
 
 ```text
 Authorized Device
-        ↓
+        |
+        v
 Encrypted Private Network
-        ↓
+        |
+        v
        VPS
 ```
 
-安全性更高，也更适合个人开发者长期使用。
+This reduces unnecessary public exposure and makes the environment more suitable for long-term personal use.
 
-如果你和我一样，希望拥有一台：
+If you are an independent developer looking for an environment that is:
 
-* 随时可以访问
-* 独立运行
-* 不依赖本地电脑
-* 支持 Linux GUI
-* 可以运行浏览器和开发工具
-* 可以远程开发
-* 不直接暴露 RDP 到公网
+- Accessible anytime.
+- Independently maintained.
+- Not dependent on your local computer.
+- Capable of running Linux GUI applications.
+- Suitable for browsers and development tools.
+- Accessible remotely from multiple devices.
+- Configured without exposing RDP directly to the public internet.
 
-的云端开发环境，那么：
+Then the following combination is worth considering:
 
 > **Vultr + Ubuntu + XFCE + XRDP + Tailscale + Remmina**
 
-是一套非常值得尝试的方案。
+It provides a relatively simple foundation for building your own cloud-based Linux workstation.
 
 ---
 
-## 下一步
+## What's Next?
 
-完成远程桌面之后，还可以继续搭建：
+Once the remote desktop is working, you can gradually expand the VPS into a more complete development infrastructure.
+
+Potential additions include:
 
 ```text
 VPS
-│
-├── Docker
-│
-├── k3s
-│
-├── GitHub Actions
-│
-├── 自动部署
-│
-├── Nginx / Caddy
-│
-├── HTTPS
-│
-└── 自己的开发环境
+|
++-- Docker
+|
++-- k3s
+|
++-- GitHub Actions
+|
++-- Automated Deployment
+|
++-- Nginx / Caddy
+|
++-- HTTPS
+|
++-- Development Tools
 ```
 
-最终可以把这台 VPS 变成属于自己的：
+Over time, this VPS can evolve into your own:
 
-> **个人云端开发工作站 + 自托管服务器 + 自动化部署平台。**
+> **Personal Cloud Development Workstation + Self-Hosted Server + Automated Deployment Platform.**
