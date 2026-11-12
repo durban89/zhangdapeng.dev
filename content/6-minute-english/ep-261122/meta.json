@@ -1,0 +1,15 @@
+{
+  "originalAddress": "https://www.bbc.co.uk/learningenglish/english/features/6-minute-english_2026/ep-261122",
+  "title": "Learning from different generations",
+  "date": "2026-11-22T00:00:00Z",
+  "episodeCode": "261122",
+  "audioUrl": "https://downloads.bbc.co.uk/learningenglish/features/6min/261112_6_minute_english_learning_from_different_generations_download.mp3",
+  "transcriptUrl": "https://downloads.bbc.co.uk/learningenglish/features/6min/261112_6_minute_english_learning_from_different_generations_transcript.pdf",
+  "files": {
+    "audio": "tmp/ep-261122/audio.mp3",
+    "transcriptPdf": "tmp/ep-261122/transcript.pdf",
+    "transcriptText": "tmp/ep-261122/transcript.txt",
+    "indexMd": "tmp/ep-261122/index.md"
+  },
+  "fetchedAt": "2026-11-12T22:41:21.047Z"
+}
