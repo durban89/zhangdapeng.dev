@@ -1,7 +1,7 @@
 +++
 title = "Learning from different generations"
-date = "2026-11-17T23:48:52.423Z"
-lastmod = "2026-11-17T23:48:52.423Z"
+date = "2026-11-18T23:21:15.824Z"
+lastmod = "2026-11-18T23:21:15.824Z"
 type = "6-minute-english"
 draft = false
 categories = ["English"]
