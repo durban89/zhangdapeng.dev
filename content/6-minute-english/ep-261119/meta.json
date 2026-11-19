@@ -1,0 +1,15 @@
+{
+  "originalAddress": "https://www.bbc.co.uk/learningenglish/english/features/6-minute-english_2026/ep-261119",
+  "title": "Are microplastics harming us?",
+  "date": "2026-11-19T00:00:00Z",
+  "episodeCode": "261119",
+  "audioUrl": "https://downloads.bbc.co.uk/learningenglish/features/6min/261119_6_minute_english_are_microplastics_harming_us_download.mp3",
+  "transcriptUrl": "https://downloads.bbc.co.uk/learningenglish/features/6min/261119_6_minute_english_are_microplastics_harming_us_transcript.pdf",
+  "files": {
+    "audio": "tmp/ep-261119/audio.mp3",
+    "transcriptPdf": "tmp/ep-261119/transcript.pdf",
+    "transcriptText": "tmp/ep-261119/transcript.txt",
+    "indexMd": "tmp/ep-261119/index.md"
+  },
+  "fetchedAt": "2026-11-19T23:29:39.843Z"
+}
