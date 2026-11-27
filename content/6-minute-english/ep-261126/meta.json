@@ -1,0 +1,15 @@
+{
+  "originalAddress": "https://www.bbc.co.uk/learningenglish/english/features/6-minute-english_2026/ep-261126",
+  "title": "Is Gen Z getting less intelligent?",
+  "date": "2026-11-26T00:00:00Z",
+  "episodeCode": "261126",
+  "audioUrl": "https://downloads.bbc.co.uk/learningenglish/features/6min/261126_6_minute_english_is_gen_z_getting_less_intelligent_download_.mp3",
+  "transcriptUrl": "https://downloads.bbc.co.uk/learningenglish/features/6min/261126_6_minute_english_is_gen_z_getting_less_intelligent_transcript.pdf",
+  "files": {
+    "audio": "tmp/ep-261126/audio.mp3",
+    "transcriptPdf": "tmp/ep-261126/transcript.pdf",
+    "transcriptText": "tmp/ep-261126/transcript.txt",
+    "indexMd": "tmp/ep-261126/index.md"
+  },
+  "fetchedAt": "2026-11-27T00:59:31.015Z"
+}
