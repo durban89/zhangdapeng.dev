@@ -6,6 +6,7 @@ lastmod = 2026-11-27T09:00:00+08:00
 draft = false
 categories = ["Development"]
 tags = ["Linux", "Nginx", "SSL", "HTTPS", "acme.sh", "Let's Encrypt", "DNS"]
+slug = "acme-sh-wildcard-ssl-nginx"
 
 toc = true
 
