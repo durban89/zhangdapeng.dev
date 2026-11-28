@@ -1,7 +1,7 @@
 +++
 title = "Is Gen Z getting less intelligent?"
-date = "2026-11-27T00:59:31.014Z"
-lastmod = "2026-11-27T00:59:31.014Z"
+date = "2026-11-28T00:28:33.656Z"
+lastmod = "2026-11-28T00:28:33.656Z"
 type = "6-minute-english"
 draft = false
 categories = ["English"]
